@@ -5,11 +5,27 @@ body {
 }
 
 
-.boxl {
+.boxinforer {
     width: 300px;
     height: 100px;
+    position: absolute;
+    left: 40%;
     background-color: white;
     border-radius: 10px;
-    margin-right: 300px;
 
+
+}
+
+
+
+.madebydrp {
+    position: absolute;
+    left: 90%;
+    top: 90%;
+    bottom: auto;
+    color: bisque; 
+    border: 6px solid;
+    border-radius: 10px;
+    padding: 7px;
+    
 }
