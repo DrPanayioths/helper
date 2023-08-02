@@ -1,0 +1,14 @@
+.game {
+    overflow: hidden;
+}
+
+.imager {
+    width: 50px;
+    background-color: gray;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    
+}
