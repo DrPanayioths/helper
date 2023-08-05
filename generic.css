@@ -1,0 +1,9 @@
+.backdrp {
+    position: absolute;
+    right: 12px;
+    top: 15px;
+    border-radius: 10px;
+    background-color: purple;
+    width: 140px;
+    height: 35px;
+}
