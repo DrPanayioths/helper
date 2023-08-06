@@ -63,7 +63,7 @@ Mobile Version
     
 .titleip {
     position: absolute;
-    left: 79px;
+    left: 82px;
     top: 10px;
     color: black;
     border-radius: 5px;
@@ -73,8 +73,8 @@ Mobile Version
 
 .backips {
     position: absolute;
-    width: 100px;
-    right: 65px;
+    width: 150px;
+    right: 38px;
     bottom: 13px;
     height: 30px;
     background-color: rgb(101, 80, 192);
@@ -95,7 +95,8 @@ Mobile Version
 .ips {
     position: absolute;
     top: 43px;
-    right: 80px;
+    right: 79px;
+    align-items: center;
     color: white;
     font-family: 'REM', sans-serif;
 }    
@@ -128,7 +129,22 @@ Mobile Version
     top: 22px;
     font-family: 'REM', sans-serif;
         
+    
+
+
     }
+
+
+.imageback {
+    position: absolute;
+    
+    right: 1px;
+    bottom: 1px;
+}
+
+
+
+
 .backdrp {
     position: absolute;
     right: 14px;
@@ -152,8 +168,8 @@ Mobile Version
 
 .backbox2 {
     position: absolute;
-    width: 100px;
-    right: 56px;
+    width: 130px;
+    right: 40px;
     bottom: 13px;
     height: 30px;
     top: 37px;
