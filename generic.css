@@ -60,15 +60,42 @@ Mobile Version
 
 @media only screen and (min-width: 500px) {
     
+.titleip {
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(146, 189, 253);
+    
+}
+
+.backips {
+    position: absolute;
+    width: 100px;
+    right: 65px;
+    bottom: 13px;
+    height: 30px;
+    background-color: rgb(101, 80, 192);
+    border-radius: 10px;
+}
+
+
+.ips {
+    position: absolute;
+    top: 43px;
+    right: 75px;
+    color: white;
+}    
 
 .boxinforer {
     
     position: absolute;
-    width: 300px;
-    height: 100px;
-    background-color: white;
+    width: 220px;
+    height: 80px;
+    background-color: rgb(150, 192, 255);
     border-radius: 10px;
-    right: 150px;
+    left: 10px;
     top: 70px;
     }
     
