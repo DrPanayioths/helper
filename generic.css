@@ -188,3 +188,20 @@ Mobile Version
 body {
 background-color:rgb(231, 208, 164);
 }
+
+
+
+
+
+.backbox3 {
+    width: 220px;
+    height: 80px;
+    right: 303px;
+    top: 170px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(70, 63, 63);
+
+
+
+}
