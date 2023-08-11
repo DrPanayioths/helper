@@ -203,17 +203,6 @@ background-color:rgb(231, 208, 164);
 
 
 
-@keyframes rotateicepeak {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-
-
 .backbox3 {
     width: 220px;
     height: 80px;
@@ -221,10 +210,11 @@ background-color:rgb(231, 208, 164);
     top: 20.7%;
     border-radius: 10px;
     position: absolute;
-    animation: rotateicepeak;
-    animation-duration: 2s;
     background-color: rgb(70, 63, 63);
 
 
 
 }
+
+
+
