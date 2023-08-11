@@ -143,7 +143,15 @@ Mobile Version
 }
 
 
-
+@keyframes colorasion {
+    0% {
+        background-color: rgb(253, 253, 253);
+    }
+    100% {
+        background-color: rgb(54, 198, 255);
+    }
+    
+}
 
 .backdrp {
     position: absolute;
@@ -152,6 +160,8 @@ Mobile Version
     border-radius: 30px;
     background-color: rgb(54, 198, 255);
     width: 100px;
+    animation-name: colorasion;
+    animation-duration: 2s;
     height: 40px;
 }
 
@@ -193,13 +203,26 @@ background-color:rgb(231, 208, 164);
 
 
 
+@keyframes rotateicepeak {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
 .backbox3 {
     width: 220px;
     height: 80px;
-    right: 303px;
-    top: 170px;
+    right: 57%;
+    top: 20.7%;
     border-radius: 10px;
     position: absolute;
+    animation: rotateicepeak;
+    animation-duration: 2s;
     background-color: rgb(70, 63, 63);
 
 
