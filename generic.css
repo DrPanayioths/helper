@@ -121,18 +121,7 @@ Mobile Version
         
     }
     
-.madedrp {
-    color: black;
-    font-size: 18px;
-    position: absolute;
-    right: 25px;
-    top: 22px;
-    font-family: 'REM', sans-serif;
-        
-    
 
-
-    }
 
 
 .imageback {
@@ -150,20 +139,34 @@ Mobile Version
     100% {
         background-color: rgb(54, 198, 255);
     }
+
     
 }
 
 .backdrp {
     position: absolute;
-    right: 14px;
+    left: 14px;
     top: 14px;
     border-radius: 30px;
     background-color: rgb(54, 198, 255);
-    width: 100px;
+    width: 135px;
     animation-name: colorasion;
     animation-duration: 2s;
     height: 40px;
 }
+
+.madedrp {
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    left: 25px;
+    top: 22px;
+    font-family: 'REM', sans-serif;
+        
+    
+
+
+    }
 
 }
 
@@ -204,17 +207,94 @@ background-color:rgb(231, 208, 164);
 
 
 .backbox3 {
+    position: absolute;
     width: 220px;
     height: 80px;
     right: 57%;
     top: 20.7%;
     border-radius: 10px;
-    position: absolute;
+    
     background-color: rgb(70, 63, 63);
 
 
 
 }
 
+
+
+.musicplayer {
+    width: 100px;
+    height: 5.2%;
+    position: absolute;
+    background-color: black;
+    right: 20px;
+    top: 13px;
+    border-radius: 50px;
+
+}
+
+
+.music {
+    position: absolute;
+    width: 10px;
+    left: 22px;
+    font-size: 20.7px;
+    top: 8px;
+    animation-name: musicplay;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: white;
+    font-family: 'REM', sans-serif;
+}
+
+
+@keyframes musicplay {
+    10% {
+        color: aquamarine;
+    }
+    40% {
+        color: greenyellow;
+    }
+    70% {
+        color: rgb(224, 59, 224);
+    }
+    90% {
+        color: yellow;
+    }
+    100% {
+        color: aquamarine;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 550px) {
+
+    .backbox3 {
+        position: absolute;
+        width: 220px;
+        height: 80px;
+        left: 10px;
+        top: 20.7%;
+        border-radius: 10px;
+        
+        background-color: rgb(70, 63, 63);
+    }
+
+
+}
 
 
