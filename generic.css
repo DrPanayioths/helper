@@ -234,10 +234,10 @@ background-color:rgb(231, 208, 164);
 }
 
 
-.music {
+.browser {
     position: absolute;
     width: 10px;
-    left: 22px;
+    left: 12px;
     font-size: 20.7px;
     top: 8px;
     animation-name: musicplay;
