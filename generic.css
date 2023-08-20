@@ -206,19 +206,7 @@ background-color:rgb(231, 208, 164);
 
 
 
-.backbox3 {
-    position: absolute;
-    width: 220px;
-    height: 80px;
-    right: 57%;
-    top: 20.7%;
-    border-radius: 10px;
-    
-    background-color: rgb(70, 63, 63);
 
-
-
-}
 
 
 
@@ -280,24 +268,6 @@ background-color:rgb(231, 208, 164);
 
 
 
-
-
-@media only screen and (min-width: 550px) {
-
-    .backbox3 {
-        position: absolute;
-        width: 220px;
-        height: 80px;
-        left: 10px;
-        top: 20.7%;
-        border-radius: 10px;
-        
-        background-color: rgb(70, 63, 63);
-    }
-
-
-}
-
 .donate {
     position: absolute;
     right: 19px;
@@ -316,7 +286,7 @@ background-color:rgb(231, 208, 164);
     position: absolute;
     width: 100px;
     animation-iteration-count: infinite;
-    background-color: #5b9ce7;
+    background-color: #416574;
     height: 36px;
     bottom: 3%;
     right: 5px;
@@ -330,16 +300,16 @@ background-color:rgb(231, 208, 164);
     30% {
         background-color: #416574;
     }
-    50% { background-color: #49b3e4;
+    50% { background-color: #3c6679;
     }
     100% {
-        background-color: #5fc1e7;
+        background-color: #416f83;
     }
 }
 
 
 
-@media only screen and (min-width: 100px) {
+@media only screen and (min-width: 100px) and (max-width: 450px) {
     .box2 {
         width: 150px;
     }
