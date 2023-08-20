@@ -59,7 +59,7 @@ Mobile Version
 */
 
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 300px) {
     
 .titleip {
     position: absolute;
@@ -281,6 +281,7 @@ background-color:rgb(231, 208, 164);
 
 
 
+
 @media only screen and (min-width: 550px) {
 
     .backbox3 {
@@ -297,4 +298,74 @@ background-color:rgb(231, 208, 164);
 
 }
 
+.donate {
+    position: absolute;
+    right: 19px;
+    bottom: 3.8%;
+    font-family: 'REM', sans-serif;
+    color: #fffb00;
+    font-size: 20px;
+    
+    
+    
+}
 
+
+
+.donatebck {
+    position: absolute;
+    width: 100px;
+    animation-iteration-count: infinite;
+    background-color: #5b9ce7;
+    height: 36px;
+    bottom: 3%;
+    right: 5px;
+    border-radius: 80px;
+    animation-name: colorb;
+    animation-duration: 10s;
+}
+
+
+@keyframes colorb {
+    30% {
+        background-color: #416574;
+    }
+    50% { background-color: #49b3e4;
+    }
+    100% {
+        background-color: #5fc1e7;
+    }
+}
+
+
+
+@media only screen and (min-width: 100px) {
+    .box2 {
+        width: 150px;
+    }
+    .boxinforer {
+        width: 150px;
+    }
+    .backbox2{
+        right: 11px;
+    }
+    .countrol {
+        right: 50px;
+    }
+    .titlebox2  {
+       position: absolute;
+       
+       left: 45px;
+    }
+    .titleip {
+        left: 45px;
+    }
+    .ips {
+        left: 30px;
+    }
+    .backips {
+        left: px;
+        width: 120px;
+        left: 15px;
+    }
+}
