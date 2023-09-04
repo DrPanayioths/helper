@@ -338,3 +338,60 @@ background-color:rgb(231, 208, 164);
         left: 15px;
     }
 }
+
+
+.iconify {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    z-index: 2;
+}
+
+
+.backdownright {
+    position: absolute;
+    width: 150px;
+    bottom: 10px;
+    visibility: hidden; 
+    right: 10px;
+    z-index: 1;
+    background-color: rgb(224, 224, 183);
+    height: 34px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.datarz {
+    position: absolute;
+    bottom: 24px;
+    right: 65px;
+    visibility: hidden;
+    z-index: 2;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.datarz2 {
+    bottom: 10px;
+    right: 50px;
+    visibility: hidden;
+    position: absolute;
+    font-size: 13px;
+    z-index: 2;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+
+
+.iconify:hover + .backdownright {
+    visibility: visible;
+
+}
+
+
+
+
+
+
+
+
+
+
