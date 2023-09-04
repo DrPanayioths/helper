@@ -348,46 +348,41 @@ background-color:rgb(231, 208, 164);
 }
 
 
-.backdownright {
-    position: absolute;
-    width: 150px;
-    bottom: 10px;
-    visibility: hidden; 
-    right: 10px;
-    z-index: 1;
-    background-color: rgb(224, 224, 183);
-    height: 34px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
 .datarz {
     position: absolute;
-    bottom: 24px;
+    bottom: 20px;
     right: 65px;
     visibility: hidden;
-    z-index: 2;
+    font-size: large;
+    z-index: 1;
     font-family: 'Signika Negative', sans-serif;
 }
 
-.datarz2 {
-    bottom: 10px;
-    right: 50px;
-    visibility: hidden;
+
+.classd {
     position: absolute;
-    font-size: 13px;
-    z-index: 2;
-    font-family: 'Signika Negative', sans-serif;
-
+    bottom: 30px;
+    right: 15px;
+    z-index: 3;
+    
 }
 
 
-.iconify:hover + .backdownright {
+.classd:hover + .datarz {
     visibility: visible;
-
 }
 
 
-
+.backico {
+    position: absolute;
+    background-color: rgb(241, 199, 206);
+    width: 45px;
+    height: 40px;
+    bottom: 10px;
+    z-index: 2;
+    right: 10px;
+    border-radius: 5px;
+}
 
 
 
