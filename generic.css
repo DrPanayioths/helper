@@ -19,6 +19,10 @@ PC Version
     
     
     }
+
+
+
+
     
     .nav {
         background-color: black;
@@ -69,6 +73,9 @@ Mobile Version
     font-family: 'REM', sans-serif;
     
 }
+
+
+
 
 .backips {
     position: absolute;
@@ -308,13 +315,37 @@ background-color:rgb(231, 208, 164);
 
 
 
+.backbox3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(253, 253, 253);
+    top: 170px;
+    border-radius: 10px;
+    width: 220px;
+    height: 75px;
+}
+
+.boxin {
+    position: absolute;
+    background-color: rgb(101, 80, 192);
+    width: 150px;
+    height: 30px;
+    left: 40px;
+    border-radius: 10px;
+    top: 210px;
+}
+
+
+
+
 @media only screen and (min-width: 100px) and (max-width: 450px) {
     .box2 {
         width: 150px;
     }
     .boxinforer {
         width: 150px;
-    }
+    }   
     .backbox2{
         right: 11px;
     }
@@ -385,8 +416,54 @@ background-color:rgb(231, 208, 164);
 }
 
 
+.backbox3 {
+    width: 150px;
+    height: 80px;
+}
+
+
+.boxin {
+    width: 120px;
+    left: 22px;
+}
 
 
 
 
 
+
+
+@media only screen and (min-width: 451px) {
+
+.boxin {
+    position: absolute;
+    width: 150px;
+    left: 40px;
+}
+
+.backbox3 {
+    width: 220px;;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 450px) {
+
+
+
+
+
+
+
+
+    
+}
