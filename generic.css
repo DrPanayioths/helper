@@ -66,7 +66,7 @@ Mobile Version
     
 .titleip {
     position: absolute;
-    left: 82px;
+    left: 78px;
     top: 10px;
     color: black;
     border-radius: 5px;
@@ -263,45 +263,6 @@ background-color:rgb(231, 208, 164);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-.donate {
-    position: absolute;
-    right: 19px;
-    bottom: 3.8%;
-    font-family: 'REM', sans-serif;
-    color: #fffb00;
-    font-size: 20px;
-    
-    
-    
-}
-
-
-
-.donatebck {
-    position: absolute;
-    width: 100px;
-    animation-iteration-count: infinite;
-    background-color: #416574;
-    height: 36px;
-    bottom: 3%;
-    right: 5px;
-    border-radius: 80px;
-    animation-name: colorb;
-    animation-duration: 10s;
-}
-
-
 @keyframes colorb {
     30% {
         background-color: #416574;
@@ -446,24 +407,27 @@ background-color:rgb(231, 208, 164);
 }
 
 
+
+
+.tllvl {
+    position: absolute;
+    font-size: 18px;
+    top: 214px;
+    left: 82px;
+    color: white;
+    font-family: 'REM', sans-serif;
+}
+
+
+.divver {
+    position: absolute;
+    top: 182px;
+    font-family: 'REM', sans-serif;
+    font-size: 16px;
+    left: 68px;
 }
 
 
 
 
-
-
-
-
-
-@media only screen and (min-width: 100px) and (max-width: 450px) {
-
-
-
-
-
-
-
-
-    
 }
