@@ -221,8 +221,8 @@ background-color:rgb(231, 208, 164);
     height: 5.2%;
     position: absolute;
     background-color: black;
-    right: 20px;
-    top: 13px;
+    right: 8px;
+    top: 9px;
     border-radius: 50px;
 
 }
@@ -233,7 +233,7 @@ background-color:rgb(231, 208, 164);
     width: 10px;
     left: 12px;
     font-size: 20.7px;
-    top: 8px;
+    top: 11px;
     animation-name: musicplay;
     animation-duration: 5s;
     animation-iteration-count: infinite;

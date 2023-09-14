@@ -1,0 +1,53 @@
+
+
+body {
+    background-color: #303030;
+    
+}
+
+.skinbox {
+    position: absolute;
+    width: 1500px;
+    height: 70px;;
+    background-color: #1f1c1c;
+    right: 130px;
+    top: 50px;
+    border-radius: 15px;
+}
+
+
+
+
+.title {
+    font-size: 30px;
+    position: absolute;
+    color: aliceblue;
+    font-family: 'Signika Negative';
+    left: 700px;
+    top: 65px;
+}
+
+
+.ubuntyz {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 180px;
+    z-index: 2;
+    left: 120px;
+   
+}
+
+.Bubuntyz {
+    position: absolute;
+    width: 340px;
+    height: 100px;
+    background-color: #1f1c1c;
+    top: 168px;
+    left: 100px;
+    border-radius: 10px;
+}
+
+
+
+
