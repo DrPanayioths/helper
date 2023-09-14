@@ -42,12 +42,56 @@ body {
     position: absolute;
     width: 340px;
     height: 100px;
-    background-color: #1f1c1c;
+    background-color: #3f3f3f;
     top: 168px;
     left: 100px;
     border-radius: 10px;
 }
 
 
+.Bbbbubuntyz {
+    position: absolute;
+    width: 340px;
+    height: 100px;
+    top: 168px;
+    z-index: 3;
+    left: 100px;
+    border-radius: 10px;
+}
 
 
+
+.windowss {
+    position: absolute;
+    height: auto;
+    width: 400px;
+    left: 72px;
+    z-index: 2;
+    top: 290px;
+    
+}
+
+
+
+.Bwindows {
+    position: absolute;
+    width: 340px;
+    height: 100px;
+    background-color: #3f3f3f;
+    top: 320px;
+    left: 100px;
+    border-radius: 10px;
+}
+
+
+
+.windodow {
+    position: absolute;
+    width: 340px;
+    height: 100px;
+    top: 325px;
+    z-index: 3;
+
+    left: 100px;
+    border-radius: 10px;
+}
