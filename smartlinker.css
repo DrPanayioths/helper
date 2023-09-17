@@ -200,19 +200,54 @@ body {
     color: white;
     font-family: 'Heebo', sans-serif;
     font-size: 30px;
-    left: 65%;
+    left: 5px;
+    width: 500px;
+
     z-index: 2;
-    top: 145px;
+    top: 1px;
 }
 
 
 .backprogram {
     position: absolute;
     width: 200px;
-    top: 145px;
-    right: 19.8%;
+    z-index: 1;
+    top: 142px;
+    right: 310px;
     border-radius: 10px;
     height: 40px;
     background-color: 1f1c1c;
-    
+    /* 1f1c1c */
+}
+
+
+.backgithub {
+    position: absolute;
+    width: 340px;
+    height: 100px;
+    background-color: #3f3f3f;
+    top: 168px;
+    right: 245px;
+    border-radius: 10px;
+    animation-name: bbwin;
+    animation-duration: 3s;
+
+}
+
+.gitl {
+    position: absolute;
+    top: 165px;
+    right: 250px;
+    height: 110px;
+}
+
+
+
+
+.dw {
+    position: absolute;
+    width: 340px;
+    height: 100px;
+    top: 168px;
+    right: 245px;
 }
