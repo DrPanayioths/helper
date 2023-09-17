@@ -218,7 +218,7 @@ background-color:rgb(231, 208, 164);
 
 .musicplayer {
     width: 100px;
-    height: 5.2%;
+    height: 48px;
     position: absolute;
     background-color: black;
     right: 8px;
@@ -331,13 +331,6 @@ background-color:rgb(231, 208, 164);
     }
 }
 
-
-.iconify {
-    position: absolute;
-    bottom: 1%;
-    right: 1%;
-    z-index: 2;
-}
 
 
 .datarz {

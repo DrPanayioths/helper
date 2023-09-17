@@ -7,10 +7,10 @@ body {
 
 .skinbox {
     position: absolute;
-    width: 1500px;
+    width: 80%;
     height: 70px;;
     background-color: #1f1c1c;
-    right: 130px;
+    right: 12%;
     top: 50px;
     border-radius: 15px;
 }
@@ -23,7 +23,7 @@ body {
     position: absolute;
     color: aliceblue;
     font-family: 'Signika Negative';
-    left: 700px;
+    left: 40%;
     top: 65px;
 }
 
@@ -134,10 +134,10 @@ body {
 
 .debian {
     position: absolute;
-    width: 285px;
-    left: 120px;
-    height: 160px;
-    top: 400px;
+    width: 300px;
+    left: 110px;
+    height: 90px;
+    top: 435px;
     z-index: 2;
     animation-name: bbwin;
     animation-duration: 8s;
@@ -177,4 +177,42 @@ body {
     height: 40px;
     background-color: black;
     opacity: 0.5;
+}
+
+.bestofwin {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(39, 37, 37);
+    color: aquamarine;
+    top: 700px;
+    right: 20px;
+    font-family: 'Signika Negative';
+
+} 
+
+
+
+
+.programtitle {
+    position: absolute;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    left: 65%;
+    z-index: 2;
+    top: 145px;
+}
+
+
+.backprogram {
+    position: absolute;
+    width: 200px;
+    top: 145px;
+    right: 19.8%;
+    border-radius: 10px;
+    height: 40px;
+    background-color: 1f1c1c;
+    
 }
