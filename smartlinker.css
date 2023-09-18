@@ -5,6 +5,7 @@ body {
     
 }
 
+
 .skinbox {
     position: absolute;
     width: 80%;
@@ -186,8 +187,8 @@ body {
     border-radius: 10px;
     background-color: rgb(39, 37, 37);
     color: aquamarine;
-    top: 700px;
-    right: 20px;
+    bottom: 5%;
+    right: 2%;
     font-family: 'Signika Negative';
 
 } 
@@ -200,7 +201,7 @@ body {
     color: white;
     font-family: 'Heebo', sans-serif;
     font-size: 30px;
-    left: 5px;
+    left: 5%;
     width: 500px;
 
     z-index: 2;
@@ -213,7 +214,7 @@ body {
     width: 200px;
     z-index: 1;
     top: 142px;
-    right: 310px;
+    right: 22%;
     border-radius: 10px;
     height: 40px;
     background-color: 1f1c1c;
@@ -227,7 +228,7 @@ body {
     height: 100px;
     background-color: #3f3f3f;
     top: 168px;
-    right: 245px;
+    right: 17%;
     border-radius: 10px;
     animation-name: bbwin;
     animation-duration: 3s;
@@ -237,7 +238,9 @@ body {
 .gitl {
     position: absolute;
     top: 165px;
-    right: 250px;
+    right: 18%;
+    animation-name: bbwin;
+    animation-duration: 3s;
     height: 110px;
 }
 
@@ -248,6 +251,42 @@ body {
     position: absolute;
     width: 340px;
     height: 100px;
+    animation-name: bbwin;
+    animation-duration: 3s;
     top: 168px;
-    right: 245px;
+    right: 17%;
 }
+
+
+.backvscode {
+    position: absolute;
+    width: 340px;
+    height: 100px;
+    background-color: #3f3f3f;
+    top: 300px;
+    right: 17%;
+    border-radius: 10px;
+    animation-name: bbwin;
+    animation-duration: 3s;
+}
+
+
+.iconvs {
+    position: absolute;
+    top: 253px;
+    right: 15%;
+    animation-name: bbwin;
+    animation-duration: 3s;
+    height: 195px;
+}
+
+.downvs {
+    position: absolute;
+    width: 340px;
+    height: 100px;
+    animation-name: bbwin;
+    animation-duration: 3s;
+    top: 300px;
+    right: 17%;
+}
+
