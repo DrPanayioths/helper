@@ -20,6 +20,12 @@ body {
 
 
 .title {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     font-size: 30px;
     position: absolute;
     color: aliceblue;
@@ -30,6 +36,12 @@ body {
 
 
 .ubuntyz {
+        -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 300px;
     height: auto;
@@ -42,6 +54,12 @@ body {
 }
 
 .Bubuntyz {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 340px;
     height: 100px;
@@ -55,6 +73,12 @@ body {
 
 
 .Bbbbubuntyz {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 340px;
     height: 100px;
@@ -69,6 +93,12 @@ body {
 
 
 .windowss {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     height: auto;
     width: 400px;
@@ -83,6 +113,12 @@ body {
 
 
 .Bwindows {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 340px;
     height: 100px;
@@ -121,6 +157,12 @@ body {
 
 
 .oparete {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 340px;
     height: 100px;
@@ -134,6 +176,12 @@ body {
 
 
 .debian {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 300px;
     left: 110px;
@@ -145,6 +193,12 @@ body {
 }
 
 .Bdebian {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 340px;
     height: 100px;
@@ -158,6 +212,12 @@ body {
 }
 
 .debuan {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 340px;
     height: 100px;
@@ -170,6 +230,12 @@ body {
 }
 
 .backoper {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 270px;
     top: 142px;
@@ -181,6 +247,12 @@ body {
 }
 
 .bestofwin {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 120px;
     height: 40px;
@@ -195,8 +267,34 @@ body {
 
 
 
+.bestoftext {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: aquamarine;
+    bottom: 5.5%;
+    font-size: 40px;
+    right: 5px;
+    font-family: 'Signika Negative';
+}
+
+
+
 
 .programtitle {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     color: white;
     font-family: 'Heebo', sans-serif;
@@ -210,6 +308,12 @@ body {
 
 
 .backprogram {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 200px;
     z-index: 1;
@@ -223,6 +327,12 @@ body {
 
 
 .backgithub {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 340px;
     height: 100px;
@@ -236,6 +346,12 @@ body {
 }
 
 .gitl {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     top: 165px;
     right: 18%;
@@ -248,6 +364,12 @@ body {
 
 
 .dw {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 340px;
     height: 100px;
@@ -259,6 +381,12 @@ body {
 
 
 .backvscode {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 340px;
     height: 100px;
@@ -272,6 +400,12 @@ body {
 
 
 .iconvs {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     top: 253px;
     right: 15%;
@@ -281,6 +415,12 @@ body {
 }
 
 .downvs {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 340px;
     height: 100px;
@@ -290,3 +430,37 @@ body {
     right: 17%;
 }
 
+.back {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    width: 125px;
+    height: 70px;
+    background-color: #0e6b0e;
+    top: 50px;
+    opacity: 0.2;
+    z-index: 2;
+    right: 12%;
+    border-radius: 10px;
+
+}
+
+.backsymbol {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    color: #149414;
+    top: 65px;
+    font-size: 30px;
+    right: 13%;
+    border-radius: 10px;
+    font-family: 'Signika Negative';
+}
