@@ -1,0 +1,39 @@
+.inpa {
+    position: absolute;
+    background-color: black;
+    color: rgb(184, 182, 182);
+    width: 500px;
+    top: 60px;
+    border-radius: 10px;
+    left: 30%;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    height: 45px;
+}
+
+.qrclass {
+    position: absolute;
+    bottom: 150px;
+    left: 41%;
+    height: 200px;
+    z-index: 3;
+
+}
+
+body {
+    background-color: rgb(70, 69, 69);
+}
+
+
+.bqr {
+    position: absolute;
+    width: 230px;
+    height: 220px;
+    border-radius: 10px;
+    z-index: 1;
+    bottom: 143px;
+    left: 40%;
+    background-color: white;
+}
+
