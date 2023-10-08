@@ -8,7 +8,7 @@
     background-color: black;
     color: rgb(184, 182, 182);
     width: 500px;
-    top: 60px;
+    bottom: 50px;
     border-radius: 10px;
     font-family: 'Chakra Petch', sans-serif;
     left: 30%;
@@ -51,7 +51,7 @@ body {
     background-color: white;
 }
 
-.qrtitle {
+.qrupthing {
     position: absolute;
     color: black;
     font-family: 'Space Grotesk', sans-serif;
@@ -60,6 +60,21 @@ body {
     background-color: white;
     border-radius: 4px;
     bottom: 205px;
+}
+
+.qrtitle {
+    position: absolute;
+    color: whitesmoke;
+    font-family: 'Space Grotesk', sans-serif;
+    width: 230px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(58, 55, 55);
+    border-radius: 4px;
+    bottom: 240px;
+    left: 250px;
+
+
 }
 
 
