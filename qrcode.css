@@ -13,6 +13,12 @@
 }
 
 .qrclass {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     bottom: 150px;
     left: 41%;
@@ -27,6 +33,7 @@ body {
 
 
 .bqr {
+
     position: absolute;
     width: 230px;
     height: 220px;
@@ -37,3 +44,13 @@ body {
     background-color: white;
 }
 
+.qrtitle {
+    position: absolute;
+    color: black;
+
+    width: 230px;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+    bottom: 205px;
+}
