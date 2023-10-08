@@ -21,8 +21,8 @@
 
 <script>
 
-    $.getJSON("http://ip-api.com/json/", function(data) {
-        $("#countre").html(data.country);
+    $.getJSON("https://get.geojs.io/v1/ip/country.json", function(data) {
+        $("#countre").html(data.name);
  })
 
 </script>

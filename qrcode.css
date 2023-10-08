@@ -5,6 +5,7 @@
     width: 500px;
     top: 60px;
     border-radius: 10px;
+    font-family: 'Chakra Petch', sans-serif;
     left: 30%;
     border: none;
     font-size: 15px;
@@ -18,6 +19,7 @@
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+    font-family: ;
     user-select: none;
     position: absolute;
     bottom: 150px;
@@ -47,7 +49,7 @@ body {
 .qrtitle {
     position: absolute;
     color: black;
-
+    font-family: 'Space Grotesk', sans-serif;
     width: 230px;
     text-align: center;
     background-color: white;
