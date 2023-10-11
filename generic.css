@@ -382,6 +382,8 @@ MOBILE EDITION */
     visibility: hidden;
     font-size: large;
     z-index: 1;
+    opacity: 0;
+    transition: opacity 1.3s;
     font-family: 'Signika Negative', sans-serif;
 }
 
@@ -397,6 +399,7 @@ MOBILE EDITION */
 
 .classd:hover + .datarz {
     visibility: visible;
+    opacity: 1;
 }
 
 
