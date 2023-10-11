@@ -300,6 +300,40 @@ background-color:rgb(231, 208, 164);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+MOBILE EDITION */
+
+
 @media only screen and (min-width: 100px) and (max-width: 450px) {
     .box2 {
         width: 150px;
@@ -328,6 +362,14 @@ background-color:rgb(231, 208, 164);
         left: px;
         width: 120px;
         left: 15px;
+    }
+    .tllvl {
+        position: absolute;
+        font-size: 18px;
+        top: 214px;
+        left: 82px;
+        color: white;
+        font-family: 'REM', sans-serif;
     }
 }
 
@@ -395,7 +437,39 @@ background-color:rgb(231, 208, 164);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PC VERSION */
+
+
+
+
 @media only screen and (min-width: 451px) {
+
+
+.box5 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(253, 253, 253);
+    top: 170px;
+    right: 10px;
+    border-radius: 10px;
+    width: 220px;
+    height: 80px;
+}
 
 .boxin {
     position: absolute;
@@ -404,7 +478,7 @@ background-color:rgb(231, 208, 164);
 }
 
 .backbox3 {
-    width: 220px;;
+    width: 220px;
 }
 
 
@@ -428,7 +502,143 @@ background-color:rgb(231, 208, 164);
     left: 68px;
 }
 
+/* QR CATEGORY PC */
+
+
+.inpa {
+    position: absolute;
+    background-color: black;
+    color: rgb(184, 182, 182);
+    width: 500px;
+    bottom: 50px;
+    border-radius: 10px;
+    font-family: 'Gabarito', sans-serif;
+    left: 30%;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    height: 45px;
+}
+
+.searchico {
+    position: absolute;
+    height: 35px;
+    bottom: 56px;
+    right: 510px;
+}
+
+.qrclass {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    bottom: 150px;
+    left: 41%;
+    width: 200px;
+    height: 200px;
+    z-index: 3;
+
+}
+
+
+.bqr {
+
+    position: absolute;
+    width: 230px;
+    height: 220px;
+    border-radius: 10px;
+    z-index: 1;
+    bottom: 143px;
+    left: 40%;
+    background-color: white;
+}
+
+.qrupthing {
+    position: absolute;
+    color: black;
+    font-family: 'Space Grotesk', sans-serif;
+    width: 230px;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+    bottom: 205px;
+}
+
+
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
