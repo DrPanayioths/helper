@@ -526,8 +526,8 @@ MOBILE EDITION */
 .searchico {
     position: absolute;
     height: 35px;
-    bottom: 56px;
-    right: 510px;
+    bottom: 5px;
+    left: 460px;
 }
 
 .qrclass {
@@ -570,7 +570,16 @@ MOBILE EDITION */
     bottom: 205px;
 }
 
-
+.k {
+    position: absolute;
+    width: 1px;
+    bottom: 50px;
+    border-radius: 10px;
+    z-index: 5;
+    background-color: white;
+    left: 30%;
+    height: 45px;
+}
 
 
 
