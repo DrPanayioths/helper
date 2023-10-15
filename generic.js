@@ -48,16 +48,18 @@ function checkEnter(event) {
 //  Password Strength Checker A Try Again
 
 var pass = document.getElementById("password");
+var passdis = document.getElementById("passdata");
 var passlength = pass.length;
 
+
 if (passlength < 8) {
-  console.log("Password is too short");
+	passdis.textContent = "Password is too short";
 } else if (passlength >= 8 && passlength <= 12) {
-	console.log("Password is too weak");
+	passdis.textContent = "Password is too weak";
 } else if (passlength >= 13 && passlength <= 16) {
-	console.log("Password is too strong");
+	passdis.textContent = "Password is too strong";
 } else {
-	console.log("Password is strong enough");
+	passsdis.textContent = "Password is strong enough";
 }
 
 

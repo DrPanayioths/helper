@@ -371,6 +371,18 @@ MOBILE EDITION */
         color: white;
         font-family: 'REM', sans-serif;
     }
+    .bqr {
+        visibility: hidden;
+    }
+    .qrclass {
+        visibility: hidden;
+    }
+    .inpa {
+        visibility: hidden;
+    }
+    .searchico {
+        visibility: hidden;
+    }
 }
 
 
@@ -579,6 +591,31 @@ MOBILE EDITION */
     background-color: white;
     left: 30%;
     height: 45px;
+}
+
+
+
+
+
+/* Password Strength Checkar */
+
+.palo {
+    position: absolute;
+    border: #3c6679;
+    color: azure;
+    background-color: rgb(101, 80, 192);
+    top: 210px;
+    right: 50px;
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+
+}
+
+
+.passshow {
+    position: absolute;
+    color: black;
 }
 
 
