@@ -367,7 +367,7 @@ MOBILE EDITION */
         position: absolute;
         font-size: 18px;
         top: 214px;
-        left: 82px;
+        left: 50px;
         color: white;
         font-family: 'REM', sans-serif;
     }
@@ -383,6 +383,13 @@ MOBILE EDITION */
     .searchico {
         visibility: hidden;
     }
+    .tite5 {
+        visibility: hidden;
+    }
+    .palo {
+        visibility: hidden;
+    }
+
 }
 
 
@@ -605,9 +612,10 @@ MOBILE EDITION */
     color: azure;
     background-color: rgb(101, 80, 192);
     top: 210px;
-    right: 50px;
+    right: 30px;
     height: 30px;
-    width: 130px;
+    width: 180px;
+    text-align: center;
     border-radius: 10px;
 
 }
@@ -617,6 +625,17 @@ MOBILE EDITION */
     position: absolute;
     color: black;
 }
+
+.tite5 {
+    position: absolute;
+    right: 70px;
+    font-size: 13px;
+    top: 2px;
+    color: black;
+    font-family: 'REM', sans-serif;
+}
+
+
 
 
 
