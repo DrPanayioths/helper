@@ -389,6 +389,9 @@ MOBILE EDITION */
     .palo {
         visibility: hidden;
     }
+    .passshow {
+        visibility: hidden;
+    }
 
 }
 
@@ -615,6 +618,7 @@ MOBILE EDITION */
     right: 30px;
     height: 30px;
     width: 180px;
+    font-family: 'Gabarito', sans-serif;
     text-align: center;
     border-radius: 10px;
 
@@ -624,11 +628,14 @@ MOBILE EDITION */
 .passshow {
     position: absolute;
     color: black;
+    font-family: 'Gabarito', sans-serif;
+    right: 80px;
+    top: 190px;
 }
 
 .tite5 {
     position: absolute;
-    right: 70px;
+    right: 65px;
     font-size: 13px;
     top: 2px;
     color: black;

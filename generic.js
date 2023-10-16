@@ -39,28 +39,21 @@ function checkEnter(event) {
 
 
 
-
-
-
-
-
-
 //  Password Strength Checker A Try Again
 
-var pass = document.getElementById("password");
-var passdis = document.getElementById("passdata");
-var passlength = pass.length;
+function passwordareyouok() {
+	const passwordInput = document.getElementById("passwordInput");
+	const passworddinami = document.getElementById("passwordStrength");
+	const password = passwordInput.value;
 
 
-if (passlength < 8) {
-	passdis.textContent = "Password is too short";
-} else if (passlength >= 8 && passlength <= 12) {
-	passdis.textContent = "Password is too weak";
-} else if (passlength >= 13 && passlength <= 16) {
-	passdis.textContent = "Password is too strong";
-} else {
-	passsdis.textContent = "Password is strong enough";
+	if (password.length < 6) {
+		passwordStrength.textContent = "Weak 🔓";
+	} else if (password.length < 8) {
+		passwordStrength.textContent = "Good 👍";
+	} else if (password.length < 12) {
+		passwordStrength.textContent = "Strong 💪";
+	} else {
+		passwordStrength.textContent = "Super 🚀";
+	}
 }
-
-
-
