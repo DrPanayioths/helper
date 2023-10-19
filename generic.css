@@ -45,7 +45,6 @@ PC Version
         right: 12px;
         top: 15px;
         border-radius: 10px;
-        background-color: purple;
         width: 140px;
         height: 35px;
     }
@@ -490,6 +489,17 @@ MOBILE EDITION */
 
 
 @media only screen and (min-width: 451px) {
+.gitdrpanayioths {
+    position: absolute;
+    left: 12px;
+    top: 15px;
+    z-index: 10;    
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+}
+
+
 
 
 .box5 {
@@ -618,7 +628,7 @@ MOBILE EDITION */
 
 
 
-/* Password Strength Checkar */
+/* Password Strength Checker */
 
 .palo {
     position: absolute;
@@ -662,6 +672,8 @@ MOBILE EDITION */
     opacity: 0.4;
     left: 9px;
 }
+
+
 
 
 

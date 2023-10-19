@@ -14,7 +14,6 @@ function psifosep() {
     }
   }
 }
-document.cookie = "download,value=true; path=/";
 
 
 

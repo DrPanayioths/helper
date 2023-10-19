@@ -1,12 +1,7 @@
 
-/**
- * 
- * Cookie That Is Automatically Created By DrPanayioths on 2 Agoust 2023 For Ownership 
- */
+// Cookie That Is Automatically Created By DrPanayioths on 2 Agoust 2023 For Ownership 
+
 document.cookie = "dataremember=Created By DrPanayioths; expires=Thu, 18 Dec 3000 01:01:01 UTC";
-document.cookie = "dataremember=Data Are Local Saved"
-
-
 
 
 
@@ -37,8 +32,6 @@ function checkEnter(event) {
 
 
 
-
-
 //  Password Strength Checker A Try Again
 
 function passwordareyouok() {
@@ -57,3 +50,43 @@ function passwordareyouok() {
 		passwordStrength.textContent = "Super 🚀";
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// UUID For Everyone Yea Yea
+
+function generateUUID() {
+    const hexChars = '0123456789abcdef';
+    const getRandomHex = (length) => {
+        let result = '';
+        for (let i = 0; i < length; i++) {
+            result += hexChars.charAt(Math.floor(Math.random() * 16));
+        }
+        return result;
+    };
+    return (
+        getRandomHex(8) + '-' +
+        getRandomHex(4) + '-' +
+        '4' + getRandomHex(3) + '-' +
+        hexChars.charAt(Math.floor(Math.random() * 4) + 8) + getRandomHex(3) + '-' +
+        getRandomHex(12)
+    );
+}
+
+const uuid = generateUUID();
+document.cookie = "ID: " + uuid;
+
+
+
+
+
