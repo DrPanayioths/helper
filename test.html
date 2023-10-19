@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AdBlock Detector</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Check if an adblocker is active
+            if ($('body').css('color') === 'rgb(255, 0, 0)') {
+                // Adblocker detected
+                $('#adblock-message').show();
+            } else {
+                // No adblocker detected
+                $('#content').show();
+            }
+        });
+    </script>
+</head>
+<body>
+    <div id="adblock-message" style="display: none;">
+        <p>It seems that you're using an ad blocker. Please consider disabling it to support our website.</p>
+    </div>
+    <div id="content" style="display: none;">
+        <p>Your website content goes here.</p>
+    </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AdBlock Detector</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Check if an adblocker is active
+            if ($('body').css('color') === 'rgb(255, 0, 0)') {
+                // Adblocker detected
+                $('#adblock-message').show();
+            } else {
+                // No adblocker detected
+                $('#content').show();
+            }
+        });
+    </script>
+</head>
+<body>
+    <div id="adblock-message" style="display: none;">
+        <p>It seems that you're using an ad blocker. Please consider disabling it to support our website.</p>
+    </div>
+    <div id="content" style="display: none;">
+        <p>Your website content goes here.</p>
+    </div>
+</body>
+</html>
