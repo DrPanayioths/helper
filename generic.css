@@ -416,30 +416,14 @@ MOBILE EDITION */
     font-family: 'Signika Negative', sans-serif;
 }
 
-
-.classd {
-    position: absolute;
-    bottom: 30px;
-    right: 15px;
-    z-index: 3;
-    
-}
-
-
-.classd:hover + .datarz {
-    visibility: visible;
-    opacity: 1;
-}
-
-
 .backico {
     position: absolute;
-    background-color: rgb(241, 199, 206);
-    width: 45px;
+    background-color: rgb(221, 180, 186);
+    width: 40px;
     height: 40px;
     bottom: 10px;
     z-index: 2;
-    right: 10px;
+    right: 5px;
     border-radius: 5px;
 }
 
@@ -665,6 +649,12 @@ MOBILE EDITION */
 }
 
 .adblocks { 
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     color: black;
     bottom: 0.5%;
@@ -674,9 +664,19 @@ MOBILE EDITION */
 }
 
 
+.classd {
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+    z-index: 3;
+    
+}
 
 
-
+.classd:hover + .datarz {
+    visibility: visible;
+    opacity: 1;
+}
 
 
 
