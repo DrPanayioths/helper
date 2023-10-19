@@ -1,246 +1,310 @@
 
-/* General  */
 
-@media only screen and (min-width: 300px) {
-    
-    .titleip {
-        position: absolute;
-        left: 78px;
-        top: 10px;
-        color: black;
-        border-radius: 5px;
-        font-family: 'REM', sans-serif;
-        
-    }
-    
-    
-    
-    
-    .backips {
-        position: absolute;
-        width: 150px;
-        right: 38px;
-        bottom: 13px;
-        height: 30px;
-        background-color: rgb(101, 80, 192);
-        border-radius: 10px;
-    }
-    
-    .box2 {
-        width: 220px;
-        height: 80px;
-        right: 10px;
-        top: 70px;
-        border-radius: 10px;
-        position: absolute;
-        background-color: whitesmoke;
-    }
-    
-    
-    .ips {
-        position: absolute;
-        top: 43px;
-        right: 79px;
-        align-items: center;
-        color: white;
-        font-family: 'REM', sans-serif;
-    }    
-    
+
+/*
+PC Version
+*/
+
+@media only screen and (min-width: 500px) {
+
     .boxinforer {
-        
-        position: absolute;
-        width: 220px;
-        height: 80px;
-        background-color: rgb(253, 253, 253);
-        border-radius: 10px;
-        left: 10px;
-        top: 70px;
-        
-        }
-        
-    .nav {
         background-color: white;
+        border-radius: 10px;
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        left: 35%;
+    
+    
+    
+    
+    }
+
+
+
+
+    
+    .nav {
+        background-color: black;
         width: 100;
         height: 50px;
-        border-radius: 30px;
-            
-        }
+        border-radius: 10px;
         
-    
-    
-    
-    .imageback {
-        position: absolute;
-        
-        right: 1px;
-        bottom: 1px;
     }
     
-    
-    @keyframes colorasion {
-        0% {
-            background-color: rgb(253, 253, 253);
-        }
-        100% {
-            background-color: rgb(54, 198, 255);
-        }
-    
-        
+    .madedrp {
+        color: white;
+        font-size: 18px;
+        position: absolute;
+        right: 19px;
+        top: 23px;
     }
     
     .backdrp {
         position: absolute;
-        left: 14px;
-        top: 14px;
-        border-radius: 30px;
-        background-color: rgb(54, 198, 255);
-        width: 135px;
-        animation-name: colorasion;
-        animation-duration: 2s;
-        height: 40px;
+        right: 12px;
+        top: 15px;
+        border-radius: 10px;
+        width: 140px;
+        height: 35px;
     }
     
-    .madedrp {
-        color: black;
-        font-size: 18px;
-        position: absolute;
-        left: 25px;
-        top: 22px;
-        font-family: 'REM', sans-serif;
-            
+    
+    
+    
+    
+    }
+    
+    
+
+/*
+Mobile Version
+*/
+
+@media only screen and (min-width: 300px) {
+    
+.titleip {
+    position: absolute;
+    left: 78px;
+    top: 10px;
+    color: black;
+    border-radius: 5px;
+    font-family: 'REM', sans-serif;
+    
+}
+
+
+
+
+.backips {
+    position: absolute;
+    width: 150px;
+    right: 38px;
+    bottom: 13px;
+    height: 30px;
+    background-color: rgb(101, 80, 192);
+    border-radius: 10px;
+}
+
+.box2 {
+    width: 220px;
+    height: 80px;
+    right: 10px;
+    top: 70px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: whitesmoke;
+}
+
+
+.ips {
+    position: absolute;
+    top: 43px;
+    right: 79px;
+    align-items: center;
+    color: white;
+    font-family: 'REM', sans-serif;
+}    
+
+.boxinforer {
+    
+    position: absolute;
+    width: 220px;
+    height: 80px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    left: 10px;
+    top: 70px;
+    
+    }
+    
+.nav {
+    background-color: white;
+    width: 100;
+    height: 50px;
+    border-radius: 30px;
+        
+    }
+    
+
+
+
+.imageback {
+    position: absolute;
+    
+    right: 1px;
+    bottom: 1px;
+}
+
+
+@keyframes colorasion {
+    0% {
+        background-color: rgb(253, 253, 253);
+    }
+    100% {
+        background-color: rgb(54, 198, 255);
+    }
+
+    
+}
+
+.backdrp {
+    position: absolute;
+    left: 14px;
+    top: 14px;
+    border-radius: 30px;
+    background-color: rgb(54, 198, 255);
+    width: 135px;
+    animation-name: colorasion;
+    animation-duration: 2s;
+    height: 40px;
+}
+
+.madedrp {
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    left: 25px;
+    top: 22px;
+    font-family: 'REM', sans-serif;
         
     
-    
-        }
-    
+
+
     }
-    
-    
-    .countrol {
-        position: absolute;
-        top: 43px;
-        right: 80px;
-        color: white;
-        font-family: 'REM', sans-serif;
+
+}
+
+
+.countrol {
+    position: absolute;
+    top: 43px;
+    right: 80px;
+    color: white;
+    font-family: 'REM', sans-serif;
+}
+
+.backbox2 {
+    position: absolute;
+    width: 130px;
+    right: 40px;
+    bottom: 13px;
+    height: 30px;
+    top: 37px;
+    background-color: rgb(101, 80, 192);
+    border-radius: 10px;
+}
+
+.titlebox2 {
+    position: absolute;
+    left: 84px;
+    top: 10px;
+    color: black;
+    font-family: 'REM', sans-serif;
+}
+
+body {
+background-color:rgb(231, 208, 164);
+}
+
+
+
+
+
+
+
+
+
+.musicplayer {
+    width: 100px;
+    height: 48px;
+    position: absolute;
+    background-color: black;
+    right: 8px;
+    top: 9px;
+    border-radius: 50px;
+
+}
+
+
+.browser {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    width: 10px;
+    left: 12px;
+    font-size: 20.7px;
+    top: 11px;
+    animation-name: musicplay;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: white;
+    font-family: 'REM', sans-serif;
+}
+
+
+@keyframes musicplay {
+    10% {
+        color: aquamarine;
     }
-    
-    .backbox2 {
-        position: absolute;
-        width: 130px;
-        right: 40px;
-        bottom: 13px;
-        height: 30px;
-        top: 37px;
-        background-color: rgb(101, 80, 192);
-        border-radius: 10px;
+    40% {
+        color: greenyellow;
     }
-    
-    .titlebox2 {
-        position: absolute;
-        left: 84px;
-        top: 10px;
-        color: black;
-        font-family: 'REM', sans-serif;
+    70% {
+        color: rgb(224, 59, 224);
     }
-    
-    body {
-    background-color:rgb(231, 208, 164);
+    90% {
+        color: yellow;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    .musicplayer {
-        width: 100px;
-        height: 48px;
-        position: absolute;
-        background-color: black;
-        right: 8px;
-        top: 9px;
-        border-radius: 50px;
-    
+    100% {
+        color: aquamarine;
     }
-    
-    
-    .browser {
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        position: absolute;
-        width: 10px;
-        left: 12px;
-        font-size: 20.7px;
-        top: 11px;
-        animation-name: musicplay;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-        color: white;
-        font-family: 'REM', sans-serif;
+}
+
+
+
+
+@keyframes colorb {
+    30% {
+        background-color: #416574;
     }
-    
-    
-    @keyframes musicplay {
-        10% {
-            color: aquamarine;
-        }
-        40% {
-            color: greenyellow;
-        }
-        70% {
-            color: rgb(224, 59, 224);
-        }
-        90% {
-            color: yellow;
-        }
-        100% {
-            color: aquamarine;
-        }
+    50% { background-color: #3c6679;
     }
-    
-    
-    
-    
-    @keyframes colorb {
-        30% {
-            background-color: #416574;
-        }
-        50% { background-color: #3c6679;
-        }
-        100% {
-            background-color: #416f83;
-        }
+    100% {
+        background-color: #416f83;
     }
-    
-    
-    
-    .backbox3 {
-        position: absolute;
-        width: 100px;
-        height: 100px;
-        background-color: rgb(253, 253, 253);
-        top: 170px;
-        border-radius: 10px;
-        width: 220px;
-        height: 75px;
-    }
-    
-    .boxin {
-        position: absolute;
-        background-color: rgb(101, 80, 192);
-        width: 150px;
-        height: 30px;
-        left: 40px;
-        border-radius: 10px;
-        top: 210px;
-    }
+}
+
+
+
+.backbox3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(253, 253, 253);
+    top: 170px;
+    border-radius: 10px;
+    width: 220px;
+    height: 75px;
+}
+
+.boxin {
+    position: absolute;
+    background-color: rgb(101, 80, 192);
+    width: 150px;
+    height: 30px;
+    left: 40px;
+    border-radius: 10px;
+    top: 210px;
+}
+
+
+
+
 
 
 
@@ -336,15 +400,6 @@ MOBILE EDITION */
     .adblocks {
         visibility: hidden;
     }
-    .datarz {
-        visibility: hidden;
-    }
-    .backico {
-        visibility: hidden;
-    }
-    .gitdrpanayioths {
-        visibility: hidden;
-    }
 }
 
 
@@ -413,52 +468,6 @@ MOBILE EDITION */
 
 
 /* PC VERSION */
-
-.boxinforer {
-    background-color: white;
-    border-radius: 10px;
-    width: 300px;
-    height: 100px;
-    position: absolute;
-    left: 35%;
-
-
-
-
-}
-
-
-
-
-
-.nav {
-    background-color: black;
-    width: 100;
-    height: 50px;
-    border-radius: 10px;
-    
-}
-
-.madedrp {
-    color: white;
-    font-size: 18px;
-    position: absolute;
-    right: 19px;
-    top: 23px;
-}
-
-.backdrp {
-    position: absolute;
-    right: 12px;
-    top: 15px;
-    border-radius: 10px;
-    width: 140px;
-    height: 35px;
-}
-
-
-
-
 
 
 
