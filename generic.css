@@ -229,6 +229,12 @@ background-color:rgb(231, 208, 164);
 
 
 .browser {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
     width: 10px;
     left: 12px;
@@ -392,7 +398,9 @@ MOBILE EDITION */
     .passshow {
         visibility: hidden;
     }
-
+    .adblocks {
+        visibility: hidden;
+    }
 }
 
 
@@ -616,7 +624,7 @@ MOBILE EDITION */
     position: absolute;
     border: #3c6679;
     color: azure;
-    background-color: rgb(101, 80, 192);
+    background-color: rgb(39, 38, 2);
     top: 210px;
     right: 30px;
     height: 30px;
@@ -644,12 +652,20 @@ MOBILE EDITION */
     color: black;
     font-family: 'REM', sans-serif;
 }
-
-
-
-
-
 }
+
+.adblocks { 
+    position: absolute;
+    color: black;
+    bottom: 0.5%;
+    font-family: 'Gabarito', sans-serif;
+    opacity: 0.4;
+    left: 9px;
+}
+
+
+
+
 
 
 
