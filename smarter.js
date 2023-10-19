@@ -1,13 +1,23 @@
 
 document.cookie = "Visited DrPanayioths Site,value=true; path=/";
 
-function thanka() {
-    var boperating = prompt("What is the best operating system for you")
-    var datar = boperating.toUpperCase();
-    console.log(datar);
-    document.cookie = "Best Operating System for you,value=" + datar + "; path=/";
+let psifisesre = false; 
+function psifosep() {
+  if (psifisesre) {
+    alert("You Have Already Vote Operating System! But Wait Until The Next Vote!");
+  } else {
+    const userInput = prompt("Write Your Favourite Operating System:"); 
+
+    if (userInput !== null) {
+      alert("Perfect! Your Favourite Operating System Is: " + userInput);
+      psifisesre = true; 
+    }
+  }
 }
-
-
 document.cookie = "download,value=true; path=/";
+
+
+
+
+
 
