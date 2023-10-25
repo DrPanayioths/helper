@@ -237,6 +237,7 @@ body {
     -ms-user-select: none;
     user-select: none;
     position: absolute;
+    background: linear-gradient(to right, #002425, #000808);
     width: 270px;
     top: 142px;
     left: 130px;
@@ -299,11 +300,11 @@ body {
     color: white;
     font-family: 'Heebo', sans-serif;
     font-size: 30px;
-    left: 5%;
+    left: 3%;
     width: 500px;
 
     z-index: 2;
-    top: 1px;
+    top: 0.1px;
 }
 
 
@@ -315,6 +316,7 @@ body {
     -ms-user-select: none;
     user-select: none;
     position: absolute;
+    background: linear-gradient(to right, #002425, #000808);
     width: 200px;
     z-index: 1;
     top: 142px;
@@ -322,7 +324,6 @@ body {
     border-radius: 10px;
     height: 40px;
     background-color: 1f1c1c;
-    /* 1f1c1c */
 }
 
 
@@ -439,13 +440,14 @@ body {
     user-select: none;
     position: absolute;
     width: 125px;
+    background: linear-gradient(to right, #0c300c, #00f800);
     height: 70px;
-    background-color: #0e6b0e;
+ 
     top: 50px;
     opacity: 0.2;
     z-index: 2;
     right: 12%;
-    border-radius: 10px;
+    border-radius: 13px;
 
 }
 
