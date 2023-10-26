@@ -1,3 +1,12 @@
+// Redirect To Mobile Page 
+function ismobile() {
+  var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  if (screenWidth >= 750) {
+      window.location.href = "http://drpanayioths.github.io/helper/Mobile/notavailable.html";
+  }
+}
+ismobile();
+
 
 // Remember The Creator Cookie
 
@@ -19,14 +28,7 @@ function psifosep() {
   }
 }
 
-// Redirect To Mobile Page 
-function ismobile() {
-  var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-  if (screenWidth >= 750) {
-      window.location.href = "http://drpanayioths.github.io/helper/Mobile/notavailable.html";
-  }
-}
-window.onload = ismobile;
+
 
 
 
