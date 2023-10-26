@@ -86,13 +86,20 @@ function generateUUID() {
 const uuid = generateUUID();
 document.cookie = "ID: " + uuid;
 
-// Redirect To Mobile Page 
-function ismobile() {
-    var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    if (screenWidth >= 750) {
-        window.location.href = "http://drpanayioths.github.io/helper/Mobile/notavailable.html";
-    }
-}
-window.onload = ismobile;
 
 
+        // Function to check if the user is on a mobile device
+        function isMobileDevice() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+
+        // Function to redirect if a mobile device is detected
+        function redirectIfMobile() {
+            if (isMobileDevice()) {
+                // Redirect to the mobile page
+                window.location.href = 'https://drpanayioths.github.io/helper/Mobile/notavailable.html';
+            }
+        }
+
+        // Call the redirect function when the page loads
+        window.onload = redirectIfMobile;
