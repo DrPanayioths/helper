@@ -47,21 +47,8 @@ PC Version
         border-radius: 10px;
         width: 140px;
         height: 35px;
-    }
-    
-    
-    
-    
-    
-    }
-    
-    
-
-/*
-Mobile Version
-*/
-
-@media only screen and (min-width: 300px) {
+    }    
+}
     
 .titleip {
     position: absolute;
@@ -174,9 +161,6 @@ Mobile Version
 
 
     }
-
-}
-
 
 .countrol {
     position: absolute;
@@ -304,132 +288,6 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     border-radius: 10px;
     top: 210px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-MOBILE EDITION */
-
-
-@media only screen and (min-width: 100px) and (max-width: 450px) {
-    .box2 {
-        width: 150px;
-    }
-    .boxinforer {
-        width: 150px;
-    }   
-    .backbox2{
-        right: 11px;
-    }
-    .countrol {
-        right: 50px;
-    }
-    .titlebox2  {
-       position: absolute;
-       
-       left: 45px;
-    }
-    .titleip {
-        left: 45px;
-    }
-    .ips {
-        left: 30px;
-    }
-    .backips {
-        left: px;
-        width: 120px;
-        left: 15px;
-    }
-    .tllvl {
-        position: absolute;
-        font-size: 18px;
-        top: 214px;
-        left: 50px;
-        color: white;
-        font-family: 'REM', sans-serif;
-    }
-    .bqr {
-        visibility: hidden;
-    }
-    .qrclass {
-        visibility: hidden;
-    }
-    .inpa {
-        visibility: hidden;
-    }
-    .searchico {
-        visibility: hidden;
-    }
-    .tite5 {
-        visibility: hidden;
-    }
-    .palo {
-        visibility: hidden;
-    }
-    .passshow {
-        visibility: hidden;
-    }
-    .adblocks {
-        visibility: hidden;
-    }
-}
-
-
-.backbox3 {
-    width: 150px;
-    height: 80px;
-}
-
-
-.boxin {
-    width: 120px;
-    left: 22px;
-}
-
-.divver {
-    position: absolute;
-    top: 182px;
-    font-family: 'REM', sans-serif;
-    font-size: 16px;
-    left: 35px;
-}
-
-
-
-
-
-
 
 
 

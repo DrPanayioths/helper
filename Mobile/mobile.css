@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to right, rgb(16, 19, 15), rgb(43, 40, 41));
+}
+
+.cointainer {
+    font-size: 40px;
+    height: 1px;
+    font-family: 'Rowdies', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+.title {
+    width: auto;
+    text-align: center;
+    left: 80px;
+    position: absolute;
+    color: white;
+}
+.subtitle {
+    position: absolute;
+    color: white;
+    width: auto;   
+    top: 90px;
+    font-size: 30px;
+    left: 100px;  
+}
