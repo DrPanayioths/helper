@@ -10,7 +10,7 @@
 
 ## Features
 
-- ✨ **Feature 1**: Helpful Informations.
+- ✨ **Feature 1**: Network Informations.
 - 📋 **Feature 2**: QR Code Generator.
 - 🔧 **Feature 3**: Easy Download Feature.
 

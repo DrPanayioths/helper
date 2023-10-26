@@ -23,7 +23,7 @@ function psifosep() {
 function ismobile() {
   var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
   if (screenWidth >= 750) {
-      window.location.href = "http://127.0.0.1:3000/helper/Mobile/notavailable.html";
+      window.location.href = "http://drpanayioths.github.io/helper/Mobile/notavailable.html";
   }
 }
 window.onload = ismobile;
