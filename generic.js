@@ -53,16 +53,6 @@ function passwordareyouok() {
 
 
 
-
-
-
-
-
-
-
-
-
-
 // UUID For Everyone Yea Yea
 
 function generateUUID() {
@@ -97,4 +87,30 @@ function isMobileDevice() {
    }
    window.onload = redirectIfMobile; 
    
+
+// Downlight
+
+var i = 0;
+function loader() {
+  if (i == 0) {
+    i = 1;
+    var bar = document.getElementById("lightthedown");
+    var width = 1;
+    var wait = setInterval(frame, 10);
+    function frame() {
+    if (width >= 100) {
+    clearInterval(wait);
+    i = 0;
+    } else {
+    width++;
+    bar.style.width = width + "%";
+      }
+    }
+  }
+}
+
+window.onload = loader;
+
+
+
 
