@@ -76,6 +76,7 @@ PC Version
 .box2 {
     width: 220px;
     height: 80px;
+    background: linear-gradient(to right, #fffbe7, #ddd089);
     right: 10px;
     top: 70px;
     border-radius: 10px;
@@ -96,6 +97,7 @@ PC Version
 .boxinforer {
     
     position: absolute;
+    background: linear-gradient(to left, #faf5d7, #ece099);
     width: 220px;
     height: 80px;
     background-color: rgb(253, 253, 253);
@@ -130,7 +132,6 @@ PC Version
         background-color: rgb(253, 253, 253);
     }
     100% {
-        background-color: rgb(54, 198, 255);
         background: linear-gradient(to right, #36C6FF , #29e9df)
     }
 
@@ -190,7 +191,6 @@ PC Version
 }
 
 body {
-background-color:rgb(231, 208, 164);
 background: linear-gradient(to right, #ddd089, #ccbe70)
 }
 
@@ -271,8 +271,8 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
 .backbox3 {
     position: absolute;
     width: 100px;
+    background: linear-gradient(to left, #f8f3d4, #e0d280);
     height: 100px;
-    background-color: rgb(253, 253, 253);
     top: 170px;
     border-radius: 10px;
     width: 220px;
@@ -325,8 +325,8 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
 .box5 {
     position: absolute;
     width: 100px;
+    background: linear-gradient(to right, #fffbe7, #ddd089);
     height: 100px;
-    background-color: rgb(253, 253, 253);
     top: 170px;
     right: 10px;
     border-radius: 10px;
