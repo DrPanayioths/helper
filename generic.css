@@ -549,13 +549,46 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     left: 70px;
 }
 
+.cryptoname {
+    position: absolute;
+    font-family: 'Gabarito', sans-serif;
+    top: 18px;
+    font-size: 13px;
+    left: 92px;
+}
+
+
+/* Bitcoin Tracka */
+
+.bitimg {
+    position: absolute;
+    bottom: 1px;
+    z-index: 1;
+    left: 1px;
+}
+
+.bitcoin {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    opacity: 0;
+    z-index: 5;
+    bottom: 1px;
+    left: 0.1px;
+}
 
 
 
 
+/* Etheruam Tracka */
 
 
-
+.eth {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
 
 
 

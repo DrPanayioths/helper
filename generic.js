@@ -113,14 +113,24 @@ window.onload = loader;
 
 // CryptoField
 // Bitcoine
-fetch('https://api.coindesk.com/v1/bpi/currentprice/EUR.json')
-    .then(btc => btc.json())
-    .then(data => {
-      const field = document.getElementById("cryptoshow");
-      const convetareto = Math.round(data.bpi.EUR.rate_float * 1) / 1000;
-      field.textContent = "€ " + convetareto 
-    });
+function bitcola() {
+
+
+  fetch('https://api.coindesk.com/v1/bpi/currentprice/EUR.json')
+  .then(btc => btc.json())
+  .then(data => {
+    const field = document.getElementById("cryptoshow");
+    const convetareto = Math.round(data.bpi.EUR.rate_float * 2) / 1000;
+    const cryptoname = document.getElementById("whatcrypto");
+    field.textContent = "€ " + convetareto 
+    cryptoname.textContent =  "BTC"
+  });
+
+  }
+window.onload = bitcola;
+
 // Etherumoum
-// Litecoin 
+
+
 
 
