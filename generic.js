@@ -112,22 +112,15 @@ function loader() {
 window.onload = loader;
 
 // CryptoField
-const elatadedodemna = {
-  headers: {
-    'Content-Type': 'application/json',
-    'x-access-token': 'coinranking3371331603182012e5981231844940a8b133ed430df309e1',
-  },
-};
-
 // Bitcoine
-fetch('https://api.coinranking.com/v2/coin/Qwsogvtv82FCd', elatadedodemna)
-  .then((btc) => btc.json())
+fetch('https://api.coindesk.com/v1/bpi/currentprice/EUR.json')
+    .then(btc => btc.json())
+    .then(data => {
+      const field = document.getElementById("cryptoshow");
+      const convetareto = Math.round(data.bpi.EUR.rate_float * 1) / 1000;
+      field.textContent = "€ " + convetareto 
+    });
 // Etherumoum
-fetch('https://api.coinranking.com/v2/coin/razxDUgYGNAdQ', elatadedodemna)
-  .then((eth) => eth.json())
 // Litecoin 
-fetch('https://api.coinranking.com/v2/coin/D7B1x_ks7WhV5', elatadedodemna)
-  .then((ltc) => ltc.json())
-
 
 
