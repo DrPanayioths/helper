@@ -109,7 +109,6 @@ function loader() {
   }
 }
 
-window.onload = loader;
 
 // CryptoField
 // Bitcoine
@@ -125,12 +124,25 @@ function bitcola() {
     field.textContent = "€ " + convetareto 
     cryptoname.textContent =  "BTC"
   });
+  loader();
 
   }
 window.onload = bitcola;
 
 // Etherumoum
+function ethelarefile() {
+  fetch('https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=EUR')
+  .then (eth => eth.json())
+  .then(data => {
 
+    const price = document.getElementById("cryptoshow");
+    const cname = document.getElementById("whatcrypto");
+    const pricefinal = Math.round(data.EUR * 1) / 1000;
+    price.textContent = "€ " + pricefinal
+    cname.textContent =  "ETH"
+  });
+
+}
 
 
 

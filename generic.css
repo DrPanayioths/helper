@@ -388,6 +388,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     position: absolute;
     height: 35px;
     bottom: 5px;
+    cursor: pointer;
     left: 460px;
 }
 
@@ -576,6 +577,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     z-index: 5;
     bottom: 1px;
     left: 0.1px;
+    cursor: pointer;
 }
 
 
@@ -588,6 +590,17 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     position: absolute;
     bottom: 1px;
     right: 1px;
+}
+.etharomen {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    opacity: 0;
+    z-index: 5;
+    bottom: 1px;
+    right: 0.1px;
+    cursor: pointer;
 }
 
 
