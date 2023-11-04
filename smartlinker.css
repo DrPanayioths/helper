@@ -261,7 +261,7 @@ body {
     width: 120px;
     height: 40px;
     border-radius: 4px;
-    background-color: rgb(31, 1, 1);
+    background-color: rgb(37, 31, 31);
     bottom: 50px;
     right: -40px;
     transform: rotate(90deg);
@@ -282,7 +282,7 @@ body {
     transform: rotate(90deg);
     height: 40px;
     border-radius: 10px;
-    color: aquamarine;
+    color: rgb(188, 201, 197);
     bottom: 6%;
     font-size: 30px;
     right: -10px;
