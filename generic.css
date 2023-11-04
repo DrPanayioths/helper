@@ -528,7 +528,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
 .box7 {
     position: absolute;
     width: 100px;
-    background: linear-gradient(to right, #fffbe7, #fff3b0);
+    background: linear-gradient(to left, #fffbe7, #fff3b0);
     height: 100px;
     top: 270px;
     left: 10px;
@@ -547,7 +547,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     position: absolute;
     font-family: 'REM', sans-serif;
     top: 30px;
-    left: 70px;
+    left: 67px;
 }
 
 .cryptoname {
@@ -579,9 +579,18 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     left: 0.1px;
     cursor: pointer;
 }
-
-
-
+.coverbit {
+    position: absolute;
+    width: 220px;
+    height: 82px;
+    border-radius: 10px;
+    opacity: 0;
+    z-index: 5;
+    bottom: 0.1px;
+    background-color: #29e9df;
+    left: 0.1px;
+    z-index: 1;
+}
 
 /* Etheruam Tracka */
 

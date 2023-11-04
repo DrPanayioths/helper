@@ -123,6 +123,9 @@ function bitcola() {
     const cryptoname = document.getElementById("whatcrypto");
     field.textContent = "€ " + convetareto 
     cryptoname.textContent =  "BTC"
+    field.style.left = "67px";
+
+
   });
   loader();
 
@@ -140,9 +143,8 @@ function ethelarefile() {
     const pricefinal = Math.round(data.EUR * 1) / 1000;
     price.textContent = "€ " + pricefinal
     cname.textContent =  "ETH"
+    price.style.left = "78px";
   });
 
 }
-
-
 
