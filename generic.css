@@ -615,6 +615,92 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
 
 
 
+/* SpeedTest */
+.box8 {
+    position: absolute;
+    width: 100px;
+    background: linear-gradient(to left, #fffbe7, #fff3b0);
+    height: 100px;
+    top: 270px;
+    right: 10px;
+    border-radius: 10px;
+    width: 220px;
+    height: 80px;
+}
+
+.titlebox8 {
+    font-family: 'Gabarito', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.testspeed {
+    position: absolute;
+    top: 30px;
+    left: 65px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: wheat;
+    font-family: 'REM', sans-serif;
+}
+
+
+.leaveico {
+    position: absolute;
+    width: auto;
+    background-color: wheat;
+    height: 25px;
+    z-index: 11;
+    top: 605px;
+    font-family: 'REM', sans-serif;
+    font-size: 20px;
+    left: 1095px;
+    visibility: hidden;
+    outline: wheat solid 10px;
+    border-radius: 10px;
+    
+}
+
+.protec {
+    position: absolute;
+    width: 75px;
+    height: 48px;
+    z-index: 12;
+    top: 593px;
+    left: 1085px;
+    visibility: visible;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.boxforprot {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    z-index: 11;
+    top: 585px;
+    left: 900px;
+    background-color: #29e9df;
+    visibility: visible;
+    border-radius: 20px;
+}
+
+
+.speedare {
+    position:absolute;
+    top: 20px;
+    left:300px;
+    border: none;
+    border-radius: 10px;
+    visibility: hidden;
+    width: 60%;
+    height: 82%;
+    outline: none;
+    z-index: 10;
+}
+
+
 
 
 

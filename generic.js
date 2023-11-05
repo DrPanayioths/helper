@@ -148,3 +148,33 @@ function ethelarefile() {
 
 }
 
+
+
+
+
+// SpeedTest giati h taxutitta metrai
+
+function testareto() {
+  const speed = document.getElementById("speedtest");
+  speed.style.visibility = "visible";
+  const leavemere = document.getElementById("leavespeed");
+  leavemere.style.visibility = "visible";
+  const protector = document.getElementById("protectfield");
+  protector.style.visibility = "visible";
+  const protector2 = document.getElementById("protectfield2");
+  protector2.style.visibility = "visible";
+}
+
+function closespeder() {
+  const speed = document.getElementById("speedtest");
+  speed.style.visibility = "hidden";
+  const leavemere = document.getElementById("leavespeed");
+  leavemere.style.visibility = "hidden";
+  const protector = document.getElementById("protectfield");
+  protector.style.visibility = "hidden";
+  const protector2 = document.getElementById("protectfield2");
+  protector2.style.visibility = "hidden";
+}
+
+
+
