@@ -658,7 +658,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     left: 1095px;
     visibility: hidden;
     outline: wheat solid 10px;
-    border-radius: 10px;
+    border-radius: 4px;
     
 }
 
@@ -681,7 +681,6 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     z-index: 11;
     top: 585px;
     left: 900px;
-    background-color: #29e9df;
     visibility: visible;
     border-radius: 20px;
 }
@@ -699,6 +698,8 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     outline: none;
     z-index: 10;
 }
+
+
 
 
 
