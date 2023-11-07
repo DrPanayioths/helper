@@ -75,6 +75,8 @@ function generateUUID() {
 
 const uuid = generateUUID();
 document.cookie = "ID: " + uuid;
+localStorage.setItem("UUID", uuid);
+
 
  // Function to check if the user is on a mobile device
 function isMobileDevice() {
@@ -85,6 +87,7 @@ function isMobileDevice() {
     window.location.href = 'https://drpanayioths.github.io/helper/Mobile/notavailable.html';
      }
    }
+   document.cookie = "UserInfo: " + navigator.userAgent;
    window.onload = redirectIfMobile; 
    
 
@@ -175,6 +178,5 @@ function closespeder() {
   const protector2 = document.getElementById("protectfield2");
   protector2.style.visibility = "hidden";
 }
-
 
 

@@ -6,7 +6,7 @@ document.cookie = "Visited DrPanayioths Site,value=true; path=/";
 
 let psifisesre = false; 
 function psifosep() {
-  if (psifisesre) {
+  if (psifisesre + localStorage.getItem("vote") === true) {
     alert("You Have Already Vote A Operating System! But Wait Until The Next Vote!");
   } else {
     const inpa = prompt("Write Your Favourite Operating System:"); 
@@ -14,6 +14,7 @@ function psifosep() {
     if (inpa !== null) {
       alert("Perfect! Your Favourite Operating System Is: " + inpa);
       psifisesre = true; 
+      localStorage.setItem("vote", true);
     }
   }
 
