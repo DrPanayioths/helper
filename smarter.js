@@ -4,14 +4,15 @@ document.cookie = "Visited DrPanayioths Site,value=true; path=/";
 
 // Vote System
 
-let psifisesre = false; 
+
 function psifosep() {
-  if (psifisesre == true) {
+  var votecheckare = localStorage.getItem("vote")
+  if (votecheckare === "true") {
     alert("You Have Already Vote A Operating System! But Wait Until The Next Vote!");
   } else {
     const inpa = prompt("Write Your Favourite Operating System:");
     alert("Perfect! Your Favourite Operating System Is: " + inpa);
-    psifisesre = true; 
+    localStorage.setItem("vote", "true");
     }
   }
 
