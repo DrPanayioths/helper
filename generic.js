@@ -73,9 +73,21 @@ function generateUUID() {
     );
 }
 
-const uuid = generateUUID();
-document.cookie = "ID: " + uuid;
-localStorage.setItem("UUID", uuid);
+// UUID For Each User
+var islocalstored = localStorage.getItem("UUID")
+function uuidgen()  {
+  if (islocalstored) {
+  }
+  else {
+    const uuide = generateUUID();
+    localStorage.setItem("UUID", uuide);
+  }
+
+}
+window.onload = uuidgen()
+
+
+
 
 
  // Function to check if the user is on a mobile device
@@ -151,32 +163,5 @@ function ethelarefile() {
 
 }
 
-
-
-
-
-// SpeedTest giati h taxutitta metrai
-
-function testareto() {
-  const speed = document.getElementById("speedtest");
-  speed.style.visibility = "visible";
-  const leavemere = document.getElementById("leavespeed");
-  leavemere.style.visibility = "visible";
-  const protector = document.getElementById("protectfield");
-  protector.style.visibility = "visible";
-  const protector2 = document.getElementById("protectfield2");
-  protector2.style.visibility = "visible";
-}
-
-function closespeder() {
-  const speed = document.getElementById("speedtest");
-  speed.style.visibility = "hidden";
-  const leavemere = document.getElementById("leavespeed");
-  leavemere.style.visibility = "hidden";
-  const protector = document.getElementById("protectfield");
-  protector.style.visibility = "hidden";
-  const protector2 = document.getElementById("protectfield2");
-  protector2.style.visibility = "hidden";
-}
 
 
