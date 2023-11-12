@@ -164,5 +164,16 @@ function ethelarefile() {
 }
 
 
-
-
+// Weather Display 
+function weathercollection() {
+  var typecountry = prompt("City To See Weather");
+  var linker = 'https://wttr.in/' + typecountry + "?format=4";
+  
+  fetch(linker)
+    .then(response => response.text())
+    .then(data => {
+      const showka = document.getElementById("respo");
+      showka.textContent = data;
+    });
+  
+}

@@ -620,7 +620,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     position: absolute;
     width: 100px;
     background: linear-gradient(to left, #fffbe7, #fff3b0);
-    height: 100px;
+    height: 150px;
     top: 270px;
     right: 10px;
     border-radius: 10px;
@@ -637,8 +637,27 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
 
 
 
+/* Weather Display */
 
+.inputcountry {
+    position: absolute;
+    left: 20px;
+    width: 180px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(250, 240, 222);
+    top: 48px;
+    height: 30px;
+    border-radius: 10px;
+}
 
+.response {
+    position: absolute;
+    left: 7%;
+    top: 28%;
+    font-size: 14px;
+    font-family: 'Gabarito', sans-serif;
+}
 
 
 
