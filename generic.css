@@ -690,9 +690,22 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     font-size: 16px;
 }
 
+/* Chill Button Click */
 
-
-
+.chillclick {
+    position: absolute;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    transform: rotate(270deg);
+    color: white;
+    right: 170px;
+    border-radius: 6px;
+    bottom: 28px;
+    font-size: 18px;
+    text-align: right;
+    background-color: black;
+    width: 82px;
+    height: 25px;
+}
 
 
 
