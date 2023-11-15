@@ -53,7 +53,7 @@ function passwordareyouok() {
 
 
 
-// UUID For Everyone Yea Yea
+// UUID Gen
 
 function generateUUID() {
     const hexChars = '0123456789abcdef';
@@ -177,3 +177,85 @@ function weathercollection() {
     });
   
 }
+
+
+// Radio Per Country
+
+function radiocont() {
+  fetch("https://get.geojs.io/v1/ip/country.json")
+    .then(count => count.json())
+    .then(data => {
+      const countrex = data.name;
+      const radiosystem = document.getElementById("radiosystems")
+      console.log(countrex)
+
+      if (countrex === "Greece") {
+        radiosystem.src = "https://centova.gr-net.gr/proxy/love/stream"
+      }
+      else if ( countrex === "United States") {
+        radiosystem.src = "https://17573.live.streamtheworld.com/977_HITSAAC_SC?dist=onlineradiobox"
+      }
+      else if ( countrex === "Netherlands") {
+        radiosystem.src = "https://22323.live.streamtheworld.com/TLPSTR01.mp3?dist=radionet"
+      }
+      else if ( countrex === "Germany") {
+        radiosystem.src = "https://icepool.silvacast.com/GAYFM.mp3"
+      }
+      else if ( countrex === "Cyprus") {
+        radiosystem.src = "https://n0e.radiojar.com/c27wx6pdh8vtv?rj-ttl=5&rj-tok=AAABi9Oz2doAjoNWzuaiEHHIpg"
+      }
+      else if ( countrex === "United Kingdom") {
+        radiosystem.src = "https://bigrradio.cdnstream1.com/5164_128"
+      }
+      else if ( countrex === "Albania")  {
+        radiosystem.src = "https://live.top-media.al/tar"
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    });
+}
+
+window.onload = radiocont();
