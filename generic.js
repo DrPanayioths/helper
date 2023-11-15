@@ -180,6 +180,10 @@ function weathercollection() {
 
 // Chill Music Buttton
 
+function chillradio() {
+  const radio = document.getElementById("radiosystems")
+  radio.src = "https://coderadio-admin-v2.freecodecamp.org/listen/coderadio/low.mp3"
+}
 
 
 
@@ -192,7 +196,6 @@ function radiocont() {
     .then(data => {
       const countrex = data.name;
       const radiosystem = document.getElementById("radiosystems")
-      console.log(countrex)
 
       if (countrex === "Greece") {
         radiosystem.src = "https://centova.gr-net.gr/proxy/love/stream"
@@ -214,6 +217,15 @@ function radiocont() {
       }
       else if ( countrex === "Albania")  {
         radiosystem.src = "https://live.top-media.al/tar"
+      }
+      else if ( countrex  === "Romania") {
+        radiosystem.src = "https://astreaming.edi.ro:8443/EuropaFM_aac"
+      }
+      else if ( countrex === "Turkey") {
+        radiosystem.src = "https://25483.live.streamtheworld.com/SUPER2.mp3"
+      }
+      else if ( countrex === "Russia")  {
+        radiosystem.src = "https://rusradio.hostingradio.ru/rusradio96.aacp"
       }
 
 
