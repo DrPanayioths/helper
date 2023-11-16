@@ -226,10 +226,46 @@ function radiocont() {
       }
       else if ( countrex === "Russia")  {
         radiosystem.src = "https://rusradio.hostingradio.ru/rusradio96.aacp"
+
+
+                  // 10 Stations Above
+
+
+      }
+      else if ( countrex === "Bulgaria") {
+        radiosystem.src = "https://ssl120.radyotelekom.com.tr:8122/stream"
+      }
+      else if ( countrex === "Pakistan") {
+        radiosystem.src = "https://samaakhi107-itelservices.radioca.st/stream/1/"
+      }
+      else if ( countrex === "Armenia") {
+        radiosystem.src = "https://eu.stream4cast.com/proxy/lavradio/stream"
+      }
+      else if ( countrex === "Canada") {
+        radiosystem.src = "http://bigrradio.cdnstream1.com/5109_48"
+      }
+      else if ( countrex === "Moldova") {
+        radiosystem.src = "http://live.noroc.tv:8000/radionoroc.mp3"
+      }
+      else if ( countrex === "Serbia") {
+        radiosystem.src = "https://radiobalkan.live/radio/live/narodna.mp3"
+      }
+      else if ( countrex === "Croatia") {
+        radiosystem.src = "https://www.myipcast.com/radio/split"
+      }
+      else if ( countrex === "Italy") {
+        radiosystem.src = "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S18493106/rCMKqdMFKPBB/icecast"
+      }
+      else if ( countrex === "Spain") {
+        radiosystem.src = "https://cadena100-cope-rrcast.flumotion.com/cope/cadena100.mp3"
+      }
+      else if ( countrex === "France") {
+        radiosystem.src = "https://str1.openstream.co/589?aw_0_1st.collectionid%3D3139%26stationId%3D3139%26publisherId%3D613%26k%3D1700166236"
       }
 
+          // 20 Stations
 
-
+      
 
 
 
