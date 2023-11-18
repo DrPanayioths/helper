@@ -508,7 +508,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
 /* Down Light */
 .downlight {
     position: absolute;
-    width: 1%;
+    width: 1px;
     height: 3px;
     left: 0px;
     bottom: 0px;

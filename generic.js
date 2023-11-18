@@ -124,6 +124,9 @@ function loader() {
   }
 }
 
+window.onload = loader;
+window.onload = frame();
+
 
 // CryptoField
 // Bitcoine
