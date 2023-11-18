@@ -124,8 +124,10 @@ function loader() {
   }
 }
 
+
 window.onload = loader;
-window.onload = frame();
+window.onload = frame;
+
 
 
 // CryptoField
@@ -266,52 +268,32 @@ function radiocont() {
         radiosystem.src = "https://str1.openstream.co/589?aw_0_1st.collectionid%3D3139%26stationId%3D3139%26publisherId%3D613%26k%3D1700166236"
       }
 
-          // 20 Stations
-
-      
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    });
+});
 }
 
 window.onload = radiocont();
+
+
+
+      // Flag System For Countrys
+
+function flager() {
+
+
+fetch('https://get.geojs.io/v1/ip/country.json')
+.then(flage => flage.json())
+.then(data => {
+  console.log(data.country)
+  console.log(world)
+
+
+
+
+
+
+
+})}
+window.onload = flager;
