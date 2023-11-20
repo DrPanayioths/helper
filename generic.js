@@ -123,10 +123,8 @@ function loader() {
     }
   }
 }
-
-
 window.onload = loader;
-window.onload = frame;
+
 
 
 
@@ -282,12 +280,16 @@ window.onload = radiocont();
 
 function flager() {
 
-
-fetch('https://get.geojs.io/v1/ip/country.json')
+  fetch('https://get.geojs.io/v1/ip/country.json')
 .then(flage => flage.json())
 .then(data => {
-  console.log(data.country)
-  console.log(world)
+  const countryname = document.getElementById('countre')
+  const flag1 = document.getElementById('flagimg')
+  const flag2 = document.getElementById('flag2img')
+
+  countryname.textContent = data.name
+  flag1.src = "https://flagsapi.com/"+ data.country + "/flat/64.png"
+  flag2.src = "https://flagsapi.com/"+ data.country + "/flat/64.png"
 
 
 
@@ -296,4 +298,4 @@ fetch('https://get.geojs.io/v1/ip/country.json')
 
 
 })}
-window.onload = flager;
+window.onload = flager();

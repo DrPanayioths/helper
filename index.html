@@ -24,16 +24,7 @@
 	$.getJSON("https://api.ipify.org/?format=json", function(data) {
 		$("#gfg").html(data.ip);
 	})
-	</script>
-
-<script>
-
-    $.getJSON("https://get.geojs.io/v1/ip/country.json", function(data) {
-        $("#countre").html(data.name);
- })
-
 </script>
-
 
 <script>
     $.getJSON("https://www.howsmyssl.com/a/check", function(data) {
@@ -59,7 +50,8 @@
             <div class="backbox2"></div>
             <div class="titlebox2">Country</div>
             <div id="countre" class="countrol">AdBlocked</div>
-            
+            <img id="flagimg" class="flagofcountrer" src="https://flagsapi.com/BE/shiny/64.png">            
+            <img id="flag2img" class="flag2" src="https://flagsapi.com/BE/shiny/64.png">            
         </div>
 
 
@@ -172,6 +164,13 @@
 <div class="downcat" id="catofdown">
     <div class="downlight" id="lightthedown">
 </div>
+
+<script>
+        window.onload = function () {
+        loader();
+    };
+</script>
+
 
 
 

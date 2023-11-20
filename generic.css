@@ -166,7 +166,7 @@ PC Version
 .countrol {
     position: absolute;
     top: 43px;
-    right: 80px;
+    right: 82px;
     color: white;
     font-family: 'REM', sans-serif;
 }
@@ -174,7 +174,7 @@ PC Version
 .backbox2 {
     position: absolute;
     width: 130px;
-    right: 40px;
+    right: 43px;
     bottom: 13px;
     height: 30px;
     top: 37px;
@@ -747,4 +747,22 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     left: 95px;
     top: 25px;
     font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+/* Country Flag Before Output */
+
+.flagofcountrer {
+    position: absolute;
+    height: 40px;
+    width: auto;
+    top: 32px;
+    left: 5px
+}
+
+.flag2 {
+    position: absolute;
+    height: 40px;
+    width: auto;
+    top: 32px;
+    right: 1px
 }
