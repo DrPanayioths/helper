@@ -265,7 +265,18 @@ function radiocont() {
       else if ( countrex === "France") {
         radiosystem.src = "https://str1.openstream.co/589?aw_0_1st.collectionid%3D3139%26stationId%3D3139%26publisherId%3D613%26k%3D1700166236"
       }
-
+      else if ( countrex === "Italy") {
+        radiosystem.src = "https://icstream.rds.radio/rds"
+      }
+      else if ( countrex === "India") {
+        radiosystem.src = "http://peridot.streamguys.com:7150/Mirchi"
+      }
+      else if ( countrex === "Mexico") {
+        radiosystem.src = "https://soniceuropa.globalstream.pro/7326/;"
+      }
+      else if ( countrex === "Afghanistan") {
+        radiosystem.src = "https://stream.radiosrood.com/"
+      }
 
 
 
@@ -276,7 +287,7 @@ window.onload = radiocont();
 
 
 
-      // Flag System For Countrys
+// Flag System For Countrys
 
 function flager() {
 
@@ -299,3 +310,12 @@ function flager() {
 
 })}
 window.onload = flager();
+
+
+
+
+// Cookie Clicker
+
+function redirectgame() {
+  window.location.href = "https://drpanayioths.github.io/helper/Cookie/game.html";
+}

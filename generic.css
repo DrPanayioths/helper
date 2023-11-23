@@ -191,7 +191,7 @@ PC Version
 }
 
 body {
-background: linear-gradient(to right, #ddd089, #ccbe70)
+background: linear-gradient(to right, #ddd089, #ccbe70);
 }
 
 
@@ -721,7 +721,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     transform: rotate(270deg);
 }
 
-/* Countdown System */
+/* Cookie Clicker */
 
 .box10 {
     position: absolute;
@@ -742,12 +742,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     font-family: 'Gabarito', sans-serif;
 }
 
-.countdis {
-    position: absolute;
-    left: 95px;
-    top: 25px;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-}
+
 
 /* Country Flag Before Output */
 
@@ -765,4 +760,42 @@ background: linear-gradient(to right, #ddd089, #ccbe70)
     width: auto;
     top: 32px;
     right: 1px
+}
+
+
+
+
+/* Cookie Clicker */
+
+.box10 {
+    position: absolute;
+    width: 100px;
+    background: linear-gradient(to left, #fffbe7, #fff3b0);
+    height: 150px;
+    top: 375px;
+    right: 10px;
+    border-radius: 10px;
+    width: 220px;
+    height: 80px;
+}
+
+.title_box10 {
+    position: absolute;
+    left: 65px;
+    top: 0.5px;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.gameplay {
+    position: absolute;
+    background-color: black;
+    color: white;
+    outline: rgb(134, 0, 0) solid 2px;
+    border: none;
+    top: 25px;
+    width: 200px;
+    left: 10px;
+    cursor: url("Cookie/Cookie.png"), auto;
+    height: 50px;
+    border-radius: 5px;
 }
