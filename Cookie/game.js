@@ -10,3 +10,9 @@
    window.onload = redirectIfMobile; 
 
 
+
+// Add Click Point Adder
+
+function detectclick() {
+  console.log("Left click detected!");
+}
