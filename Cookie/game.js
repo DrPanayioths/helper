@@ -14,5 +14,40 @@
 // Add Click Point Adder
 
 function detectclick() {
-  console.log("Left click detected!");
+  const counter = document.getElementById("count");
+  counter.innerHTML = parseInt(counter.innerHTML) + 1;
 }
+
+
+// UUID Gen
+
+function generateUUID() {
+  const hexChars = '0123456789abcdef';
+  const getRandomHex = (length) => {
+      let result = '';
+      for (let i = 0; i < length; i++) {
+          result += hexChars.charAt(Math.floor(Math.random() * 16));
+      }
+      return result;
+  };
+  return (
+      getRandomHex(8) + '-' +
+      getRandomHex(4) + '-' +
+      '4' + getRandomHex(3) + '-' +
+      hexChars.charAt(Math.floor(Math.random() * 4) + 8) + getRandomHex(3) + '-' +
+      getRandomHex(12)
+  );
+}
+
+// UUID For Each User
+var islocalstored = localStorage.getItem("UUID")
+function uuidgen()  {
+if (islocalstored) {
+}
+else {
+  const uuide = generateUUID();
+  localStorage.setItem("UUID", uuide);
+}
+
+}
+window.onload = uuidgen()

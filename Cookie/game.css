@@ -18,9 +18,11 @@ body {
 /* Cookie Roll */
 
 .cookieroll {
+    user-select: none;
     position: absolute;
-    right: 980px;
-    bottom: 350px;
+    right: 69%;
+    z-index: 2;
+    bottom: 300px;
     animation-name: rollcok;
     opacity: 0.9;
     animation-duration: 1s;
@@ -44,8 +46,8 @@ body {
 .infobox {
     position: absolute;
     top: 20px;
-    left: 7px;
     width: 300px;
+    text-align: center;
     height: 500px;
     background-color: rgb(202, 146, 41);
     z-index: 2;
@@ -63,4 +65,26 @@ body {
     left: 125px;
     z-index: 3;
     border-radius: 3px;
+}
+.textcokkie {
+    user-select: none;
+    position: absolute;
+    top: 290px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Vina Sans', sans-serif;
+    left: 145px;
+    z-index: 2;
+    border-radius: 3px;
+}
+
+.dontclickbox {
+    position: absolute;
+    top: 20px;
+    left: 7px;
+    width: 300px;
+    height: 500px;
+    z-index: 2;
+    border-radius: 5px;
+    z-index: 5;
 }
