@@ -14,3 +14,17 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.allwithone {
+    position: absolute;
+    top: 400px;
+    left: 705px;
+    border-radius: 5px;
+    width: 1300px;
+    font-family: 'Roboto', sans-serif;
+    height: 700px;
+    transform: translate(-50%, -50%);
+}
+
+.inputs {
+    position: absolute;
+}

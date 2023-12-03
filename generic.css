@@ -792,6 +792,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
     color: black;
     outline: rgb(58, 17, 17) solid 2px;
     border: none;
+    cursor: pointer;
     top: 25px;
     width: 200px;
     left: 10px;
