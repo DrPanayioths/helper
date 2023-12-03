@@ -7,17 +7,10 @@
     window.location.href = 'https://drpanayioths.github.io/helper/Mobile/notavailable.html';
      }
    }
-   window.onload = redirectIfMobile; 
+   window.onload = redirectIfMobile;
 
 
-
-// Add Click Point Adder
-
-function detectclick() {
-  const counter = document.getElementById("count");
-  counter.innerHTML = parseInt(counter.innerHTML) + 1;
-}
-
+  
 
 // UUID Gen
 
@@ -51,3 +44,4 @@ else {
 
 }
 window.onload = uuidgen()
+

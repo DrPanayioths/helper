@@ -388,7 +388,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
 .searchico {
     position: absolute;
     height: 35px;
-    bottom: 5px;
+    bottom: 6px;
     cursor: pointer;
     left: 460px;
 }
@@ -765,7 +765,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
 
 
 
-/* Cookie Clicker */
+/* Human Profiler */
 
 .box10 {
     position: absolute;
@@ -788,14 +788,13 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
 
 .gameplay {
     position: absolute;
-    background-color: black;
-    color: white;
-    outline: rgb(134, 0, 0) solid 2px;
+    background-color: rgb(207, 207, 207);
+    color: black;
+    outline: rgb(58, 17, 17) solid 2px;
     border: none;
     top: 25px;
     width: 200px;
     left: 10px;
-    cursor: url("Cookie/Cookie.png"), auto;
     height: 50px;
     border-radius: 5px;
 }

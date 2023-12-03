@@ -1,0 +1,16 @@
+body {
+    cursor: url("Cookie.png"), auto;
+    background-color: rgb(133, 87, 31);
+}
+
+.contbox{
+    position: absolute;
+    top: 400px;
+    left: 705px;
+    border-radius: 5px;
+    width: 1300px;
+    height: 700px;
+    background-color: rgb(216, 188, 155);
+    transform: translate(-50%, -50%);
+}
+

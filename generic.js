@@ -314,8 +314,8 @@ window.onload = flager();
 
 
 
-// Cookie Clicker
+// Data Redirect
 
-function redirectgame() {
-  window.location.href = "https://drpanayioths.github.io/helper/Cookie/game.html";
+function humancol() {
+  window.location.href = "https://drpanayioths.github.io/helper/HumanProfile/form.html";
 }
