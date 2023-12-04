@@ -1,30 +1,240 @@
 body {
-    cursor: url("Cookie.png"), auto;
-    background-color: rgb(133, 87, 31);
+  background-color: rgb(121, 121, 121);
 }
 
 .contbox{
-    position: absolute;
-    top: 400px;
-    left: 705px;
-    border-radius: 5px;
-    width: 1300px;
-    height: 700px;
-    background-color: rgb(216, 188, 155);
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 400px;
+  left: 705px;
+  border-radius: 5px;
+  width: 1300px;
+  height: 700px;
+  background-color: rgb(209, 209, 209);
+  transform: translate(-50%, -50%);
 }
 
-.allwithone {
-    position: absolute;
-    top: 400px;
-    left: 705px;
-    border-radius: 5px;
-    width: 1300px;
-    font-family: 'Roboto', sans-serif;
-    height: 700px;
-    transform: translate(-50%, -50%);
+
+
+
+
+
+
+.basicinfo {
+  user-select: none;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 50px;
+  left: 230px;
+  color: rgb(114, 114, 114);
 }
 
-.inputs {
-    position: absolute;
+.contract {
+  user-select: none;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 215px;
+  left: 200px;
+  color: rgb(114, 114, 114);
+}
+
+.bodyinfo {
+  user-select: none;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 335px;
+  left: 215px;
+  color: rgb(114, 114, 114);
+}
+
+
+/* Username */
+
+.input1 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 97px;
+  left: 30px;
+}
+.usern1 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 80px;
+  left: 30px;
+}
+
+/* Miidle Name */
+
+.input2 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 97px;
+  left: 230px;
+}
+
+.usern2 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 80px;
+  left: 230px;
+}
+
+/* Surname */
+
+.input3 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 97px;
+  left: 430px;
+}
+
+.usern3 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 80px;
+  left: 430px;
+}
+
+/* Telephone */
+
+.input4 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 280px;
+  left: 30px;
+}
+.usern4 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 260px;
+  left: 30px;
+}
+
+/* Email */
+
+.input8 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 280px;
+  left: 230px;
+}
+.usern8 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 260px;
+  left: 230px;
+}
+
+/* Discord */
+
+.input9 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 280px;
+  left: 430px;
+}
+.usern9 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 260px;
+  left: 430px;
+}
+
+/* ΑΦΜ */
+
+
+.input7 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 160px;
+  left: 30px;
+}
+.usern7 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 143px;
+  left: 30px;
+}
+
+/* GENISIS */
+
+
+.input5 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 160px;
+  left: 230px;
+  width: 170px;
+}
+.usern5 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 143px;
+  font-size: 15px;
+  left: 230px;
+}
+
+/* Age */
+
+.input6 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 160px;
+  left: 430px;
+}
+
+.usern6 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 143px;
+  left: 430px;
+}
+
+/* Height */
+
+
+.input10 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 390px;
+  left: 30px;
+}
+.usern10 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 370px;
+  left: 30px;
+}
+
+
+/* Weight */
+
+
+.input11 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 390px;
+  left: 230px;
+}
+.usern11 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 370px;
+  left: 230px;
+}
+
+/* Body Status */
+
+
+.input12 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 390px;
+  left: 430px;
+}
+.usern12 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 370px;
+  font-size: 15px;
+  left: 430px;
 }
