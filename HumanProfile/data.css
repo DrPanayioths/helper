@@ -53,6 +53,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 97px;
+  outline: none;
   left: 30px;
 }
 .usern1 {
@@ -68,6 +69,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 97px;
+  outline: none;
   left: 230px;
 }
 
@@ -84,6 +86,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 97px;
+  outline: none;
   left: 430px;
 }
 
@@ -92,6 +95,7 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 80px;
   left: 430px;
+  
 }
 
 /* Telephone */
@@ -101,6 +105,7 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 280px;
   left: 30px;
+  outline: none;
 }
 .usern4 {
   position: absolute;
@@ -116,6 +121,7 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 280px;
   left: 230px;
+  outline: none;
 }
 .usern8 {
   position: absolute;
@@ -129,6 +135,7 @@ body {
 .input9 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
+  outline: none;
   top: 280px;
   left: 430px;
 }
@@ -147,12 +154,14 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 160px;
   left: 30px;
+  outline: none;
 }
 .usern7 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 143px;
   left: 30px;
+  
 }
 
 /* GENISIS */
@@ -160,6 +169,7 @@ body {
 
 .input5 {
   position: absolute;
+  outline: none;
   font-family: 'Roboto', sans-serif;
   top: 160px;
   left: 230px;
@@ -177,6 +187,7 @@ body {
 
 .input6 {
   position: absolute;
+  outline: none;
   font-family: 'Roboto', sans-serif;
   top: 160px;
   left: 430px;
@@ -195,6 +206,7 @@ body {
 .input10 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
+  outline: none;
   top: 390px;
   left: 30px;
 }
@@ -213,6 +225,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 390px;
+  outline: none;
   left: 230px;
 }
 .usern11 {
@@ -229,6 +242,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 390px;
+  outline: none;
   left: 430px;
 }
 .usern12 {

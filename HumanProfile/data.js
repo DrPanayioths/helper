@@ -45,3 +45,47 @@ else {
 }
 window.onload = uuidgen()
 
+// English Langague\
+
+function langchoser() {
+  fetch("https://get.geojs.io/v1/ip/country.json")
+  .then(count => count.json())
+  .then(data => { 
+    console.log(data.name);
+    if (data.name === "Greece") {
+      
+    } else {
+      const one = document.getElementById("1");
+      const two = document.getElementById("2");
+      const three = document.getElementById("3");
+      const four = document.getElementById("4");
+      const five = document.getElementById("5");
+      const six = document.getElementById("6");
+      const seven = document.getElementById("7");
+      const ten = document.getElementById("10");
+      const eleven = document.getElementById("11");
+      const twelve = document.getElementById("12");
+
+      one.innerHTML = "Name:"
+      two.innerHTML = "Middle Name:"
+      three.innerHTML = "Last Name:"
+      four.innerHTML = "Phone Number:"
+      five.innerHTML = "Birthday:"
+      six.innerHTML = "Age:"
+      seven.innerHTML = "Tax Number:"
+      ten.innerHTML = "Height:"
+      eleven.innerHTML = "Weight:"
+      twelve.innerHTML = "Body Status:"
+
+      const basic = document.getElementById("basicin");
+      const con = document.getElementById("coninfo");
+      const bod = document.getElementById("bodyinf");
+
+      basic.innerHTML = "Basic Information:"
+      con.innerHTML = "Contact Information:"
+      bod.innerHTML = "Body Information:"
+
+    }
+  });
+
+}
