@@ -45,15 +45,14 @@ else {
 }
 window.onload = uuidgen()
 
-// English Langague\
+// English Langague
 
 function langchoser() {
   fetch("https://get.geojs.io/v1/ip/country.json")
   .then(count => count.json())
   .then(data => { 
-    console.log(data.name);
     if (data.name === "Greece") {
-      console.log(data.name);
+      
     } else {
       const one = document.getElementById("1");
       const two = document.getElementById("2");
@@ -96,7 +95,7 @@ window.onload = langchoser();
 
 
 
-// Age Automatticaly Count
+// Age Automatticaly Count From Birthday
 
 function agecalc() {
   const xronia = new Date().getFullYear();

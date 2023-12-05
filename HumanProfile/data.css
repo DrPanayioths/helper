@@ -17,7 +17,7 @@ body {
 
 
 
-
+/* Titles Section */
 
 .basicinfo {
   user-select: none;
@@ -45,6 +45,15 @@ body {
   left: 215px;
   color: rgb(114, 114, 114);
 }
+
+
+
+
+
+
+
+
+
 
 
 /* Username */
@@ -164,7 +173,7 @@ body {
   
 }
 
-/* GENISIS */
+/* Birth */
 
 
 .input5 {
