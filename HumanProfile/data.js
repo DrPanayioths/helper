@@ -53,7 +53,7 @@ function langchoser() {
   .then(data => { 
     console.log(data.name);
     if (data.name === "Greece") {
-      
+      console.log(data.name);
     } else {
       const one = document.getElementById("1");
       const two = document.getElementById("2");
@@ -82,10 +82,27 @@ function langchoser() {
       const bod = document.getElementById("bodyinf");
 
       basic.innerHTML = "Basic Information:"
+      basic.style.left = "240px";
       con.innerHTML = "Contact Information:"
+      con.style.left = "240px";
       bod.innerHTML = "Body Information:"
+      bod.style.left = "240px";
+      
 
     }
   });
+}
+window.onload = langchoser();
 
+
+
+// Age Automatticaly Count
+
+function agecalc() {
+  const xronia = new Date().getFullYear();
+  const birtdh = new Date(document.getElementById("birthday").value).getFullYear();
+  const agecalc = xronia - birtdh;
+  console.log(agecalc);
+  const ageinsert = document.getElementById("age");
+  ageinsert.value = agecalc;
 }
