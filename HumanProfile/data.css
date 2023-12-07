@@ -152,8 +152,18 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 260px;
+
   left: 430px;
 }
+
+.input9::-webkit-outer-spin-button,
+.input9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
 
 /* ΑΦΜ */
 
@@ -171,6 +181,12 @@ body {
   top: 143px;
   left: 30px;
   
+}
+
+.input7::-webkit-outer-spin-button,
+.input7::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 /* Birth */

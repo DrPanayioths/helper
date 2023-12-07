@@ -39,13 +39,13 @@
             <input class="input3" type="text" id="surname" name="surname" required>
             <input class="input4" type="text" id="telephonen" name="telephonen" required>
             <input class="input5" type="date" id="birthday" onchange="agecalc()" name="birthday" required>
-            <input class="input6" type="number" id="age" name="age" readonly="true" required>
-            <input class="input7" type="text" id="TaxNumber" name="TaxNumber" required>
+            <input class="input6" type="number" max="120" id="age" name="age" readonly="true" required>
+            <input class="input7" type="number" id="TaxNumber" name="TaxNumber" required>
             <input class="input8" type="email" id="Email" name="Email" required>
-            <input class="input9" type="text" id="Discord" name="Discord" required>
-            <input class="input10" type="text" id="height" name="height" required>
-            <input class="input11" type="text" id="weight" name="weight" required>
-            <input class="input12" type="text" id="status" name="status" required>
+            <input class="input9" type="number" id="Discord" name="Discord" required>
+            <input class="input10" placeholder="Centimeters (Ex. 1.70)" type="number" max="2.30" id="height" onchange="bmi()" name="height" required>
+            <input class="input11" type="number" placeholder="Kilograms (Ex. 200)" max="300" id="weight" onchange="bmi()" name="weight" required>
+            <input class="input12" type="text" id="status" readonly="true" name="status" required>
 
 
 

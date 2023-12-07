@@ -87,7 +87,7 @@ function langchoser() {
       bod.innerHTML = "Body Information:"
       bod.style.left = "240px";
       
-
+    
     }
   });
 }
@@ -104,4 +104,26 @@ function agecalc() {
   console.log(agecalc);
   const ageinsert = document.getElementById("age");
   ageinsert.value = agecalc;
+}
+
+
+// BMI Calc That Show Body Status
+
+function bmi() { 
+  const height = document.getElementById("height").value;
+  const weight = document.getElementById("weight").value;
+  const areyouweight = weight / (height * height);
+  const status = document.getElementById("status");
+
+  if (areyouweight < 18.5) 
+  status.value = "UnderWeight"; 
+
+  else if (areyouweight >= 18.5 && areyouweight < 24.9) 
+  status.value = "Healthy"; 
+
+  else if (areyouweight >= 24.9 && areyouweight < 30) 
+  status.value = "OverWeight"; 
+
+  else if (areyouweight >= 30) 
+  status.value = "Obesity"; 
 }
