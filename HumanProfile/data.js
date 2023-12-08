@@ -127,3 +127,28 @@ function bmi() {
   else if (areyouweight >= 30) 
   status.value = "Obesity"; 
 }
+
+
+
+// Generate Text Input
+function generateText() {
+  var input1Value = document.getElementById('input1').value;
+  var input2Value = document.getElementById('input2').value;
+  var input3Value = document.getElementById('input3').value;
+  var input4Value = document.getElementById('input4').value;
+  var input5Value = document.getElementById('input5').value;
+  var input6Value = document.getElementById('input6').value;
+  var input7Value = document.getElementById('input7').value;
+  var input8Value = document.getElementById('input8').value;
+  var input9Value = document.getElementById('input9').value;
+  var input10Value = document.getElementById('input10').value;
+  var input11Value = document.getElementById('input11').value;
+  var input12Value = document.getElementById('input12').value;
+
+  var data = `Name: ${input1Value}\nMiddle_Name: ${input2Value}\nSurname: ${input3Value}\nTelephone Number: ${input4Value}\nBirthday: ${input5Value}\nAge: ${input6Value}\nTaxNumber: ${input7Value}\nEmail: ${input8Value}\nDiscord: ${input9Value}\nHeight: ${input10Value}\nWeight: ${input11Value}\nBody Status: ${input12Value}\n`;
+  
+
+
+  
+}
+

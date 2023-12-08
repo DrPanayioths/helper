@@ -277,3 +277,13 @@ body {
   font-size: 15px;
   left: 430px;
 }
+
+
+/* Submit System */
+
+.subthetext {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+}
