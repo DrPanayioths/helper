@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="data.css">
     <script src="data.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <div class="contbox">
 
-        <form autocomplete="off">
+
             <div id="basicin" class="basicinfo">ΒΑΣΙΚΕΣ ΠΛΗΡΟΦΟΡΙΕΣ</div>
             <div id="coninfo" class="contract">ΕΠΟΙΚΟΙΝΩΝΙΑΣ ΠΛΗΡΟΦΟΡΙΕΣ</div>
             <div id="bodyinf" class="bodyinfo">ΣΩΜΑΤΙΚΕΣ ΠΛΗΡΟΦΟΡΙΕΣ</div>
@@ -37,21 +38,30 @@
             <input class="input1" type="text" id="username" name="username" required>
             <input class="input2" type="text" id="middlename" name="middlename">
             <input class="input3" type="text" id="surname" name="surname" required>
-            <input class="input4" type="text" id="telephonen" name="telephonen" required>
+            <input class="input4" type="number" id="telephonen" name="telephonen" required>
             <input class="input5" type="date" id="birthday" onchange="agecalc()" name="birthday" required>
             <input class="input6" type="number" max="120" id="age" name="age" readonly="true" required>
             <input class="input7" type="number" id="TaxNumber" name="TaxNumber" required>
             <input class="input8" type="email" id="Email" name="Email" required>
-            <input class="input9" type="number" id="Discord" onchange="discord()" name="Discord" required>
+            <input class="input9" type="number" id="Discord" name="Discord" required>
             <input class="input10" placeholder="Centimeters (Ex. 1.70)" type="number" id="height" onchange="bmi()" name="height" required>
             <input class="input11" type="number" placeholder="Kilograms (Ex. 200)" max="300" id="weight" onchange="bmi()" name="weight" required>
             <input class="input12" type="text" id="status" readonly="true" name="status" required>
 
 
-            <button onclick="generateText()" id="" class="subthetext"></button>
+            <!--- Submit And Output-->
+            <button onclick="generateText()" id="lol" class="subthetext">Submit</button>
+            <textarea class="finalform" id="finalf" type="text" readonly="true"></textarea>
 
             
-        </form>
+            <!-- Back Section-->
+            <div class="backofhomeplace">
+            <img class="backhome" src="/helper/icons/back_h.png">
+            <div class="texthome">Home</div>
+            <a href="https://drpanayioths.github.io/helper/" class="redircterboxofhome"></a>
+
+            
+
 
 
 

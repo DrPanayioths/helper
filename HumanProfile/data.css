@@ -24,7 +24,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 50px;
-  left: 230px;
+  left: 580px;
   color: rgb(114, 114, 114);
 }
 
@@ -33,7 +33,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 215px;
-  left: 200px;
+  left: 555px;
   color: rgb(114, 114, 114);
 }
 
@@ -42,7 +42,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 335px;
-  left: 215px;
+  left: 570px;
   color: rgb(114, 114, 114);
 }
 
@@ -63,13 +63,13 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 97px;
   outline: none;
-  left: 30px;
+  left: 380px;
 }
 .usern1 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 80px;
-  left: 30px;
+  left: 380px;
 }
 
 /* Miidle Name */
@@ -79,14 +79,14 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 97px;
   outline: none;
-  left: 230px;
+  left: 580px;
 }
 
 .usern2 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 80px;
-  left: 230px;
+  left: 580px;
 }
 
 /* Surname */
@@ -96,14 +96,14 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 97px;
   outline: none;
-  left: 430px;
+  left: 770px;
 }
 
 .usern3 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 80px;
-  left: 430px;
+  left: 770px;
   
 }
 
@@ -113,14 +113,14 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 280px;
-  left: 30px;
+  left: 380px;
   outline: none;
 }
 .usern4 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 260px;
-  left: 30px;
+  left: 380px;
 }
 
 /* Email */
@@ -129,14 +129,14 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 280px;
-  left: 230px;
+  left: 575px;
   outline: none;
 }
 .usern8 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 260px;
-  left: 230px;
+  left: 575px;
 }
 
 /* Discord */
@@ -146,14 +146,13 @@ body {
   font-family: 'Roboto', sans-serif;
   outline: none;
   top: 280px;
-  left: 430px;
+  left: 770px;
 }
 .usern9 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 260px;
-
-  left: 430px;
+  left: 770px;
 }
 
 .input9::-webkit-outer-spin-button,
@@ -172,14 +171,14 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 160px;
-  left: 30px;
+  left: 380px;
   outline: none;
 }
 .usern7 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 143px;
-  left: 30px;
+  left: 380px;
   
 }
 
@@ -197,7 +196,7 @@ body {
   outline: none;
   font-family: 'Roboto', sans-serif;
   top: 160px;
-  left: 230px;
+  left: 575px;
   width: 170px;
 }
 .usern5 {
@@ -205,7 +204,7 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 143px;
   font-size: 15px;
-  left: 230px;
+  left: 570px;
 }
 
 /* Age */
@@ -215,14 +214,14 @@ body {
   outline: none;
   font-family: 'Roboto', sans-serif;
   top: 160px;
-  left: 430px;
+  left: 770px;
 }
 
 .usern6 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 143px;
-  left: 430px;
+  left: 770px;
 }
 
 /* Height */
@@ -233,13 +232,13 @@ body {
   font-family: 'Roboto', sans-serif;
   outline: none;
   top: 390px;
-  left: 30px;
+  left: 380px;
 }
 .usern10 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 370px;
-  left: 30px;
+  left: 380px;
 }
 
 
@@ -251,13 +250,13 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 390px;
   outline: none;
-  left: 230px;
+  left: 575px;
 }
 .usern11 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 370px;
-  left: 230px;
+  left: 575px;
 }
 
 /* Body Status */
@@ -268,22 +267,71 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 390px;
   outline: none;
-  left: 430px;
+  left: 770px;
 }
 .usern12 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 370px;
   font-size: 15px;
-  left: 430px;
+  left: 770px;
 }
 
 
-/* Submit System */
+
+
+/* Submit System And Final Shower */
 
 .subthetext {
   position: absolute;
-  width: 100px;
+  width: 200px;
+  height: 50px;
+  top: 450px;
+  left: 560px;
+}
+
+
+.finalform {
+  position: absolute;
+  width: 700px;
   height: 100px;
-  top: 100px;
+  bottom: 10px;
+  left: 320px;
+  font-size: 11px;
+  font-family: 'Oswald', sans-serif;
+  outline: 1px solid rgb(68, 68, 2);
+}
+
+
+
+/* Home Button */
+.backhome {
+  position: absolute;
+  height: auto;
+  width: 35px;
+}
+
+.backofhomeplace {
+  position: absolute;
+  background-color: black;
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.texthome {
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: white;
+  user-select: none;
+  left: 35px;
+}
+
+.redircterboxofhome {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  z-index: 2;
 }

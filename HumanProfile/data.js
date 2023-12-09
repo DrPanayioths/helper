@@ -101,7 +101,6 @@ function agecalc() {
   const xronia = new Date().getFullYear();
   const birtdh = new Date(document.getElementById("birthday").value).getFullYear();
   const agecalc = xronia - birtdh;
-  console.log(agecalc);
   const ageinsert = document.getElementById("age");
   ageinsert.value = agecalc;
 }
@@ -132,23 +131,27 @@ function bmi() {
 
 // Generate Text Input
 function generateText() {
-  var input1Value = document.getElementById('input1').value;
-  var input2Value = document.getElementById('input2').value;
-  var input3Value = document.getElementById('input3').value;
-  var input4Value = document.getElementById('input4').value;
-  var input5Value = document.getElementById('input5').value;
-  var input6Value = document.getElementById('input6').value;
-  var input7Value = document.getElementById('input7').value;
-  var input8Value = document.getElementById('input8').value;
-  var input9Value = document.getElementById('input9').value;
-  var input10Value = document.getElementById('input10').value;
-  var input11Value = document.getElementById('input11').value;
-  var input12Value = document.getElementById('input12').value;
+  var input1Value = document.getElementById('username').value;
+  var input2Value = document.getElementById('middlename').value;
+  var input3Value = document.getElementById('surname').value;
+  var input4Value = document.getElementById('telephonen').value;
+  var input5Value = document.getElementById('birthday').value;
+  var input6Value = document.getElementById('age').value;
+  var input7Value = document.getElementById('TaxNumber').value;
+  var input8Value = document.getElementById('Email').value;
+  var input9Value = document.getElementById('Discord').value;
+  var input10Value = document.getElementById('height').value;
+  var input11Value = document.getElementById('weight').value;
+  var input12Value = document.getElementById('status').value;
 
-  var data = `Name: ${input1Value}\nMiddle_Name: ${input2Value}\nSurname: ${input3Value}\nTelephone Number: ${input4Value}\nBirthday: ${input5Value}\nAge: ${input6Value}\nTaxNumber: ${input7Value}\nEmail: ${input8Value}\nDiscord: ${input9Value}\nHeight: ${input10Value}\nWeight: ${input11Value}\nBody Status: ${input12Value}\n`;
-  
+  var finaloutpot = "Name: " + input1Value + " Middle_Name: " + input2Value + " Surname: " + input3Value + " Telephone Number: " + input4Value + " Birthday: " + input5Value + " Age: " + input6Value + "TaxNumber: " + input7Value + " Email: " + input8Value + " Discord: " + input9Value + " Height: " + input10Value + " Weight: " + input11Value + " Body Status: " + input12Value;
 
 
-  
+  var final = document.getElementById("finalf");
+  console.log(finaloutpot);
+  final.value = finaloutpot;
+
+
 }
+
 
