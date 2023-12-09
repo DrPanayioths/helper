@@ -16,7 +16,7 @@
 
 ## Contributing
 
-We welcome contributions from the open-source community to make Helper even better. To get started:
+We Welcome contributions from the open-source community to make Helper even better. To get started:
 
 1. 🍴 Fork the repository on GitHub.
 2. 🌿 Create a new branch with a descriptive name.

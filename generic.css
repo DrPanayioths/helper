@@ -476,6 +476,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
     font-family: 'Gabarito', sans-serif;
     right: 80px;
     top: 190px;
+    user-select: none;
 }
 
 .tite5 {

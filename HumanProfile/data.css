@@ -313,7 +313,7 @@ body {
 
 .backofhomeplace {
   position: absolute;
-  background-color: black;
+  background-color: rgb(24, 24, 24);
   width: 100px;
   height: 30px;
   border-radius: 3px;
@@ -322,10 +322,11 @@ body {
 .texthome {
   position: absolute;
   font-family: 'Oswald', sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   color: white;
   user-select: none;
   left: 35px;
+  top: 1.3px;
 }
 
 .redircterboxofhome {
