@@ -93,13 +93,15 @@ window.onload = uuidgen()
  // Function to check if the user is on a mobile device
  function isMobileDevice() {
   return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
- }
+}
  function redirectIfMobile() {
   if (isMobileDevice()) {
   window.location.href = 'https://drpanayioths.github.io/helper/Mobile/notavailable.html';
    }
  }
- window.onload = redirectIfMobile; 
+ window.onload = redirectIfMobile();
+ window.onload = isMobileDevice();
+
    
 
 // Downlight
@@ -138,9 +140,8 @@ function bitcola() {
     const field = document.getElementById("cryptoshow");
     const convetareto = Math.round(data.bpi.EUR.rate_float * 2) / 1000;
     const cryptoname = document.getElementById("whatcrypto");
-    field.textContent = "€ " + convetareto 
+    field.value = "€ " + convetareto 
     cryptoname.textContent =  "BTC"
-    field.style.left = "67px";
 
 
   });
@@ -158,9 +159,8 @@ function ethelarefile() {
     const price = document.getElementById("cryptoshow");
     const cname = document.getElementById("whatcrypto");
     const pricefinal = Math.round(data.EUR * 1) / 1000;
-    price.textContent = "€ " + pricefinal
+    price.value = "€ " + pricefinal
     cname.textContent =  "ETH"
-    price.style.left = "78px";
   });
 
 }
@@ -175,7 +175,8 @@ function weathercollection() {
     .then(response => response.text())
     .then(data => {
       const showka = document.getElementById("respo");
-      showka.textContent = data;
+      showka.value = data;
+
     });
   
 }

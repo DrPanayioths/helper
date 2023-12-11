@@ -549,7 +549,11 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
     position: absolute;
     font-family: 'REM', sans-serif;
     top: 30px;
-    left: 67px;
+    left: 60px;
+    width: 80px;
+    border: none;
+    background: linear-gradient(to left, #fffbe7, #fffbe6);
+    text-align: center;
 }
 
 .cryptoname {
@@ -655,8 +659,13 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
 
 .response {
     position: absolute;
-    left: 7%;
+    left: 5%;
     top: 28%;
+    background-color: transparent;
+    outline: none;
+    text-align: center;
+    border: none;
+    width: 190px;
     font-size: 14px;
     font-family: 'Gabarito', sans-serif;
 }
