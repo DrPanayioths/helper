@@ -13,6 +13,7 @@ function psifosep() {
     const inpa = prompt("Write Your Favourite Operating System:");
     alert("Perfect! Your Favourite Operating System Is: " + inpa);
     localStorage.setItem("vote", "true");
+    localStorage.setItem("Vote_Value", inpa)
     }
   }
 

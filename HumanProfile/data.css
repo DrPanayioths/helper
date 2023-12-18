@@ -287,7 +287,9 @@ body {
   width: 200px;
   height: 50px;
   top: 450px;
+  border-radius: 20px;
   left: 560px;
+  cursor: pointer;
 }
 
 
@@ -297,9 +299,11 @@ body {
   height: 100px;
   bottom: 10px;
   left: 320px;
+  border-radius: 5px;
   font-size: 11px;
+  resize: none;
   font-family: 'Oswald', sans-serif;
-  outline: 1px solid rgb(68, 68, 2);
+
 }
 
 
@@ -308,24 +312,27 @@ body {
 .backhome {
   position: absolute;
   height: auto;
-  width: 35px;
+  width: 30px;
 }
 
 .backofhomeplace {
   position: absolute;
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(179, 177, 177);
   width: 100px;
   height: 30px;
-  border-radius: 3px;
+  top: 4px;
+  left: 3px;
+  opacity: 1;
+  border-radius: 15px;
 }
 
 .texthome {
   position: absolute;
   font-family: 'Oswald', sans-serif;
-  font-size: 19px;
+  font-size: 18px;
   color: white;
   user-select: none;
-  left: 35px;
+  left: 30px;
   top: 1.3px;
 }
 

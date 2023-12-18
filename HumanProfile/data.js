@@ -81,13 +81,14 @@ function langchoser() {
       const bod = document.getElementById("bodyinf");
 
       basic.innerHTML = "Basic Information:"
-      basic.style.left = "240px";
+      basic.style.left = "593px";
       con.innerHTML = "Contact Information:"
-      con.style.left = "240px";
+      con.style.left = "585px";
       bod.innerHTML = "Body Information:"
-      bod.style.left = "240px";
+      bod.style.left = "593px";
       
-    
+      const heightplacehold = document.getElementById("height");
+      const weightplaceholda = document.getElementById("weight");
     }
   });
 }
