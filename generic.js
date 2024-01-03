@@ -298,9 +298,21 @@ function flager() {
   const flag1 = document.getElementById('flagimg')
   const flag2 = document.getElementById('flag2img')
 
-  countryname.textContent = data.name
+
+
+
+  countryname.style.fontSize = "18px";
+  countryname.style.textAlign = "center";
+  countryname.style.outline = "none";
+  countryname.value = data.name;
+
   flag1.src = "https://flagsapi.com/"+ data.country + "/flat/64.png"
   flag2.src = "https://flagsapi.com/"+ data.country + "/flat/64.png"
+
+
+
+  
+
 
 
 
