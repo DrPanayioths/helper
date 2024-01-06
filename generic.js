@@ -331,3 +331,31 @@ window.onload = flager();
 function humancol() {
   window.location.href = "https://drpanayioths.github.io/helper/HumanProfile/form.html";
 }
+
+
+// IP Detector
+function ipair() {
+  fetch('https://api.ipify.org/?format=json')
+  .then (ipe => ipe.json())
+  .then(data => {
+
+    const ip = document.getElementById("ipaka");
+    ip.value = data.ip;
+  });
+
+}
+
+window.onload = ipair();
+
+
+// TLS Version
+function tlsc() {
+  fetch('https://www.howsmyssl.com/a/check')
+  .then (tls => tls.json())
+  .then(data => {
+    const ttl = document.getElementById("tll_v");
+    ttl.value = data.tls_version;
+  });
+}
+
+window.onload = tlsc();

@@ -20,17 +20,7 @@
 
 </head>
 
-<script>
-	$.getJSON("https://api.ipify.org/?format=json", function(data) {
-		$("#gfg").html(data.ip);
-	})
-</script>
 
-<script>
-    $.getJSON("https://www.howsmyssl.com/a/check", function(data) {
-        $("#tlls").html(data.tls_version);
-    })
-</script>
 
 
 
@@ -63,7 +53,7 @@
         <div class="boxinforer">
             <div class="backips"></div>
             <div class="titleip">Your IP</div>
-            <div class="ips" id="gfg">AdBlocked</div> 
+            <input class="ips" id="ipaka" readonly="true"></input>
         </div>
 
 
@@ -107,11 +97,11 @@
 
 
 
- 
+<!-- TTL Version -->
 
 
     <div class="divver">TLS Version</div>
-    <div class="tllvl" id="tlls">AdBlocked</div>
+    <input class="tllvl" id="tll_v" readonly="true">
 
 
     
@@ -151,7 +141,7 @@
 <!-- AdBlock Warning -->
 
 
-<div class="adblocks">Disable AD Blocker For The Site To Function Properly.</div>
+<div class="adblocks">IF Something Is Not Functional, Disable Adblocker</div>
 
 
 

@@ -5,7 +5,7 @@
 PC Version
 */
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 451px) {
 
     .boxinforer {
         background-color: white;
@@ -87,9 +87,16 @@ PC Version
 
 .ips {
     position: absolute;
-    top: 43px;
-    right: 79px;
+    top: 40px;
+    right: 40px;
     align-items: center;
+    width: 140px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 18px;
+    height: 23px;
+    border: none;
+    outline: none;
     color: white;
     font-family: 'REM', sans-serif;
 }    
@@ -292,26 +299,6 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
     top: 210px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* PC VERSION */
-
-
-
-
-@media only screen and (min-width: 451px) {
 .gitdrpanayioths {
     position: absolute;
     left: 12px;
@@ -348,25 +335,31 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
     width: 220px;
 }
 
-
+/* TLL Version */
 
 
 .tllvl {
     position: absolute;
     font-size: 18px;
-    top: 214px;
-    left: 82px;
+    top: 213px;
+    left: 43px;
+    height: 24px;
+    width: 140px;
+    background-color: transparent;
     color: white;
+    border: none;
+    text-align: center;
+    outline: none;
     font-family: 'REM', sans-serif;
 }
 
 
 .divver {
     position: absolute;
-    top: 182px;
+    top: 183px;
     font-family: 'REM', sans-serif;
     font-size: 16px;
-    left: 68px;
+    left: 70px;
 }
 
 /* QR CATEGORY PC */
@@ -490,7 +483,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
     color: black;
     font-family: 'REM', sans-serif;
 }
-}
+
 
 .adblocks { 
     -webkit-touch-callout: none;
