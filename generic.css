@@ -29,25 +29,7 @@ PC Version
         width: 100;
         height: 50px;
         border-radius: 10px;
-        
-    }
     
-    .madedrp {
-        color: white;
-        font-size: 18px;
-        position: absolute;
-        right: 19px;
-        top: 23px;
-    }
-    
-    .backdrp {
-        position: absolute;
-        right: 12px;
-        top: 15px;
-        border-radius: 10px;
-        width: 140px;
-        height: 35px;
-    }    
 }
     
 .titleip {
@@ -149,26 +131,24 @@ PC Version
     position: absolute;
     left: 14px;
     top: 14px;
-    border-radius: 30px;
+    border-radius: 18px;
     background: linear-gradient(to right, #36C6FF , #29e9df);
-    width: 135px;
+    width: 140px;
     animation-name: colorasion;
     animation-duration: 2s;
     height: 40px;
 }
-
+    
 .madedrp {
     color: black;
     font-size: 18px;
     position: absolute;
-    left: 25px;
+    right: 19px;
+    left: 35px;
+    z-index: 3;
     top: 22px;
     font-family: 'REM', sans-serif;
-        
-    
-
-
-    }
+}
 
 .countrol {
     position: absolute;
@@ -235,6 +215,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
     width: 10px;
     left: 12px;
     font-size: 20.7px;
+    z-index: 5;
     top: 11px;
     animation-name: musicplay;
     animation-duration: 5s;
@@ -306,8 +287,18 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
     z-index: 10;
     user-select: none;
     border-radius: 10px;
-    width: 140px;
+    width: 150px;
     height: 40px;
+}
+
+.gitdrpimg {
+    position: absolute;
+    z-index: 2;
+    top: 25px;
+    left: 10px;
+    width: auto;
+    height: 16px;
+    rotate: 270deg;
 }
 
 
@@ -804,4 +795,5 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
     left: 10px;
     height: 50px;
     border-radius: 5px;
+}
 }
