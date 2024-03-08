@@ -156,6 +156,7 @@ PC Version
     right: 50px;
     width: 110px;
     color: white;
+    user-select: none;
     background-color: transparent;
     border: none;
     font-family: 'REM', sans-serif;

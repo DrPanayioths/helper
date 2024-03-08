@@ -1,29 +1,29 @@
 body {
-    background: linear-gradient(to right, rgb(16, 19, 15), rgb(43, 40, 41));
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(19, 16, 16));
 }
 
 .cointainer {
     font-size: 40px;
     height: 1px;
-    font-family: 'Rowdies', sans-serif;
+    font-family: "Rowdies", sans-serif;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 
 .title {
     width: auto;
     text-align: center;
-    left: 80px;
+    left: 60px;
     position: absolute;
+    font-family: "Bebas Neue", sans-serif;
     color: white;
 }
 .subtitle {
     position: absolute;
     color: white;
+    font-family: "Bebas Neue", sans-serif;
     width: auto;   
     top: 90px;
     font-size: 30px;
-    left: 100px;  
+    left: 140px;  
 }
 
 .drpanayioths {
