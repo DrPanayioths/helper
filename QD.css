@@ -1,8 +1,7 @@
 
 
 body {
-    background-color: #303030;
-    
+    background-image: url(/helper/icons/wp6344300\ \(1\).png)  
 }
 
 
@@ -11,6 +10,7 @@ body {
     width: 80%;
     height: 70px;;
     background-color: #1f1c1c;
+    opacity: .6 ;
     right: 12%;
     top: 50px;
     border-radius: 15px;
@@ -44,6 +44,7 @@ body {
     user-select: none;
     position: absolute;
     width: 300px;
+    opacity: 0.7;
     height: auto;
     top: 180px;
     z-index: 2;
@@ -59,6 +60,7 @@ body {
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+    opacity: 0.7;
     user-select: none;
     position: absolute;
     width: 340px;
@@ -84,6 +86,7 @@ body {
     width: 340px;
     height: 100px;
     top: 168px;
+    opacity: 0.7;
     z-index: 3;
     left: 13%;
     border-radius: 10px;
@@ -105,6 +108,7 @@ body {
     width: 400px;
     left: 10.5%;
     z-index: 2;
+    opacity: 0.7;
     top: 268px;
     animation-name: bbwin;
     animation-duration: 6s;
@@ -128,6 +132,7 @@ body {
     top: 300px;
     left: 13%;
     border-radius: 10px;
+    opacity: 0.7;
     animation-name: bbwin;
     animation-duration: 6s;
     
@@ -139,7 +144,7 @@ body {
     opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: .7;
   }
 }
 
@@ -172,6 +177,7 @@ body {
     height: 105px;
     left: 13%;
     top: 428px;
+    opacity: 0.7;
     z-index: 2;
     animation-name: bbwin;
     animation-duration: 8s;
@@ -186,6 +192,7 @@ body {
     user-select: none;
     position: absolute;
     width: 340px;
+    opacity: 0.7;
     height: 100px;
     background-color: #3f3f3f;
     top: 430px;
@@ -209,6 +216,7 @@ body {
     height: 100px;
     top: 430px;
     z-index: 3;
+    opacity: 0.7;
     left: 100px;
     border-radius: 10px;
     animation-name: bbwin;
@@ -267,6 +275,7 @@ body {
     outline: black solid 2px;
     width: 340px;
     height: 100px;
+    opacity: 0.7;
     background-color: #3f3f3f;
     top: 168px;
     right: 17%;
@@ -283,6 +292,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    opacity: 0.8;
     position: absolute;
     top: 165px;
     right: 18%;
@@ -301,6 +311,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    opacity: 0.7;
     position: absolute;
     width: 340px;
     height: 100px;
@@ -317,6 +328,7 @@ body {
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+    opacity: 0.7;
     user-select: none;
     position: absolute;
     outline: black solid 2px;
@@ -338,6 +350,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    opacity: 0.8;
     position: absolute;
     top: 253px;
     right: 15%;
@@ -351,6 +364,7 @@ body {
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
+    opacity: 0.7;
     -ms-user-select: none;
     user-select: none;
     position: absolute;
@@ -410,6 +424,7 @@ body {
     -ms-user-select: none;
     user-select: none;
     position: absolute;
+    opacity: 0.7;
     outline: black solid 2px;
     width: 340px;
     height: 100px;
@@ -430,6 +445,7 @@ body {
     -ms-user-select: none;
     user-select: none;
     position: absolute;
+    opacity: 0.7;
     top: 430px;
     right: 21%;
     animation-name: bbwin;
@@ -443,7 +459,7 @@ body {
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-
+    opacity: 0.7;
     user-select: none;
     position: absolute;
     width: 340px;
