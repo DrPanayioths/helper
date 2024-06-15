@@ -179,12 +179,14 @@ function weathercollection() {
     var weather_get = "https://api.brightsky.dev/weather?lat=" + latitude * 1000 / 1000 + "&lon=" + longitude * 1000 / 1000 + "&date="+ date.toISOString().slice(0, 10); 
     var display_field = document.getElementById("respo")
     fetch(weather_get)
-     .then(response => response.text())
+     .then(response => response.json())
      .then(data => {
-      
-      display_field.value = data.wind_speed + "💨"
+      var windSpeed = data.weather[1].wind_speed;
+      var tempature = data.weather[1].temperature;
+      display_field.value = "  " + tempature +  "℃ 🌡️               "  + windSpeed + " m/s 💨"
      })
     })
+    
   }
 
 
