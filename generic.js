@@ -36,7 +36,6 @@ function checkEnter(event) {
 
 function passwordareyouok() {
 	const passwordInput = document.getElementById("passwordInput");
-	const passworddinami = document.getElementById("passwordStrength");
 	const password = passwordInput.value;
 
 
@@ -130,7 +129,7 @@ window.onload = loader;
 
 
 // CryptoField
-// Bitcoine
+// Bitcoin
 function bitcola() {
 
 
@@ -169,17 +168,26 @@ function ethelarefile() {
 // Weather Display 
 function weathercollection() {
   var typecountry = prompt("City To See Weather");
-  var linker = 'https://wttr.in/' + typecountry + "?format=4";
+  var cords_provider = "https://geocode.maps.co/search?q=" + typecountry + "&api_key=666d62b99202b919832048pfk1f984c";
   
-  fetch(linker)
-    .then(response => response.text())
+  fetch(cords_provider)
+    .then(response => response.json())
     .then(data => {
-      const showka = document.getElementById("respo");
-      showka.value = data;
+      var longitude  = data[0].lon
+      var latitude = data[0].lat
+      var date = new Date();
+    var weather_get = "https://api.brightsky.dev/weather?lat=" + latitude * 1000 / 1000 + "&lon=" + longitude * 1000 / 1000 + "&date="+ date.toISOString().slice(0, 10); 
+    var display_field = document.getElementById("respo")
+    fetch(weather_get)
+     .then(response => response.text())
+     .then(data => {
+      
+      display_field.value = data.wind_speed + "💨"
+     })
+    })
+  }
 
-    });
-  
-}
+
 
 // Chill Music Buttton
 
