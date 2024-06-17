@@ -144,7 +144,7 @@ function bitcola() {
 
 
   });
-  loader();
+
 
   }
 window.onload = bitcola;
@@ -358,14 +358,13 @@ function ipair() {
 window.onload = ipair();
 
 
-// TLS Version
+// Resolution Counter
 function tlsc() {
-  fetch('https://www.howsmyssl.com/a/check')
-  .then (tls => tls.json())
-  .then(data => {
-    const ttl = document.getElementById("tll_v");
-    ttl.value = data.tls_version;
-  });
+    const drre = document.getElementById("resolution");
+    var final = window.screen.availWidth + " X " + window.screen.availHeight;
+    console.log(final);
+    drre.value = final;
+  
 }
 
 window.onload = tlsc();

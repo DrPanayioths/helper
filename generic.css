@@ -330,7 +330,7 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
 /* TLL Version */
 
 
-.tllvl {
+.resdata {
     position: absolute;
     font-size: 18px;
     top: 213px;
@@ -346,12 +346,12 @@ background: linear-gradient(to right, #ddd089, #ccbe70);
 }
 
 
-.divver {
+.screen_res {
     position: absolute;
     top: 183px;
     font-family: 'REM', sans-serif;
     font-size: 16px;
-    left: 70px;
+    left: 50px;
 }
 
 /* QR CATEGORY PC */
