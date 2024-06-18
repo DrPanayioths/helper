@@ -14,9 +14,15 @@ function qrbuilda() {
 	var linker = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + inport;
 
 	var pictu = document.getElementById("qrp");
-	pictu.src = linker;
+  if (inport === null || inport === "") {
+    alert("<Invalid Input> Type Something Before Creating QR")
+  } else {
+    pictu.src = linker;
+  }
 
 }	
+
+
 
 
 
