@@ -366,6 +366,3 @@ fetch('https://api.ipify.org/?format=json')
   console.log(final);
   drre.value = final;
 });
-
-
-console.log("vergil is trash")
