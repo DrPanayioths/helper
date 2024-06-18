@@ -359,12 +359,10 @@ window.onload = ipair();
 
 
 // Resolution Counter
-function tlsc() {
-    const drre = document.getElementById("resolution");
-    var final = window.screen.availWidth + " X " + window.screen.availHeight;
-    console.log(final);
-    drre.value = final;
-  
-}
-
-window.onload = tlsc();
+fetch('https://api.ipify.org/?format=json')
+.then(data => {
+  const drre = document.getElementById("resolution");
+  var final = window.screen.availWidth + " X " + window.screen.availHeight;
+  console.log(final);
+  drre.value = final;
+});
