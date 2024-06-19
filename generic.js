@@ -12,12 +12,16 @@ function qrbuilda() {
 	var idz = document.getElementById("datra");
 	var inport = idz.value;
 	var linker = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + inport;
-
+  var back_qr = document.getElementById("back_bqr")
+  var qr_code = document.getElementById("qrp");
 	var pictu = document.getElementById("qrp");
+
   if (inport === null || inport === "") {
     alert("<Invalid Input> Type Something Before Creating QR")
   } else {
     pictu.src = linker;
+    qr_code.style.animationName = "smooth_qr";
+    back_qr.style.animationName = "smooth_qr";
   }
 
 }	

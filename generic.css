@@ -388,12 +388,14 @@ background-color: #91785D;
     -ms-user-select: none;
     user-select: none;
     position: absolute;
+    opacity: 0;
     bottom: 150px;
     left: 41%;
     width: 200px;
     height: 200px;
     z-index: 3;
-
+    animation: 1.7s;
+    animation-fill-mode: forwards;  
 }
 
 
@@ -405,8 +407,20 @@ background-color: #91785D;
     border-radius: 10px;
     z-index: 1;
     bottom: 143px;
+    opacity: 0;
     left: 40%;
     background-color: white;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;  
+}
+
+@keyframes smooth_qr {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
     
 }
 
