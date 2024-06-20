@@ -373,6 +373,32 @@ fetch('https://api.ipify.org/?format=json')
 .then(data => {
   const drre = document.getElementById("resolution");
   var final = window.screen.availWidth + " X " + window.screen.availHeight;
-  console.log(final);
   drre.value = final;
 });
+
+// Display After Some Seconds 
+setTimeout(function() {
+  var fastdown1 = document.getElementById("fastdown1");
+  var fastdownText = document.getElementById("fastdown_text");
+  var backdrp = document.getElementById("back_drp");
+  var madedrp = document.getElementById("madedrp");
+  var git_text = document.getElementById("git_drpanayioths");
+  var git_image = document.getElementById("git_drpanayioths_img");
+
+  backdrp.style.display = "block";
+  fastdown1.style.display = "block";
+  fastdownText.style.display = "block";
+  madedrp.style.display = "block";
+  git_text.style.display = "block";
+  git_image.style.display = "block";
+
+  setTimeout(function() {
+      fastdown1.classList.add("visible");
+      fastdownText.classList.add("visible");
+      back_drp.classList.add("visible");
+      madedrp.classList.add("visible");
+      git_text.classList.add("visible");
+      git_image.classList.add("visible");
+  
+  }, 100);
+}, 5000);

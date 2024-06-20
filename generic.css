@@ -21,16 +21,6 @@ PC Version
     }
 
 
-
-
-    
-    .nav {
-        background-color: black;
-        width: 100;
-        height: 50px;
-        border-radius: 10px;
-    
-}
     
 .titleip {
     position: absolute;
@@ -96,20 +86,30 @@ PC Version
     
     }
     
-.nav {
-    background: linear-gradient(to right, rgba(70, 69, 69, 0.315),rgba(70, 69, 69, 0.411));
-    width: 100;
-    height: 50px;
-    border-radius: 30px;
+    .nav {
+        background: linear-gradient(to right, rgba(70, 69, 69, 0.315),rgba(70, 69, 69, 0.411));
+        width: 60%;
+        position: absolute;
+        right: 250px;
+        height: 50px;
+        border-radius: 30px;
+        animation-name: nav_open;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+        }
         
+    @keyframes nav_open {
+        100% {
+            position: unset;
+            right: unset;
+            width: 100%;
+        }
     }
-    
 
 
 
 .imageback {
     position: absolute;
-    
     right: 1px;
     bottom: 1px;
 }
@@ -131,13 +131,20 @@ PC Version
     left: 14px;
     top: 14px;
     border-radius: 18px;
+    font-family: 'REM', sans-serif;
     background: linear-gradient(to right, #36C6FF , #29e9df);
     width: 140px;
-    animation-name: colorasion;
-    animation-duration: 2s;
     height: 40px;
+    opacity: 0;
+    display: none;
+    transition: opacity 1s;
 }
-    
+
+.backdrp.visible {
+    display: block;
+    opacity: 1;
+}
+
 .madedrp {
     color: black;
     font-size: 18px;
@@ -147,7 +154,25 @@ PC Version
     z-index: 3;
     top: 22px;
     font-family: 'REM', sans-serif;
+    opacity: 0;
+    display: none;
+    transition: opacity 1s;
 }
+
+.madedrp.visible {
+    display: block;
+    opacity: 1;
+}
+
+@keyframes fade-in_DRP {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 .countrol {
     position: absolute;
@@ -200,9 +225,15 @@ background-color: #91785D;
     right: 12px;
     top: 10.5px;
     border-radius: 50px;
-
+    display: none;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
+.redirect_QuickDownload.visible {
+    display: block;
+    opacity: 1;
+}
 
 .browser {
     -webkit-touch-callout: none;
@@ -215,6 +246,7 @@ background-color: #91785D;
     width: 10px;
     left: 8px;
     font-size: 18px;
+    display: none;
     z-index: 5;
     top: 10px;
     animation-name: musicplay;
@@ -222,6 +254,13 @@ background-color: #91785D;
     animation-iteration-count: infinite;
     color: white;
     font-family: 'REM', sans-serif;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.browser.visible {
+    display: block;
+    opacity: 1;
 }
 
 
@@ -280,6 +319,7 @@ background-color: #91785D;
     top: 210px;
 }
 
+
 .gitdrpanayioths {
     position: absolute;
     left: 12px;
@@ -288,8 +328,18 @@ background-color: #91785D;
     user-select: none;
     border-radius: 10px;
     width: 150px;
+    font-family: 'REM', sans-serif;
     height: 40px;
+    opacity: 0;
+    transition: opacity 1s;
 }
+
+.gitdrpanayioths.visible {
+    display: block;
+    opacity: 1;
+}
+
+
 
 .gitdrpimg {
     position: absolute;
@@ -299,8 +349,14 @@ background-color: #91785D;
     width: auto;
     height: 16px;
     rotate: 270deg;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
+.gitdrpimg.visible {
+    display: block;
+    opacity: 1;
+}
 
 
 
