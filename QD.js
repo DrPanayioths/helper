@@ -6,25 +6,34 @@ document.cookie = "Connection Trust,value=Certified; path=/";
 
 
 function psifosep() {
-  var votecheckare = localStorage.getItem("vote")
-  var vote_data = localStorage.getItem("Vote_Value") 
-  if (vote_data === "null" || votecheckare === "false" || vote_data === null && votecheckare === null || vote_data === "" && votecheckare === "true") {
-    localStorage.setItem("vote", "false")
-    vote()
-  }
+  var votecheckare = localStorage.getItem("vote");
 
-  else if (votecheckare === "true") {
-    alert("You Have Already Vote A Operating System! But Wait Until The Next Vote!");
+  if (votecheckare === "true") {
+    alert("You have already voted for an operating system! Please wait until the next vote!");
   }
-  }
+   else if  (votecheckare != "true")  {
+    vote(); 
+}}
+
+
+
 
 
 
 function vote() {
   const inpa = prompt("Write Your Favourite Operating System:");
-  alert("Perfect! Your Favourite Operating System Is: " + inpa);
-  localStorage.setItem("vote", "true");
-  localStorage.setItem("Vote_Value", inpa)
+  inpa_final = inpa.toLowerCase()
+  inpa_Uppercase = inpa.toUpperCase()
+
+  if (inpa_final === "windows" || inpa_final === "linux" || inpa_final === "macos") {
+    alert("Perfect! Your Favourite Operating System Is: " + inpa_Uppercase);
+    localStorage.setItem("vote", "true");
+    localStorage.setItem("Vote_Value", inpa_final)
+  }
+  else {
+    alert("Type The Operating System Before Submitting")
+  }
+
 }
 
 
