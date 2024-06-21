@@ -17,7 +17,7 @@ function qrbuilda() {
 	var pictu = document.getElementById("qrp");
 
   if (inport === null || inport === "") {
-    alert("<Invalid Input> Type Something Before Creating QR")
+    alert("Enter URL or Text Before Creating QR")
   } else {
     pictu.src = linker;
     qr_code.style.animationName = "smooth_qr";
@@ -349,7 +349,7 @@ window.onload = flager();
 // Data Redirect
 
 function humancol() {
-  window.location.href = "https://drpanayioths.github.io/helper/HumanProfile/form.html";
+  window.location.href = "https://drpanayioths.github.io/helper/HumanP/form.html";
 }
 
 
