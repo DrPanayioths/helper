@@ -63,6 +63,9 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 97px;
   outline: none;
+  border: 1px solid #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
   left: 380px;
 }
 .usern1 {
@@ -80,6 +83,9 @@ body {
   top: 97px;
   outline: none;
   left: 580px;
+  border: 1px solid #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 .usern2 {
@@ -97,6 +103,9 @@ body {
   top: 97px;
   outline: none;
   left: 770px;
+  border: 1px solid #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 .usern3 {
@@ -115,6 +124,9 @@ body {
   top: 280px;
   left: 380px;
   outline: none;
+  border: 1px solid #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 .usern4 {
   position: absolute;
@@ -131,6 +143,9 @@ body {
   top: 280px;
   left: 575px;
   outline: none;
+  border: 1px solid #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 .usern8 {
   position: absolute;
@@ -147,6 +162,9 @@ body {
   outline: none;
   top: 280px;
   left: 770px;
+  border: 1px solid #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 .usern9 {
   position: absolute;
@@ -173,6 +191,9 @@ body {
   top: 160px;
   left: 380px;
   outline: none;
+  border: 1px solid #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 .usern7 {
   position: absolute;
@@ -198,6 +219,9 @@ body {
   top: 160px;
   left: 575px;
   width: 170px;
+  border: 1px solid #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 .usern5 {
   position: absolute;
@@ -215,6 +239,9 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 160px;
   left: 770px;
+  border: 1px solid #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 .usern6 {
@@ -233,6 +260,10 @@ body {
   outline: none;
   top: 390px;
   left: 380px;
+  border: 1px solid #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10;
+  border-radius: 4px;
 }
 .usern10 {
   position: absolute;
@@ -251,6 +282,9 @@ body {
   top: 390px;
   outline: none;
   left: 575px;
+  border: 1px solid #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 .usern11 {
   position: absolute;
@@ -268,6 +302,9 @@ body {
   top: 390px;
   outline: none;
   left: 770px;
+  border: 1px solid #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 .usern12 {
   position: absolute;
@@ -289,7 +326,20 @@ body {
   top: 450px;
   border-radius: 20px;
   left: 560px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 18px;
   cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.subthetext:hover {
+  background-color: #d9d9d9;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -323,7 +373,7 @@ body {
   top: 4px;
   left: 3px;
   opacity: 1;
-  border-radius: 15px;
+  border-radius: 8px;
 }
 
 .texthome {
@@ -342,4 +392,18 @@ body {
   height: 30px;
   border-radius: 3px;
   z-index: 2;
+}
+
+
+
+/* Legal Notice */
+.legal_notice {
+  position: absolute;
+  color: grey;
+  text-shadow: 50px;
+  font-size: small;
+  font-family: "Oswald", sans-serif;
+  top: 540px;
+  left: 330px;
+  width: 650px;
 }
