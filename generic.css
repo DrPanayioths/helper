@@ -414,7 +414,7 @@ background-color: #91785D;
 
 .inpa {
     position: absolute;
-    background-color: black;
+    background-color: rgb(56, 56, 56);
     color: rgb(184, 182, 182);
     width: 500px;
     bottom: 50px;
@@ -430,10 +430,10 @@ background-color: #91785D;
 
 .searchico {
     position: absolute;
-    height: 35px;
-    bottom: 6px;
+    height: 25px;
+    bottom: 10px;
     cursor: pointer;
-    left: 460px;
+    left: 465px;
 }
 
 .qrclass {
@@ -735,7 +735,7 @@ background-color: #91785D;
     top: 375px;
     left: 10px;
     border-radius: 10px;
-    width: 220px;
+    width: 225px;
     height: 80px;
 }
 
@@ -743,16 +743,28 @@ background-color: #91785D;
     position: absolute;
     top: 423px;
     left: 12px;
-    width: 215px;
-    border-radius: 30px;
-    outline: black solid 2px;
+    width: 220px;
+    border-radius: 5px;
     z-index: 2;
     height: 30px;
 }
 
+.Music_foreground_grey {
+    position: absolute;
+    width: 220px;
+    outline: black solid 4px;
+    height: 35px;
+    border-radius: 5px;
+    bottom: 0;
+    left: 2px;
+    z-index: 2;
+    background-color: #F1F3F4;
+}
+
 .musictitle {
     position: absolute;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'REM', sans-serif;
+    font-weight: 500;
     top: 0.1px;
     left: 35px;
     font-size: 15px;
@@ -765,22 +777,23 @@ background-color: #91785D;
     font-family: 'Kdam Thmor Pro', sans-serif;
     transform: rotate(270deg);
     color: white;
-    right: 187px;
+    right: 188px;
     border-radius: 6px;
-    bottom: 46.5px;
+    bottom: 44px;
     font-size: 18px;
     text-align: right;
     background-color: black;
-    width: 40px;
+    width: 50px;
     height: 25px;
 }
 
 .clickbox_chill {
     width: 82px;
     height: 25px;
-    right: 170px;
+    right: 172px;
     border-radius: 6px;
     cursor: pointer;
+    user-select: none;
     bottom: 28px;
     position: absolute;
     z-index: 1;
