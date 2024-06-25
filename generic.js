@@ -148,9 +148,7 @@ function bitcola() {
   .then(data => {
     const field = document.getElementById("cryptoshow");
     const convetareto = Math.round(data.bpi.EUR.rate_float * 2) / 1000;
-    const cryptoname = document.getElementById("whatcrypto");
     field.value = "€ " + convetareto 
-    cryptoname.textContent =  "BTC"
 
 
   });
@@ -166,10 +164,8 @@ function ethelarefile() {
   .then(data => {
 
     const price = document.getElementById("cryptoshow");
-    const cname = document.getElementById("whatcrypto");
     const pricefinal = Math.round(data.EUR * 1) / 1000;
     price.value = "€ " + pricefinal
-    cname.textContent =  "ETH"
   });
 
 }
