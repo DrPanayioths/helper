@@ -302,46 +302,6 @@ function radiocont() {
 window.onload = radiocont();
 
 
-
-// Flag System For Countrys
-
-function flager() {
-
-  fetch('https://get.geojs.io/v1/ip/country.json')
-.then(flage => flage.json())
-.then(data => {
-  const countryname = document.getElementById('countre')
-  const flag1 = document.getElementById('flagimg')
-  const flag2 = document.getElementById('flag2img')
-
-
-
-
-  countryname.style.fontSize = "18px";
-  countryname.style.textAlign = "center";
-  countryname.style.outline = "none";
-  countryname.value = data.name;
-
-  flag1.src = "https://flagsapi.com/"+ data.country + "/flat/64.png"
-  flag2.src = "https://flagsapi.com/"+ data.country + "/flat/64.png"
-
-
-
-  
-
-
-
-
-
-
-
-
-})}
-window.onload = flager();
-
-
-
-
 // Data Redirect
 
 function humancol() {

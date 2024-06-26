@@ -619,9 +619,9 @@ background-color: #161616;
 
 .bitimg {
     position: absolute;
-    bottom: 0px;
-    left: 0.8px;
-    height: 30px;
+    bottom: -6px;
+    left: -7px;
+    height: 34px;
     z-index: 1;
 }
 
@@ -648,6 +648,8 @@ background-color: #161616;
     z-index: 1;
 }
 
+
+
 /* Etheruam Tracka */
 
 
@@ -655,7 +657,9 @@ background-color: #161616;
     position: absolute;
     bottom: 0px;
     right: 0.8px;
-    height: 30px;
+    height: 22px;
+    opacity: 0.8;
+    z-index: 5;
 }
 .etharomen {
     position: absolute;
@@ -668,8 +672,6 @@ background-color: #161616;
     right: 0.1px;
     cursor: pointer;
 }
-
-
 
 
 /* SpeedTest */
@@ -805,4 +807,7 @@ background-color: #161616;
     height: 50px;
     border-radius: 5px;
 }
+
+
+
 }
