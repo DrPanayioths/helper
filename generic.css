@@ -710,6 +710,7 @@ background-color: #161616;
     border: none;
     height: 30px;
     border-radius: 10px;
+    border: 1px solid #464545;
 }
 
 .response {
@@ -804,6 +805,7 @@ background-color: #161616;
     top: 25px;
     width: 200px;
     left: 10px;
+    border: 1px solid #464545;
     height: 50px;
     border-radius: 5px;
 }

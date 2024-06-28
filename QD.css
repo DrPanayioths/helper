@@ -59,13 +59,12 @@ body {
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    opacity: 0.7;
     user-select: none;
     position: absolute;
     width: 340px;
     height: 100px;
     outline: black solid 2px;
-    background-color: #3f3f3f;
+    background-color: rgba(31, 31, 31, 0.6);
     top: 168px;
     left: 13%;
     border-radius: 10px;
@@ -127,11 +126,10 @@ body {
     outline: black solid 2px;
     width: 340px;
     height: 100px;
-    background-color: #3f3f3f;
+    background-color: rgba(31, 31, 31, 0.6);
     top: 300px;
     left: 13%;
     border-radius: 10px;
-    opacity: 0.7;
     animation-name: bbwin;
     animation-duration: 6s;
     
@@ -191,9 +189,8 @@ body {
     user-select: none;
     position: absolute;
     width: 340px;
-    opacity: 0.7;
     height: 100px;
-    background-color: #3f3f3f;
+    background-color: rgba(31, 31, 31, 0.6);
     top: 430px;
     left: 13%;
     border-radius: 10px;
@@ -275,8 +272,7 @@ body {
     outline: black solid 2px;
     width: 340px;
     height: 100px;
-    opacity: 0.7;
-    background-color: #3f3f3f;
+    background-color: rgba(31, 31, 31, 0.6);
     top: 168px;
     right: 17%;
     border-radius: 10px;
@@ -328,13 +324,12 @@ body {
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    opacity: 0.7;
     user-select: none;
     position: absolute;
     outline: black solid 2px;
     width: 340px;
     height: 100px;
-    background-color: #3f3f3f;
+    background-color: rgba(31, 31, 31, 0.6);
     top: 300px;
     right: 17%;
     border-radius: 10px;
@@ -413,10 +408,10 @@ body {
 
 
 
+/* Visual Studio */
 
 
-
-.backhotjar {
+.back_VSstudio {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -424,11 +419,10 @@ body {
     -ms-user-select: none;
     user-select: none;
     position: absolute;
-    opacity: 0.7;
     outline: black solid 2px;
     width: 340px;
     height: 100px;
-    background-color: #3f3f3f;
+    background-color: rgba(31, 31, 31, 0.6);
     top: 430px;
     right: 17%;
     border-radius: 10px;
@@ -437,7 +431,7 @@ body {
 }
 
 
-.icohot {
+.vs_studio {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -453,7 +447,7 @@ body {
     height: 240px;
 }
 
-.linkhot {
+.vs_link {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
