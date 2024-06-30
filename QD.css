@@ -387,8 +387,18 @@ body {
     z-index: 2;
     right: 12%;
     border-radius: 13px;
-
 }
+
+.back:hover {
+    transition: 300ms linear;
+    width: 160px;
+    animation-fill-mode: backwards;
+}
+.back:not(:hover) {
+    transition: 300ms linear;
+    width: 125px;
+}
+
 
 .backsymbol {
     -webkit-touch-callout: none;
@@ -405,7 +415,6 @@ body {
     border-radius: 10px;
     font-family: 'Signika Negative';
 }
-
 
 
 /* Visual Studio */
