@@ -159,7 +159,7 @@ function generateText() {
 function inspector_blocker() {
   document.addEventListener('keydown', function(event) {
     if (event.key === 'F12' || 
-        (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'J' || event.code === 'KeyC')) || (event.ctrlKey && event.key === 'U')) {
+      (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'J' || event.code === 'KeyC')) || (event.ctrlKey && event.key === 'U') || (event.ctrlKey && event.key === "S")) {          
           event.preventDefault();
           reload_warning()
     }

@@ -5,8 +5,23 @@ document.cookie = "dataremember=Created By DrPanayioths; expires=Thu, 18 Dec 300
 
 
 
-// QR CODE GENERATOR
+// Flag System For Countrys
 
+function flager() {
+
+  fetch('https://get.geojs.io/v1/ip/country.json')
+.then(flage => flage.json())
+.then(data => {
+  const countryname = document.getElementById('countre')
+  
+  countryname.style.fontSize = "18px";
+  countryname.style.textAlign = "center";
+  countryname.style.outline = "none";
+  countryname.value = data.name;
+})}
+window.onload = flager();
+
+// QR CODE GENERATOR
 
 function qrbuilda() {
 	var idz = document.getElementById("datra");
@@ -26,21 +41,12 @@ function qrbuilda() {
 
 }	
 
-
-
-
-
 function checkEnter(event) {
 	if (event.key === "Enter") {
 		event.preventDefault();
 		qrbuilda();
 	}
 }
-
-
-
-
-
 
 //  Password Strength Checker A Try Again
 
@@ -364,7 +370,7 @@ setTimeout(function() {
 function inspector_blocker() {
   document.addEventListener('keydown', function(event) {
     if (event.key === 'F12' || 
-        (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'J' || event.code === 'KeyC')) || (event.ctrlKey && event.key === 'U')) {
+        (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'J' || event.code === 'KeyC')) || (event.ctrlKey && event.key === 'U') || (event.ctrlKey && event.key === "S")) {
           event.preventDefault();
           reload_warning()
     }

@@ -176,6 +176,7 @@ PC Version
     width: 110px;
     color: #F5F5F5;
     user-select: none;
+    outline: none;
     background-color: transparent;
     border: none;
     font-family: 'REM', sans-serif;
