@@ -314,7 +314,6 @@ function ipair() {
   fetch('https://api.ipify.org/?format=json')
   .then (ipe => ipe.json())
   .then(data => {
-
     const ip = document.getElementById("ipaka");
     ip.value = data.ip;
   });
@@ -358,3 +357,21 @@ setTimeout(function() {
   
   }, 100);
 }, 5000);
+
+
+
+// Developer Web Tools Blocker
+function inspector_blocker() {
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'F12' || 
+        (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'J' || event.code === 'KeyC')) || (event.ctrlKey && event.key === 'U')) {
+          event.preventDefault();
+          reload_warning()
+    }
+  });
+}
+setInterval(inspector_blocker, 1000);
+
+function reload_warning() {
+    alert('Developer Tools Detected, Reload Page');
+}

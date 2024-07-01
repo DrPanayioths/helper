@@ -399,8 +399,7 @@ body {
 /* Legal Notice */
 .legal_notice {
   position: absolute;
-  color: grey;
-  text-shadow: 50px;
+  color: grey;  
   font-size: small;
   font-family: "Oswald", sans-serif;
   top: 540px;
