@@ -153,8 +153,10 @@ function bitcola() {
   .then(btc => btc.json())
   .then(data => {
     const field = document.getElementById("cryptoshow");
-    const convetareto = Math.round(data.bpi.EUR.rate_float * 2) / 1000;
-    field.value = "€ " + convetareto 
+    const rate = data.bpi.EUR.rate
+    const sliced = rate.slice(0,6);
+    field.value = "€ " + sliced
+
 
 
   });
@@ -166,15 +168,19 @@ window.onload = bitcola;
 // Etherumoum
 function ethelarefile() {
   fetch('https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=EUR')
-  .then (eth => eth.json())
+  .then(response => response.json())
   .then(data => {
-
     const price = document.getElementById("cryptoshow");
-    const pricefinal = Math.round(data.EUR * 1) / 1000;
-    price.value = "€ " + pricefinal
+    const ethPrice = data.EUR.toFixed(2);
+    const sliced_1 = ethPrice.slice(0,1); 
+    const sliced_2 = ethPrice.slice(1,4);
+    price.value = "€ " + sliced_1 + "," + sliced_2;
+  })
+  .catch(error => {
+    console.error('Error fetching the price:', error);
   });
-
 }
+
 
 
 // Weather Display 
@@ -366,18 +372,12 @@ setTimeout(function() {
 
 
 
-// Developer Web Tools Blocker
 function inspector_blocker() {
   document.addEventListener('keydown', function(event) {
-    if (event.key === 'F12' || 
-        (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'J' || event.code === 'KeyC')) || (event.ctrlKey && event.key === 'U') || (event.ctrlKey && event.key === "S")) {
-          event.preventDefault();
-          reload_warning()
+    if (event.code === 'F12' || (event.ctrlKey && event.shiftKey && (event.code === 'KeyI' || event.code === 'KeyJ' || event.code === 'KeyC')) || (event.ctrlKey && event.code === 'KeyU') || (event.ctrlKey && event.code === 'KeyS')) {
+      event.preventDefault();
+      alert('Developer Tools Detected, Reload Page');
     }
-  });
+});
 }
-setInterval(inspector_blocker, 1000);
-
-function reload_warning() {
-    alert('Developer Tools Detected, Reload Page');
-}
+inspector_blocker();
