@@ -127,7 +127,7 @@ PC Version
     top: 5px;
     border-radius: 18px;
     font-family: 'REM', sans-serif;
-    background: linear-gradient(to right, #36C6FF , #29e9df);
+    background: #695acd93;
     width: 140px;
     height: 40px;
     opacity: 0;
@@ -141,11 +141,11 @@ PC Version
 }
 
 .madedrp {
-    color: black;
-    font-size: 18px;
+    color: #fff0f5cc;
+    font-size: 19px;
     position: absolute;
-    right: 19px;
-    left: 31px;
+    right: 18px;
+    left: 20px;
     z-index: 3;
     top: 13px;
     font-family: 'REM', sans-serif;
@@ -217,7 +217,7 @@ background-color: #161616;
     width: 100px;
     height: 44px;
     position: absolute;
-    background-color: black;
+    background-color: rgba(112, 128, 144, 0.150);
     right: 12px;
     top: 10.5px;
     border-radius: 50px;
@@ -244,11 +244,8 @@ background-color: #161616;
     font-size: 18px;
     display: none;
     z-index: 5;
-    top: 10px;
-    animation-name: musicplay;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    color: white;
+    top: 11px;
+    color: #D3D3D3;
     font-family: 'REM', sans-serif;
     opacity: 0;
     transition: opacity 1s;
@@ -334,27 +331,6 @@ background-color: #161616;
     display: block;
     opacity: 1;
 }
-
-
-
-.gitdrpimg {
-    position: absolute;
-    z-index: 2;
-    top: 17px;
-    left: 6px;
-    width: auto;
-    height: 16px;
-    rotate: 270deg;
-    opacity: 0;
-    transition: opacity 1s;
-}
-
-.gitdrpimg.visible {
-    display: block;
-    opacity: 0.9;
-}
-
-
 
 .box5 {
     position: absolute;

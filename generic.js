@@ -350,14 +350,12 @@ setTimeout(function() {
   var backdrp = document.getElementById("back_drp");
   var madedrp = document.getElementById("madedrp");
   var git_text = document.getElementById("git_drpanayioths");
-  var git_image = document.getElementById("git_drpanayioths_img");
 
   backdrp.style.display = "block";
   fastdown1.style.display = "block";
   fastdownText.style.display = "block";
   madedrp.style.display = "block";
   git_text.style.display = "block";
-  git_image.style.display = "block";
 
   setTimeout(function() {
       fastdown1.classList.add("visible");
@@ -365,7 +363,6 @@ setTimeout(function() {
       back_drp.classList.add("visible");
       madedrp.classList.add("visible");
       git_text.classList.add("visible");
-      git_image.classList.add("visible");
   
   }, 100);
 }, 5000);
