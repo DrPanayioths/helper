@@ -785,6 +785,34 @@ background-color: #161616;
     border-radius: 5px;
 }
 
-
-
+/* Policies Tab */
+.policies {
+    color: rgb(255, 255, 255);
+    opacity: 0.2;
+    cursor: pointer;
+    font-family: 'Gabarito', sans-serif;
 }
+
+.terms_of_service {
+    position: absolute;
+    bottom: 2.8px;
+    right: 120px;
+}
+
+.cookie_policy {
+    position: absolute;
+    bottom: 3px;
+    right: 8px;
+}
+
+.terms_of_service:hover {
+    text-decoration-line: underline;
+}
+
+.cookie_policy:hover {
+    text-decoration: underline;
+}
+}
+
+
+
