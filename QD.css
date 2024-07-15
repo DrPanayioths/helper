@@ -473,3 +473,30 @@ body {
     right: 17%;
 }
 
+/* Policies Tab */
+.policies {
+    color: rgb(255, 255, 255);
+    opacity: 0.2;
+    cursor: pointer;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.terms_of_service {
+    position: absolute;
+    top: 70px;
+    left: 140px;
+}
+
+.cookie_policy {
+    position: absolute;
+    top: 85px;
+    left: 140px;
+}
+
+.terms_of_service:hover {
+    text-decoration-line: underline;
+}
+
+.cookie_policy:hover {
+    text-decoration: underline;
+}

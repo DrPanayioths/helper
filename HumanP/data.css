@@ -5,7 +5,7 @@ body {
 .contbox{
   position: absolute;
   top: 400px;
-  left: 705px;
+  left: 50%;
   border-radius: 5px;
   width: 1300px;
   height: 700px;
@@ -403,6 +403,19 @@ body {
   font-size: small;
   font-family: "Oswald", sans-serif;
   top: 540px;
-  left: 330px;
+  left: 385px;
   width: 650px;
 }
+
+.legal_notice_contine {
+  position: absolute;
+  color: grey;  
+  font-size: small;
+  font-family: "Oswald", sans-serif;
+  top: 560px;
+  left: 520px;
+  width: 650px;
+}
+
+
+
