@@ -158,11 +158,14 @@ function generateText() {
 // Developer Web Tools Blocker
 function inspector_blocker() {
   document.addEventListener('keydown', function(event) {
-    if (event.code === 'F12' || (event.ctrlKey && event.shiftKey && (event.code === 'KeyI' || event.code === 'KeyJ' || event.code === 'KeyC')) || (event.ctrlKey && event.code === 'KeyU') || (event.ctrlKey && event.code === 'KeyS')) {
+      if (event.code === 'F12' || (event.ctrlKey && event.shiftKey && (event.code === 'KeyI' || event.code === 'KeyJ' || event.code === 'KeyC')) || (event.ctrlKey && event.code === 'KeyU') || (event.ctrlKey && event.code === 'KeyS') || (event.ctrlKey && event.shiftKey && event.code === 'KeyK')) {
+          event.preventDefault();
+          alert('Developer Tools Detected, Reload Page');
+      }
+  });
+  document.addEventListener('contextmenu', function(event) {
       event.preventDefault();
-      alert('Developer Tools Detected, Reload Page');
-    }
-});
+      alert('Right-click is disabled.');
+  });
 }
 inspector_blocker();
-
