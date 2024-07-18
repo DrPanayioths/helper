@@ -394,7 +394,8 @@ background-color: #161616;
     outline: none;
     border-radius: 10px;
     font-family: 'Gabarito', sans-serif;
-    left: 33%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     border: none;
     font-size: 15px;
     text-align: center;
@@ -404,9 +405,9 @@ background-color: #161616;
 .searchico {
     position: absolute;
     height: 25px;
-    bottom: 10px;
+    bottom: 35px;
     cursor: pointer;
-    left: 505px;
+    left: 525px;
 }
 
 .qrclass {
