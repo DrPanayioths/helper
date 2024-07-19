@@ -483,7 +483,7 @@ background-color: #161616;
 
 /* Password Strength Checker */
 
-.palo {
+.password_input {
     position: absolute;
     border: none;
     color: #F5F5F5;
