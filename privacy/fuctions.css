@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 5px;
+}
+p {
+    margin-bottom: 15px;
+}
+
+/* Back Button */
+
+.back {
+position: fixed;
+width: 12%;
+border-radius: 10px;
+height: 45px;
+left: 50%;
+bottom: 0.1%;
+user-select: none;
+background-color: rgba(111, 214, 111, 0.466);
+transform: translate(-50%, -10%);
+font-family: "Ubuntu", sans-serif;
+font-weight: 500;
+font-size: 25px;
+text-align: center;
+animation-fill-mode: forwards;
+cursor: pointer;
+}
+
+.back:hover {
+    transition: 400ms linear;
+    width: 30%;
+    animation-fill-mode: backwards;
+    outline: solid rgba(22, 27, 22, 0.863) 3px;
+}
+.back:not(:hover) {
+    transition: 300ms linear;
+    width: 12%;
+    outline: solid wheat 1px;
+}

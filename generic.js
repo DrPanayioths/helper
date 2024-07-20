@@ -284,9 +284,6 @@ function radiocont() {
       else if ( countrex === "Croatia") {
         radiosystem.src = "https://www.myipcast.com/radio/split"
       }
-      else if ( countrex === "Italy") {
-        radiosystem.src = "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S18493106/rCMKqdMFKPBB/icecast"
-      }
       else if ( countrex === "Spain") {
         radiosystem.src = "https://cadena100-cope-rrcast.flumotion.com/cope/cadena100.mp3"
       }
