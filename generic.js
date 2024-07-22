@@ -302,6 +302,28 @@ function radiocont() {
       else if ( countrex === "Afghanistan") {
         radiosystem.src = "https://stream.radiosrood.com/"
       }
+      else if ( countrex === "Austria") {
+        radiosystem.src = "https://live.antenne.at/rf"
+      }
+      else if ( countrex === "Belgium") {
+        radiosystem.src = "https://vrt.streamabc.net/vrt-studiobrussel-mp3-128-4409118?sABC=669r4nq7%230%2301o73q811710812n3sr413p41r2p4s2p%23&aw_0_1st.playerid=&amsparams=playerid:;skey:1721649879"
+      }
+      else if ( countrex === "Czechia") {
+        radiosystem.src = "http://mp3stream4.abradio.cz/depeche128.mp3"
+      }
+      else if ( countrex === "Denmark") {
+        radiosystem.src = "https://streammp3.retro-radio.dk/retro-mp3"
+      }
+      else if ( countrex === "Sweden") {
+        radiosystem.src = "https://live-bauerse-fm.sharp-stream.com/retrofm_aacp"
+      }
+      else if ( countrex === "Estonia") {
+        radiosystem.src = "https://edge03.cdn.bitflip.ee:8888/relax?_i=0255112c"
+      }
+      else if ( countrex === "Finland") {
+        radiosystem.src = "https://c4.radioboss.fm:18123/stream"
+      }
+
 
 
 
