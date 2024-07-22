@@ -34,24 +34,27 @@ height: 45px;
 left: 50%;
 bottom: 0.1%;
 user-select: none;
-background-color: rgba(111, 214, 111, 0.466);
+background-color: #e0e0e0;
+color: #333333;
 transform: translate(-50%, -10%);
 font-family: "Ubuntu", sans-serif;
 font-weight: 500;
-font-size: 25px;
+font-size: 170%;
 text-align: center;
 animation-fill-mode: forwards;
 cursor: pointer;
+vertical-align: middle;
+line-height: 45px;  
 }
 
 .back:hover {
     transition: 400ms linear;
     width: 30%;
     animation-fill-mode: backwards;
-    outline: solid rgba(22, 27, 22, 0.863) 3px;
+    outline: solid #b0b0b0  3px;
 }
 .back:not(:hover) {
     transition: 300ms linear;
     width: 12%;
-    outline: solid wheat 1px;
+    outline: solid #b0b0b0 1px;
 }
