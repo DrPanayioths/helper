@@ -485,12 +485,20 @@ body {
     position: absolute;
     top: 70px;
     left: 140px;
+    color: rgb(255, 255, 255);
+    opacity: 0.2;
+    cursor: pointer;
+    font-family: 'Gabarito', sans-serif;
 }
 
 .cookie_policy {
     position: absolute;
     top: 85px;
     left: 140px;
+    color: rgb(255, 255, 255);
+    opacity: 0.2;
+    cursor: pointer;
+    font-family: 'Gabarito', sans-serif;
 }
 
 .terms_of_service:hover {

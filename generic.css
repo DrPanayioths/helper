@@ -685,8 +685,8 @@ background-color: #161616;
     top: 48px;
     border: none;
     height: 30px;
-    border-radius: 10px;
-    border: 1px solid #464545;
+    border-radius: 6px;
+    border: 1px solid #ffffff48;
 }
 
 .response {
@@ -751,7 +751,6 @@ background-color: #161616;
 
 
 /* Human Profiler */
-
 .box10 {
     position: absolute;
     width: 100px;
@@ -781,29 +780,31 @@ background-color: #161616;
     top: 25px;
     width: 200px;
     left: 10px;
-    border: 1px solid #464545;
+    border: 1px solid #ffffff4b;
     height: 50px;
     border-radius: 5px;
 }
 
 /* Policies Tab */
-.policies {
+.terms_of_service {
+    position: absolute;
+    bottom: 2.8px;
+    right: 120px;
     color: rgb(255, 255, 255);
     opacity: 0.2;
     cursor: pointer;
     font-family: 'Gabarito', sans-serif;
 }
 
-.terms_of_service {
-    position: absolute;
-    bottom: 2.8px;
-    right: 120px;
-}
-
 .cookie_policy {
     position: absolute;
     bottom: 3px;
+    color: rgb(255, 255, 255);
+    opacity: 0.2;
+    z-index: 2;
     right: 8px;
+    cursor: pointer;
+    font-family: 'Gabarito', sans-serif;
 }
 
 .terms_of_service:hover {
