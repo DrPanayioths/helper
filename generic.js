@@ -241,7 +241,7 @@ function radiocont() {
         radiosystem.src = "https://icepool.silvacast.com/GAYFM.mp3"
       }
       else if ( countrex === "Cyprus") {
-        radiosystem.src = "https://n0e.radiojar.com/c27wx6pdh8vtv?rj-ttl=5&rj-tok=AAABi9Oz2doAjoNWzuaiEHHIpg"
+        radiosystem.src = "https://n0e.radiojar.com/c27wx6pdh8vtv"
       }
       else if ( countrex === "United Kingdom") {
         radiosystem.src = "https://bigrradio.cdnstream1.com/5164_128"
@@ -288,7 +288,7 @@ function radiocont() {
         radiosystem.src = "https://cadena100-cope-rrcast.flumotion.com/cope/cadena100.mp3"
       }
       else if ( countrex === "France") {
-        radiosystem.src = "https://str1.openstream.co/589?aw_0_1st.collectionid%3D3139%26stationId%3D3139%26publisherId%3D613%26k%3D1700166236"
+        radiosystem.src = "https://str1.openstream.co/589"
       }
       else if ( countrex === "Italy") {
         radiosystem.src = "https://icstream.rds.radio/rds"
@@ -306,7 +306,7 @@ function radiocont() {
         radiosystem.src = "https://live.antenne.at/rf"
       }
       else if ( countrex === "Belgium") {
-        radiosystem.src = "https://vrt.streamabc.net/vrt-studiobrussel-mp3-128-4409118?sABC=669r4nq7%230%2301o73q811710812n3sr413p41r2p4s2p%23&aw_0_1st.playerid=&amsparams=playerid:;skey:1721649879"
+        radiosystem.src = "https://vrt.streamabc.net/vrt-studiobrussel-mp3-128-4409118"
       }
       else if ( countrex === "Czechia") {
         radiosystem.src = "http://mp3stream4.abradio.cz/depeche128.mp3"
@@ -318,10 +318,28 @@ function radiocont() {
         radiosystem.src = "https://live-bauerse-fm.sharp-stream.com/retrofm_aacp"
       }
       else if ( countrex === "Estonia") {
-        radiosystem.src = "https://edge03.cdn.bitflip.ee:8888/relax?_i=0255112c"
+        radiosystem.src = "https://edge03.cdn.bitflip.ee:8888/relax"
       }
       else if ( countrex === "Finland") {
         radiosystem.src = "https://c4.radioboss.fm:18123/stream"
+      }
+      else if ( countrex === "Hungary") {
+        radiosystem.src = "https://icast.connectmedia.hu/5202/live.mp3"
+      }
+      else if ( countrex === "Iceland") {
+        radiosystem.src = "https://ice-11.spilarinn.is/kissfm"
+      }
+      else if ( countrex === "Ireland") {
+        radiosystem.src = "https://stream.audioxi.com/TD"
+      }
+      else if ( countrex === "Kazakhstan") {
+        radiosystem.src = "https://icecast.luxfm.kz/luxfm"
+      }
+      else if ( countrex === "Kosovo") {
+        radiosystem.src = "http://ca3.rcast.net:8024/stream"
+      }
+      else if ( countrex === "Latvia") {
+        radiosystem.src = "https://topradio.live.advailo.com/topradio/mp3/icecast.audio"
       }
 
 
