@@ -406,16 +406,34 @@ setTimeout(function() {
 
 
 // Developer Web Tools Blocker
-function inspector_blocker() {
-  document.addEventListener('keydown', function(event) {
-      if (event.code === 'F12' || (event.ctrlKey && event.shiftKey && (event.code === 'KeyI' || event.code === 'KeyJ' || event.code === 'KeyC')) || (event.ctrlKey && event.code === 'KeyU') || (event.ctrlKey && event.code === 'KeyS') || (event.ctrlKey && event.shiftKey && event.code === 'KeyK')) {
-          event.preventDefault();
-          alert('Developer Tools Detected, Reload Page');
-      }
+// function inspector_blocker() {
+//   document.addEventListener('keydown', function(event) {
+//       if (event.code === 'F12' || (event.ctrlKey && event.shiftKey && (event.code === 'KeyI' || event.code === 'KeyJ' || event.code === 'KeyC')) || (event.ctrlKey && event.code === 'KeyU') || (event.ctrlKey && event.code === 'KeyS') || (event.ctrlKey && event.shiftKey && event.code === 'KeyK')) {
+//           event.preventDefault();
+//           alert('Developer Tools Detected, Reload Page');
+//       }
+//   });
+//   document.addEventListener('contextmenu', function(event) {
+//       event.preventDefault();
+//       alert('Right-click is disabled.');
+//   });
+// }
+// inspector_blocker();
+
+
+// Copyright Diclaimer (Music Mode)
+document.addEventListener("DOMContentLoaded", (event) => {
+  var mcontrols = document.getElementById("radiosystems");
+
+  music = document.cookie
+  sliced_result = music.slice(55,61)
+  mcontrols.addEventListener("play", function() {
+    if (sliced_result === "showed") {
+
+    } else if (sliced_result != "showed" || sliced_result === null || sliced_result === "undefined") {
+      var notification = document.getElementById("copyright_music");
+      document.cookie = "music_disclaimer=showed"
+      notification.style.visibility = "visible";
+    }
   });
-  document.addEventListener('contextmenu', function(event) {
-      event.preventDefault();
-      alert('Right-click is disabled.');
-  });
-}
-inspector_blocker();
+})

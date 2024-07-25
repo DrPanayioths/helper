@@ -395,6 +395,7 @@ background-color: #161616;
     border-radius: 10px;
     font-family: 'Gabarito', sans-serif;
     left: 50%;
+    user-select: none;
     transform: translate(-50%,-50%);
     border: none;
     font-size: 15px;
@@ -794,6 +795,7 @@ background-color: #161616;
     opacity: 0.2;
     cursor: pointer;
     font-family: 'Gabarito', sans-serif;
+    user-select: none;
 }
 
 .cookie_policy {
@@ -805,6 +807,7 @@ background-color: #161616;
     right: 8px;
     cursor: pointer;
     font-family: 'Gabarito', sans-serif;
+    user-select: none;
 }
 
 .terms_of_service:hover {
@@ -817,4 +820,23 @@ background-color: #161616;
 }
 
 
+/* Copyright Music */
 
+.copyright_notification {
+    position: absolute;
+    background-color: whitesmoke;
+    bottom: 20%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 17px;
+    width: 630px;
+    outline: none;
+    border: none;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: center;
+    line-height: 40px;
+    user-select: none;
+    visibility: hidden;  
+}
