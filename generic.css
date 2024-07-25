@@ -383,8 +383,15 @@ background-color: #161616;
 }
 
 /* QR CATEGORY PC */
-
-
+.qr-box {
+    position: absolute;
+    background-color: white;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 0px;
+}
 .inpa {
     position: absolute;
     background-color: rgb(56, 56, 56);
@@ -406,9 +413,11 @@ background-color: #161616;
 .searchico {
     position: absolute;
     height: 25px;
-    bottom: 35px;
+    bottom: 85px;
     cursor: pointer;
-    left: 525px;
+    z-index: 2;
+    right: 20px;
+
 }
 
 .qrclass {
@@ -421,7 +430,8 @@ background-color: #161616;
     position: absolute;
     opacity: 0;
     bottom: 150px;
-    left: 41%;
+    left: 50%;
+    transform: translate(-50%);
     width: 200px;
     height: 200px;
     z-index: 3;
@@ -439,7 +449,8 @@ background-color: #161616;
     z-index: 1;
     bottom: 143px;
     opacity: 0;
-    left: 40%;
+    left: 50%;
+    transform: translate(-50%);
     background-color: white;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;  
@@ -746,7 +757,7 @@ background-color: #161616;
     font-weight: 500;
     top: 0.1px;
     color: #F5F5F5;
-    left: 35px;
+    left: 10%;
     font-size: 15px;
 }
 
