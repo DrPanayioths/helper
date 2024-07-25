@@ -425,14 +425,11 @@ setTimeout(function() {
 document.addEventListener("DOMContentLoaded", (event) => {
   var mcontrols = document.getElementById("radiosystems");
 
-  music = document.cookie
-  sliced_result = music.slice(55,61)
+  local_saved = localStorage.getItem("music_disclaimer");
   mcontrols.addEventListener("play", function() {
-    if (sliced_result === "showed") {
-
-    } else if (sliced_result != "showed" || sliced_result === null || sliced_result === "undefined") {
+      if (local_saved != "showed" || local_saved === "undefined") {
       var notification = document.getElementById("copyright_music");
-      document.cookie = "music_disclaimer=showed"
+      localStorage.setItem(music_disclaimer, showed);
       notification.style.visibility = "visible";
     }
   });
