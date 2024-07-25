@@ -424,12 +424,12 @@ setTimeout(function() {
 // Copyright Diclaimer (Music Mode)
 document.addEventListener("DOMContentLoaded", (event) => {
   var mcontrols = document.getElementById("radiosystems");
-
   local_saved = localStorage.getItem("music_disclaimer");
+
   mcontrols.addEventListener("play", function() {
-      if (local_saved != "showed" || local_saved === "undefined") {
+      if (local_saved != "true" || local_saved === "undefined") {
       var notification = document.getElementById("copyright_music");
-      localStorage.setItem(music_disclaimer, showed);
+      localStorage.setItem("music_disclaimer", "true");
       notification.style.visibility = "visible";
     }
   });
