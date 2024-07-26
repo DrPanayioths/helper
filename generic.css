@@ -4,8 +4,7 @@
 /*
 PC Version
 */
-
-@media only screen and (min-width: 451px) {
+@media only screen and (min-width: 480px) {
 
     .boxinforer {
         background-color: white;
@@ -544,6 +543,7 @@ background-color: #161616;
     font-family: 'Gabarito', sans-serif;
     opacity: 0.2;
     left: 2px;
+    font-size: 12px;
 }
 
 
@@ -662,7 +662,7 @@ background-color: #161616;
 }
 
 
-/* SpeedTest */
+/* Weather Box */
 .box8 {
     position: absolute;
     width: 100px;
@@ -801,22 +801,24 @@ background-color: #161616;
 .terms_of_service {
     position: absolute;
     bottom: 2.8px;
-    right: 120px;
+    right: 90px;
     color: rgb(255, 255, 255);
     opacity: 0.2;
     cursor: pointer;
+    font-size: 12px;
     font-family: 'Gabarito', sans-serif;
     user-select: none;
 }
 
 .cookie_policy {
     position: absolute;
-    bottom: 3px;
+    bottom: 2.8px;
     color: rgb(255, 255, 255);
     opacity: 0.2;
     z-index: 2;
-    right: 8px;
+    right: 5px;
     cursor: pointer;
+    font-size: 12px;
     font-family: 'Gabarito', sans-serif;
     user-select: none;
 }
@@ -832,22 +834,32 @@ background-color: #161616;
 
 
 /* Copyright Music */
-
 .copyright_notification {
     position: absolute;
-    background-color: whitesmoke;
-    bottom: 20%;
-    height: 40px;
+    background-color: rgb(68, 67, 67);
+    color: rgb(228, 120, 120);
+    bottom: 400px;
     border-radius: 10px;
-    font-size: 17px;
-    width: 630px;
-    outline: none;
-    border: none;
+    font-size: 14px;
+    width: 400px;
+    height: 82px;
+    left: 245px;
     font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
+    font-weight: 800;
     text-align: center;
     vertical-align: center;
     line-height: 40px;
-    user-select: none;
-    visibility: hidden;  
+    user-select: none; 
+    visibility: hidden;
+    opacity: 0;
+    animation-name: fade;
+    animation-fill-mode: forwards;
 }
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }}
