@@ -53,20 +53,20 @@ function checkEnter(event) {
 function passwordareyouok() {
 	const passwordInput = document.getElementById("passwordInput");
 	const password = passwordInput.value;
+  const symbols = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
+  const numbers = /[0123456789]+/;
 
 
-	if (password.length < 6) {
+  if (password.length < 6) {
 		passwordStrength.textContent = "Weak 🔓";
 	} else if (password.length < 8) {
 		passwordStrength.textContent = "Good 👍";
-	} else if (password.length < 12) {
+	} else if (password.length < 12 && symbols.test(password) ) {
 		passwordStrength.textContent = "Strong 💪";
-	} else {
+	} else if (password.length < 18 && symbols.test(password) && numbers.test(password) ) {
 		passwordStrength.textContent = "Super 🚀";
 	}
 }
-
-
 
 // UUID Gen
 
@@ -406,19 +406,19 @@ setTimeout(function() {
 
 
 // Developer Web Tools Blocker
-// function inspector_blocker() {
-//   document.addEventListener('keydown', function(event) {
-//       if (event.code === 'F12' || (event.ctrlKey && event.shiftKey && (event.code === 'KeyI' || event.code === 'KeyJ' || event.code === 'KeyC')) || (event.ctrlKey && event.code === 'KeyU') || (event.ctrlKey && event.code === 'KeyS') || (event.ctrlKey && event.shiftKey && event.code === 'KeyK')) {
-//           event.preventDefault();
-//           alert('Developer Tools Detected, Reload Page');
-//       }
-//   });
-//   document.addEventListener('contextmenu', function(event) {
-//       event.preventDefault();
-//       alert('Right-click is disabled.');
-//   });
-// }
-// inspector_blocker();
+function inspector_blocker() {
+  document.addEventListener('keydown', function(event) {
+      if (event.code === 'F12' || (event.ctrlKey && event.shiftKey && (event.code === 'KeyI' || event.code === 'KeyJ' || event.code === 'KeyC')) || (event.ctrlKey && event.code === 'KeyU') || (event.ctrlKey && event.code === 'KeyS') || (event.ctrlKey && event.shiftKey && event.code === 'KeyK')) {
+          event.preventDefault();
+          alert('Developer Tools Detected, Reload Page');
+      }
+  });
+  document.addEventListener('contextmenu', function(event) {
+      event.preventDefault();
+      alert('Right-click is disabled.');
+  });
+}
+inspector_blocker();
 
 
 // Copyright Diclaimer (Music Mode)
