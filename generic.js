@@ -188,7 +188,11 @@ function weathercollection() {
   var typecountry = prompt("City To See Weather");
   var cords_provider = "https://geocode.maps.co/search?q=" + typecountry + "&api_key=666d62b99202b919832048pfk1f984c";
   
-  fetch(cords_provider)
+  if (typecountry === "" || typecountry === null || typecountry === undefined) {
+    var display_field = document.getElementById("respo")
+    display_field.value = "You Dont Type Anything"
+  } else {
+    fetch(cords_provider)
     .then(response => response.json())
     .then(data => {
       var longitude  = data[0].lon
@@ -204,6 +208,7 @@ function weathercollection() {
       display_field.value = "  " + tempature +  "℃ 🌡️               "  + windSpeed + " m/s 💨"
      })
     })
+  }
     
   }
 

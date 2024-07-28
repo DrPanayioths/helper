@@ -592,13 +592,14 @@ background-color: #161616;
 .crypto {
     position: absolute;
     font-family: 'REM', sans-serif;
-    bottom: 2px;
-    left: 50px;
-    width: 100px;
+    bottom: 0px;
+    left: 0px;
+    width: 216.5px;
+    height: 19px;
     border: none;
     background-color: #2A2A2A;
     color: #F5F5F5;
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
     text-align: center;
 }
 
@@ -701,7 +702,7 @@ background-color: #161616;
     border: 1px solid #ffffff48;
 }
 
-.response {
+.response_weather {
     position: absolute;
     left: 5%;
     top: 28%;
@@ -713,6 +714,7 @@ background-color: #161616;
     color: #F5F5F5;
     font-size: 14px;
     font-family: 'Gabarito', sans-serif;
+    font-weight: 500;
 }
 
 /* Audio Player */
