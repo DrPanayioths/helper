@@ -364,17 +364,18 @@ function humancol() {
 
 
 // IP Detector
-function ipair() {
+function mouser_reveal_ip() {
   fetch('https://api.ipify.org/?format=json')
   .then (ipe => ipe.json())
   .then(data => {
     const ip = document.getElementById("ipaka");
     ip.value = data.ip;
-  });
+  })};
 
+function mouse_hidden_ip() {
+  const ip = document.getElementById("ipaka");
+  ip.value = "Hover To Reveal IP"
 }
-
-window.onload = ipair();
 
 
 // Resolution Counter

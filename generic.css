@@ -63,12 +63,13 @@ PC Version
     width: 140px;
     background-color: transparent;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     height: 23px;
     border: none;
     outline: none;
     color: #F5F5F5;
     font-family: 'REM', sans-serif;
+    cursor: text;
 }    
 
 .boxinforer {
