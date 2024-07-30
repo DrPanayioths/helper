@@ -145,12 +145,28 @@ function generateText() {
   var input11Value = document.getElementById('weight').value;
   var input12Value = document.getElementById('status').value;
 
-  var finaloutpot = "Name: " + input1Value + " Middle_Name: " + input2Value + " Surname: " + input3Value + " Telephone Number: " + input4Value + " Birthday: " + input5Value + " Age: " + input6Value + "TaxNumber: " + input7Value + " Email: " + input8Value + " Discord: " + input9Value + " Height: " + input10Value + " Weight: " + input11Value + " Body Status: " + input12Value;
+  var finaloutpot = "Name: " + input1Value + " Middle_Name: " + input2Value + 
+  " Surname: " + input3Value + " Telephone Number: " + input4Value + 
+  " Birthday: " + input5Value + " Age: " + input6Value + "TaxNumber: " + input7Value + 
+  " Email: " + input8Value + " Discord: " + input9Value + " Height: " + input10Value + 
+  " Weight: " + input11Value + " Body Status: " + input12Value;
 
 
   var final = document.getElementById("finalf");
-  final.value = finaloutpot;
 
+  if (input1Value === "" && input2Value === "" && input3Value === "" && input4Value === "" &&
+    input5Value === "" && input6Value === "" && input7Value === "" && input8Value === "" &&
+    input9Value === "" && input10Value === "" && input11Value === "" && input12Value === "") {
+    final.value = "You Need To Provide Information About A Person Before Submitting"
+    final.style.fontSize = "20px"
+    final.style.textAlign = "center"
+    
+  }
+  else {
+    final.value = finaloutpot
+    final.style.fontSize = "13px"
+    final.style.textAlign = "unset"
+  }
 
 }
 

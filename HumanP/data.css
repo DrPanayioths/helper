@@ -4,7 +4,7 @@ body {
 
 .contbox{
   position: absolute;
-  top: 400px;
+  top: 50%;
   left: 50%;
   border-radius: 5px;
   width: 1300px;
@@ -353,6 +353,8 @@ body {
   font-size: 11px;
   resize: none;
   font-family: 'Oswald', sans-serif;
+  outline: none;
+  cursor: text;
 
 }
 
