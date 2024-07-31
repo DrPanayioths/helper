@@ -355,14 +355,6 @@ function radiocont() {
 
 window.onload = radiocont();
 
-
-// Data Redirect
-
-function humancol() {
-  window.location.href = "https://drpanayioths.github.io/helper/HumanP/form.html";
-}
-
-
 // IP Detector
 function mouser_reveal_ip() {
   fetch('https://api.ipify.org/?format=json')
