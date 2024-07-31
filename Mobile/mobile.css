@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(19, 16, 16));
+    background-image: url("https://i.ibb.co/D7FP3rz/1975185.jpg");
 }
 
 .cointainer {
@@ -8,13 +8,18 @@ body {
     font-family: "Rowdies", sans-serif;
 }
 
+
 .title {
     width: auto;
     text-align: center;
-    left: 60px;
     position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 70%;
     font-family: "Bebas Neue", sans-serif;
     color: white;
+    z-index: 2;
+    user-select: none;
 }
 .subtitle {
     position: absolute;
@@ -22,10 +27,20 @@ body {
     font-family: "Bebas Neue", sans-serif;
     width: auto;   
     top: 90px;
-    font-size: 30px;
-    left: 140px;  
+    font-size: 100%;
+    left: 50%;  
+    transform: translate(-50%);
+    user-select: none;
 }
 
-.drpanayioths {
+.background_box_title {
+    background: linear-gradient(90deg, rgba(161, 161, 161, 0.733) 0%, rgba(182, 182, 182, 0.747) 100%);
     position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+    width: 205px;
+    top: 5px;
+    height: 50px;
+    left: 50%;
+    transform: translate(-50%);
 }
