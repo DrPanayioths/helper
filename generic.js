@@ -111,7 +111,7 @@ window.onload = uuidgen()
 }
  function redirectIfMobile() {
   if (isMobileDevice()) {
-  window.location.href = 'https://drpanayioths.github.io/helper/Mobile/notavailable.html';
+  window.location.href = 'mobile/mobile.html';
    }
  }
  window.onload = redirectIfMobile();

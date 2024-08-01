@@ -15,7 +15,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    font-size: 70%;
+    font-size: 65%;
     font-family: "Bebas Neue", sans-serif;
     color: white;
     z-index: 2;
@@ -38,7 +38,7 @@ body {
     position: absolute;
     z-index: 1;
     border-radius: 10px;
-    width: 205px;
+    width: 40%;
     top: 5px;
     height: 50px;
     left: 50%;
