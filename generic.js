@@ -434,3 +434,4 @@ document.addEventListener("DOMContentLoaded", (event) => {
     notification.style.opacity = "0";
   })
 })
+

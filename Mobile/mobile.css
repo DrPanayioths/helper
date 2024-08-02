@@ -13,9 +13,10 @@ body {
     width: auto;
     text-align: center;
     position: absolute;
+    top: 12px;
     left: 50%;
     transform: translate(-50%);
-    font-size: 65%;
+    font-size: 70%;
     font-family: "Bebas Neue", sans-serif;
     color: white;
     z-index: 2;
@@ -34,7 +35,8 @@ body {
 }
 
 .background_box_title {
-    background: linear-gradient(90deg, rgba(161, 161, 161, 0.733) 0%, rgba(182, 182, 182, 0.747) 100%);
+    background: linear-gradient(to right, rgba(255, 127, 80, 0.3), rgba(255, 218, 185, 0.3));
+    color: #333333; /* Text color */
     position: absolute;
     z-index: 1;
     border-radius: 10px;
