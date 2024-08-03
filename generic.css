@@ -524,7 +524,8 @@ background-color: #161616;
 .title5 {
     position: absolute;
     right: 65px;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 500;
     top: 2px;
     color: #F5F5F5;
     font-family: 'REM', sans-serif;
@@ -838,14 +839,13 @@ background-color: #161616;
 
 /* Copyright Music */
 .copyright_notification {
-    position: absolute;
+    position: fixed;
     background-color: rgb(68, 67, 67);
     color: rgb(228, 120, 120);
-    bottom: 400px;
+    top: 375px;
     border-radius: 10px;
-    font-size: 14px;
-    width: 400px;
-    height: 82px;
+    font-size: 0.8vw;
+    width: 25%;
     left: 245px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 800;

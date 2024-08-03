@@ -55,17 +55,26 @@ function passwordareyouok() {
 	const password = passwordInput.value;
   const symbols = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
   const numbers = /[0123456789]+/;
+  const passwordStrength = document.getElementById("passwordStrength");
 
-
-  if (password.length < 6) {
-		passwordStrength.textContent = "Weak 🔓";
-	} else if (password.length < 8) {
-		passwordStrength.textContent = "Good 👍";
-	} else if (password.length < 12 && symbols.test(password) ) {
-		passwordStrength.textContent = "Strong 💪";
-	} else if (password.length < 18 && symbols.test(password) && numbers.test(password) ) {
-		passwordStrength.textContent = "Super 🚀";
-	}
+  if (password.length != "0") {
+    if (password.length < 6) {
+      passwordStrength.textContent = "Weak 🔓";
+      passwordStrength.style.right = "80px";
+    } else if (password.length < 8) {
+      passwordStrength.textContent = "Good 👍";
+      passwordStrength.style.right = "80px";
+    } else if (password.length < 12 && symbols.test(password) ) {
+      passwordStrength.textContent = "Strong 💪";
+      passwordStrength.style.right = "80px";
+    } else if (password.length < 18 && symbols.test(password) && numbers.test(password) ) {
+      passwordStrength.textContent = "Super 🚀";
+      passwordStrength.style.right = "80px";
+    }
+  } else {
+    passwordStrength.textContent = "⚠️Type A Password⚠️";
+    passwordStrength.style.right = "40px";
+  }
 }
 
 // UUID Gen
