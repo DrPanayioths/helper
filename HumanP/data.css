@@ -394,6 +394,7 @@ body {
   height: 30px;
   border-radius: 3px;
   z-index: 2;
+  cursor: pointer;
 }
 
 
