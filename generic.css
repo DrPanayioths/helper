@@ -508,7 +508,6 @@ background-color: #161616;
     font-family: 'Gabarito', sans-serif;
     text-align: center;
     border-radius: 10px;
-
 }
 
 
@@ -531,7 +530,20 @@ background-color: #161616;
     font-family: 'REM', sans-serif;
 }
 
+/* Password Strength (Hide Password) */
 
+.hide_password_img {
+    position: fixed;
+    height: 25px;
+    top: 217px;
+    right: 35px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+
+
+/* Adblocker Warning */
 .adblocks { 
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -547,8 +559,6 @@ background-color: #161616;
     left: 2px;
     font-size: 12px;
 }
-
-
 
 
 /* Down Light */

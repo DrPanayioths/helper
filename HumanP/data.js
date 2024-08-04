@@ -87,8 +87,6 @@ function langchoser() {
       bod.innerHTML = "Body Information:"
       bod.style.left = "593px";
       
-      const heightplacehold = document.getElementById("height");
-      const weightplaceholda = document.getElementById("weight");
     }
   });
 }
@@ -178,10 +176,6 @@ function inspector_blocker() {
           event.preventDefault();
           alert('Developer Tools Detected, Reload Page');
       }
-  });
-  document.addEventListener('contextmenu', function(event) {
-      event.preventDefault();
-      alert('Right-click is disabled.');
   });
 }
 inspector_blocker();

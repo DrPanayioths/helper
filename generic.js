@@ -24,12 +24,12 @@ window.onload = flager();
 // QR CODE GENERATOR
 
 function qrbuilda() {
-	var idz = document.getElementById("datra");
-	var inport = idz.value;
-	var linker = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + inport;
-  var back_qr = document.getElementById("back_bqr")
-  var qr_code = document.getElementById("qrp");
-	var pictu = document.getElementById("qrp");
+	const idz = document.getElementById("datra");
+	const inport = idz.value;
+	const linker = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + inport;
+  const back_qr = document.getElementById("back_bqr")
+  const qr_code = document.getElementById("qrp");
+	const pictu = document.getElementById("qrp");
 
   if (inport === null || inport === "") {
     alert("Enter URL or Text Before Creating QR")
@@ -76,6 +76,17 @@ function passwordareyouok() {
     passwordStrength.style.right = "40px";
   }
 }
+
+function hidePassword() {
+  const input_field = document.getElementById("passwordInput");
+
+  if (input_field.type === "password") {
+    input_field.type = "text";
+  } 
+  else {
+    input_field.type = "password";
+  }};
+
 
 // UUID Gen
 
@@ -168,10 +179,7 @@ function bitcola() {
 
 
 
-  });
-
-
-  }
+  })};
 window.onload = bitcola;
 
 // Etherumoum
@@ -186,7 +194,7 @@ function ethelarefile() {
     price.value = "€ " + sliced_1 + "," + sliced_2;
   })
   .catch(error => {
-    console.error('Error fetching the price:', error);
+    console.error('Fetching Price Error:', error);
   });
 }
 
@@ -199,21 +207,21 @@ function weathercollection() {
   
   if (typecountry === "" || typecountry === null || typecountry === undefined) {
     var display_field = document.getElementById("respo")
-    display_field.value = "You Dont Type Anything"
+    display_field.value = "You Didn't Type Anything"
   } else {
     fetch(cords_provider)
     .then(response => response.json())
     .then(data => {
-      var longitude  = data[0].lon
-      var latitude = data[0].lat
-      var date = new Date();
-    var weather_get = "https://api.brightsky.dev/weather?lat=" + latitude * 1000 / 1000 + "&lon=" + longitude * 1000 / 1000 + "&date="+ date.toISOString().slice(0, 10); 
-    var display_field = document.getElementById("respo")
+      const longitude  = data[0].lon
+      const latitude = data[0].lat
+      const date = new Date();
+      const weather_get = "https://api.brightsky.dev/weather?lat=" + latitude * 1000 / 1000 + "&lon=" + longitude * 1000 / 1000 + "&date="+ date.toISOString().slice(0, 10); 
+      const display_field = document.getElementById("respo")
     fetch(weather_get)
      .then(response => response.json())
      .then(data => {
-      var windSpeed = data.weather[1].wind_speed;
-      var tempature = data.weather[1].temperature;
+      const windSpeed = data.weather[1].wind_speed;
+      const tempature = data.weather[1].temperature;
       display_field.value = "  " + tempature +  "℃ 🌡️               "  + windSpeed + " m/s 💨"
      })
     })
@@ -419,10 +427,6 @@ function inspector_blocker() {
           event.preventDefault();
           alert('Developer Tools Detected, Reload Page');
       }
-  });
-  document.addEventListener('contextmenu', function(event) {
-      event.preventDefault();
-      alert('Right-click is disabled.');
   });
 }
 inspector_blocker();
