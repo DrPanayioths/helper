@@ -257,40 +257,6 @@ background-color: #161616;
 }
 
 
-@keyframes musicplay {
-    10% {
-        color: aquamarine;
-    }
-    40% {
-        color: greenyellow;
-    }
-    70% {
-        color: rgb(224, 59, 224);
-    }
-    90% {
-        color: yellow;
-    }
-    100% {
-        color: aquamarine;
-    }
-}
-
-
-
-
-@keyframes colorb {
-    30% {
-        background-color: #416574;
-    }
-    50% { background-color: #3c6679;
-    }
-    100% {
-        background-color: #416f83;
-    }
-}
-
-
-
 .backbox3 {
     position: absolute;
     width: 100px;
@@ -354,7 +320,7 @@ background-color: #161616;
     width: 220px;
 }
 
-/* TLL Version */
+/* Screen Resolution */
 
 
 .resdata {
@@ -488,11 +454,6 @@ background-color: #161616;
 }
 
 
-  
-
-
-
-
 /* Password Strength Checker */
 
 .password_input {
@@ -576,9 +537,6 @@ background-color: #161616;
     background-color: grey;
   }
   
-
-
-
 
 /* Crypto Tracker */
 
@@ -693,8 +651,6 @@ background-color: #161616;
     color: #F5F5F5;
     text-align: center;
 }
-
-
 
 
 /* Weather Display */

@@ -16,31 +16,6 @@ function psifosep() {
 }}
 
 
-
-
-
-
-function vote() {
-  const inpa = prompt("Write Your Favourite Operating System:");
-  inpa_final = inpa.toLowerCase()
-  inpa_Uppercase = inpa.toUpperCase()
-
-  if (inpa_final === "windows" || inpa_final === "linux" || inpa_final === "macos") {
-    alert("Perfect! Your Favourite Operating System Is: " + inpa_Uppercase);
-    localStorage.setItem("vote", "true");
-    localStorage.setItem("Vote_Value", inpa_final)
-  }
-  else {
-    alert("Type The Operating System Before Submitting")
-  }
-
-}
-
-
-
-
-
-
  // Function to check if the user is on a mobile device
 function isMobileDevice() {
  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);

@@ -219,47 +219,6 @@ body {
     animation-duration: 8s;
 }
 
-
-.bestofwin {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    position: absolute;
-    width: 120px;
-    height: 40px;
-    border-radius: 4px;
-    background-color: rgb(20, 20, 20);
-    opacity: 0.4;
-    bottom: 50px;
-    right: -40px;
-    transform: rotate(90deg);
-    font-family: 'Signika Negative';
-
-} 
-
-
-.bestoftext {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    position: absolute;
-    transform: rotate(90deg);
-    height: 40px;
-    border-radius: 10px;
-    color: rgb(188, 201, 197);
-    bottom: 6%;
-    font-size: 30px;
-    right: -10px;
-    font-family: 'Lilita One', sans-serif;
-}
-
-
 /* Github */
 .backgithub {
     -webkit-touch-callout: none;
