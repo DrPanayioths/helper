@@ -203,8 +203,8 @@ function ethelarefile() {
 // Weather Display 
 function weathercollection() {
   var typecountry = prompt("City To See Weather");
-  var cords_provider = "https://geocode.maps.co/search?q=" + typecountry + "&api_key=666d62b99202b919832048pfk1f984c";
-  
+  var cords_provider = "https://nominatim.openstreetmap.org/search?q=" + typecountry + "&format=json" ;
+
   if (typecountry === "" || typecountry === null || typecountry === undefined) {
     var display_field = document.getElementById("respo")
     display_field.value = "You Didn't Type Anything"
@@ -212,16 +212,16 @@ function weathercollection() {
     fetch(cords_provider)
     .then(response => response.json())
     .then(data => {
-      const longitude  = data[0].lon
-      const latitude = data[0].lat
+      const longitude  = data[0].lon;
+      const latitude = data[0].lat;
       const date = new Date();
-      const weather_get = "https://api.brightsky.dev/weather?lat=" + latitude * 1000 / 1000 + "&lon=" + longitude * 1000 / 1000 + "&date="+ date.toISOString().slice(0, 10); 
+      const weather_get = "https://api.brightsky.dev/weather?lat=" + latitude.slice(0,4) + "&lon=" + longitude.slice(0,4) + "&date="+ date.toISOString().slice(0, 10); 
       const display_field = document.getElementById("respo")
     fetch(weather_get)
      .then(response => response.json())
      .then(data => {
-      const windSpeed = data.weather[1].wind_speed;
-      const tempature = data.weather[1].temperature;
+      const windSpeed = data.weather[13].wind_speed;
+      const tempature = data.weather[13].temperature;
       display_field.value = "  " + tempature +  "℃ 🌡️               "  + windSpeed + " m/s 💨"
      })
     })
