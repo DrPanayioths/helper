@@ -152,6 +152,7 @@ PC Version
     opacity: 0;
     display: none;
     transition: opacity 1s;
+    user-select: none;
 }
 
 .madedrp.visible {
@@ -383,7 +384,7 @@ background-color: #161616;
     cursor: pointer;
     z-index: 2;
     right: 20px;
-
+    user-select: none;
 }
 
 .qrclass {
@@ -650,6 +651,7 @@ background-color: #161616;
     font-family: 'Gabarito', sans-serif;
     color: #F5F5F5;
     text-align: center;
+    font-size: 15px;
 }
 
 
@@ -683,6 +685,7 @@ background-color: #161616;
     font-size: 14px;
     font-family: 'Gabarito', sans-serif;
     font-weight: 500;
+    cursor: default;
 }
 
 /* Audio Player */
@@ -769,7 +772,7 @@ background-color: #161616;
 
 /* Policies Tab */
 .terms_of_service {
-    position: absolute;
+    position: fixed;
     bottom: 2.8px;
     right: 90px;
     color: rgb(255, 255, 255);
@@ -781,7 +784,7 @@ background-color: #161616;
 }
 
 .cookie_policy {
-    position: absolute;
+    position: fixed;
     bottom: 2.8px;
     color: rgb(255, 255, 255);
     opacity: 0.2;

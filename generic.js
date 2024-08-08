@@ -202,7 +202,7 @@ function ethelarefile() {
 
 // Weather Display 
 function weathercollection() {
-  var typecountry = prompt("City To See Weather");
+  var typecountry = prompt("Type A City To Check The Temperature And Wind");
   var cords_provider = "https://nominatim.openstreetmap.org/search?q=" + typecountry + "&format=json" ;
 
   if (typecountry === "" || typecountry === null || typecountry === undefined) {
@@ -220,8 +220,8 @@ function weathercollection() {
     fetch(weather_get)
      .then(response => response.json())
      .then(data => {
-      const windSpeed = data.weather[13].wind_speed;
-      const tempature = data.weather[13].temperature;
+      const windSpeed = data.weather[0].wind_speed;
+      const tempature = data.weather[0].temperature;
       display_field.value = "  " + tempature +  "℃ 🌡️               "  + windSpeed + " m/s 💨"
      })
     })
