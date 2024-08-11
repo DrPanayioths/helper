@@ -6,7 +6,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  border-radius: 5px;
+  border-radius: 0px;
   width: 1300px;
   height: 700px;
   background-color: rgb(209, 209, 209);
@@ -65,7 +65,8 @@ body {
   outline: none;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 10px;
+  padding-left: 7px;
   left: 380px;
 }
 .usern1 {
@@ -85,7 +86,8 @@ body {
   left: 580px;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 10px;
+  padding-left: 7px;
 }
 
 .usern2 {
@@ -105,7 +107,8 @@ body {
   left: 770px;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 10px;
+  padding-left: 7px;
 }
 
 .usern3 {
@@ -126,7 +129,8 @@ body {
   outline: none;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 10px;
+  padding-left: 7px;
 }
 .usern4 {
   position: absolute;
@@ -145,7 +149,8 @@ body {
   outline: none;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 10px;
+  padding-left: 7px;
 }
 .usern8 {
   position: absolute;
@@ -164,7 +169,8 @@ body {
   left: 770px;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 10px;
+  padding-left: 7px;
 }
 .usern9 {
   position: absolute;
@@ -193,7 +199,8 @@ body {
   outline: none;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 10px;
+  padding-left: 7px;
 }
 .usern7 {
   position: absolute;
@@ -221,7 +228,8 @@ body {
   width: 170px;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 10px;
+  padding-left: 7px;
 }
 .usern5 {
   position: absolute;
@@ -241,7 +249,8 @@ body {
   left: 770px;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 10px;
+  padding-left: 7px;
 }
 
 .usern6 {
@@ -262,8 +271,8 @@ body {
   left: 380px;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  padding: 10;
-  border-radius: 4px;
+  border-radius: 10px;
+  padding-left: 7px;
 }
 .usern10 {
   position: absolute;
@@ -284,7 +293,8 @@ body {
   left: 575px;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 10px;
+  padding-left: 7px;
 }
 .usern11 {
   position: absolute;
@@ -304,7 +314,8 @@ body {
   left: 770px;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 10px;
+  padding-left: 7px;
 }
 .usern12 {
   position: absolute;
