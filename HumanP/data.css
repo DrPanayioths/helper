@@ -6,9 +6,9 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  border-radius: 0px;
-  width: 1300px;
-  height: 700px;
+  border-radius: 10px;
+  width: 70%;
+  height: 70%;
   background-color: rgb(209, 209, 209);
   transform: translate(-50%, -50%);
 }
@@ -24,7 +24,8 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 50px;
-  left: 580px;
+  left: 50%;
+  transform: translate(-50%);
   color: rgb(114, 114, 114);
 }
 
@@ -33,7 +34,8 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 215px;
-  left: 555px;
+  left: 50%;
+  transform: translate(-50%);
   color: rgb(114, 114, 114);
 }
 
@@ -42,7 +44,8 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 335px;
-  left: 570px;
+  left: 50%;
+  transform: translate(-50%);
   color: rgb(114, 114, 114);
 }
 
@@ -67,13 +70,13 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding-left: 7px;
-  left: 380px;
+  left: 26.3%;
 }
 .usern1 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 80px;
-  left: 380px;
+  left: 26.5%;
 }
 
 /* Miidle Name */
@@ -83,7 +86,8 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 97px;
   outline: none;
-  left: 580px;
+  left: 50%;
+  transform: translate(-50%);
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -94,7 +98,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 80px;
-  left: 580px;
+  left: 44%;
 }
 
 /* Surname */
@@ -104,7 +108,7 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 97px;
   outline: none;
-  left: 770px;
+  right: 30%;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -115,7 +119,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 80px;
-  left: 770px;
+  right: 37%;
   
 }
 
@@ -125,7 +129,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 280px;
-  left: 380px;
+  left: 26.3%;
   outline: none;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -135,8 +139,8 @@ body {
 .usern4 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  top: 260px;
-  left: 380px;
+  top: 263px;
+  left: 26.5%;
 }
 
 /* Email */
@@ -145,7 +149,8 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 280px;
-  left: 575px;
+  left: 50%;
+  transform: translate(-50%);
   outline: none;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -155,8 +160,8 @@ body {
 .usern8 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  top: 260px;
-  left: 575px;
+  top: 263px;
+  left: 44%;
 }
 
 /* Discord */
@@ -166,7 +171,7 @@ body {
   font-family: 'Roboto', sans-serif;
   outline: none;
   top: 280px;
-  left: 770px;
+  right: 30%;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -176,7 +181,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 260px;
-  left: 770px;
+  right: 36.5%;
 }
 
 .input9::-webkit-outer-spin-button,
@@ -188,14 +193,14 @@ body {
 
 
 
-/* ΑΦΜ */
+/* Tax Number */
 
 
 .input7 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 160px;
-  left: 380px;
+  left: 26.3%;
   outline: none;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -206,7 +211,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 143px;
-  left: 380px;
+  left: 26.5%;
   
 }
 
@@ -224,8 +229,9 @@ body {
   outline: none;
   font-family: 'Roboto', sans-serif;
   top: 160px;
-  left: 575px;
-  width: 170px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 165px;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -236,7 +242,7 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 143px;
   font-size: 15px;
-  left: 570px;
+  left: 44%;
 }
 
 /* Age */
@@ -246,7 +252,7 @@ body {
   outline: none;
   font-family: 'Roboto', sans-serif;
   top: 160px;
-  left: 770px;
+  right: 30%;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -257,7 +263,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 143px;
-  left: 770px;
+  right: 38.9%;
 }
 
 /* Height */
@@ -268,7 +274,7 @@ body {
   font-family: 'Roboto', sans-serif;
   outline: none;
   top: 390px;
-  left: 380px;
+  left: 26.3%;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -277,8 +283,8 @@ body {
 .usern10 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  top: 370px;
-  left: 380px;
+  top: 374px;
+  left: 26.5%;
 }
 
 
@@ -290,7 +296,8 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 390px;
   outline: none;
-  left: 575px;
+  left: 50%;
+  transform: translate(-50%);
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -299,8 +306,8 @@ body {
 .usern11 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  top: 370px;
-  left: 575px;
+  top: 374px;
+  left: 44%;
 }
 
 /* Body Status */
@@ -311,7 +318,7 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 390px;
   outline: none;
-  left: 770px;
+  right: 30%;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -320,9 +327,9 @@ body {
 .usern12 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  top: 370px;
+  top: 375px;
   font-size: 15px;
-  left: 770px;
+  right: 30%;
 }
 
 
@@ -334,9 +341,10 @@ body {
   position: absolute;
   width: 200px;
   height: 50px;
-  top: 450px;
+  top: 475px;
   border-radius: 20px;
-  left: 560px;
+  left: 50%;
+  transform: translate(-50%);
   padding: 12px 25px;
   border: none;
   border-radius: 8px;
@@ -359,7 +367,8 @@ body {
   width: 700px;
   height: 100px;
   bottom: 10px;
-  left: 320px;
+  left: 50%;
+  transform: translate(-50%);
   border-radius: 5px;
   font-size: 11px;
   resize: none;
@@ -412,22 +421,24 @@ body {
 
 /* Legal Notice */
 .legal_notice {
-  position: absolute;
-  color: grey;  
+  position: fixed;
+  color: rgb(68, 68, 68);  
   font-size: small;
   font-family: "Oswald", sans-serif;
-  top: 540px;
-  left: 385px;
+  top: 5px;
+  left: 50%;
+  transform: translate(-50%);
   width: 650px;
 }
 
 .legal_notice_contine {
-  position: absolute;
-  color: grey;  
+  position: fixed;
+  color: rgb(68, 68, 68);  
   font-size: small;
   font-family: "Oswald", sans-serif;
-  top: 560px;
-  left: 520px;
+  top: 30px;
+  left: 63%;
+  transform: translate(-60%);
   width: 650px;
 }
 
