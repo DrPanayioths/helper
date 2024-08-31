@@ -71,12 +71,14 @@ body {
   border-radius: 10px;
   padding-left: 7px;
   left: 26.3%;
+  width: 12%;
 }
 .usern1 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 80px;
   left: 26.5%;
+  font-size: 100%;
 }
 
 /* Miidle Name */
@@ -92,6 +94,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding-left: 7px;
+  width: 12%;
 }
 
 .usern2 {
@@ -99,6 +102,7 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 80px;
   left: 44%;
+  font-size: 100%;
 }
 
 /* Surname */
@@ -113,14 +117,15 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding-left: 7px;
+  width: 12%;
 }
 
 .usern3 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 80px;
-  right: 37%;
-  
+  left: 57.5%;
+  font-size: 100%;
 }
 
 /* Telephone */
@@ -135,12 +140,14 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding-left: 7px;
+  width: 12%;
 }
 .usern4 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 263px;
   left: 26.5%;
+  font-size: 100%;
 }
 
 /* Email */
@@ -156,12 +163,14 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding-left: 7px;
+  width: 12%;
 }
 .usern8 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 263px;
   left: 44%;
+  font-size: 100%;
 }
 
 /* Discord */
@@ -176,12 +185,14 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding-left: 7px;
+  width: 12%;
 }
 .usern9 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  top: 260px;
-  right: 36.5%;
+  top: 263px;
+  left: 57.5%;
+  font-size: 100%;
 }
 
 .input9::-webkit-outer-spin-button,
@@ -206,13 +217,14 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding-left: 7px;
+  width: 12%;
 }
 .usern7 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 143px;
   left: 26.5%;
-  
+  font-size: 100%;
 }
 
 .input7::-webkit-outer-spin-button,
@@ -231,7 +243,7 @@ body {
   top: 160px;
   left: 50%;
   transform: translate(-50%);
-  width: 165px;
+  width: 12%;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -241,7 +253,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 143px;
-  font-size: 15px;
+  font-size: 100%;
   left: 44%;
 }
 
@@ -257,13 +269,15 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding-left: 7px;
+  width: 12%;
 }
 
 .usern6 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 143px;
-  right: 38.9%;
+  left: 57.5%;
+  font-size: 100%;
 }
 
 /* Height */
@@ -279,12 +293,14 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding-left: 7px;
+  width: 12%;
 }
 .usern10 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 374px;
   left: 26.5%;
+  font-size: 100%;
 }
 
 
@@ -302,12 +318,14 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding-left: 7px;
+  width: 12%;
 }
 .usern11 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 374px;
   left: 44%;
+  font-size: 100%;
 }
 
 /* Body Status */
@@ -323,13 +341,14 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding-left: 7px;
+  width: 12%;
 }
 .usern12 {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 375px;
   font-size: 15px;
-  right: 30%;
+  left: 57%;
 }
 
 
@@ -338,10 +357,10 @@ body {
 /* Submit System And Final Shower */
 
 .subthetext {
-  position: absolute;
+  position: fixed;
   width: 200px;
   height: 50px;
-  top: 475px;
+  bottom: 130px;
   border-radius: 20px;
   left: 50%;
   transform: translate(-50%);
