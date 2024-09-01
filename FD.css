@@ -444,7 +444,7 @@ body {
 .terms_of_service {
     position: absolute;
     top: 70px;
-    left: 140px;
+    left: 8.2%;
     color: rgb(255, 255, 255);
     opacity: 0.2;
     cursor: pointer;
@@ -454,7 +454,7 @@ body {
 .cookie_policy {
     position: absolute;
     top: 85px;
-    left: 140px;
+    left: 8.2%;
     color: rgb(255, 255, 255);
     opacity: 0.2;
     cursor: pointer;

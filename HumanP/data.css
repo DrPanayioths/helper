@@ -112,7 +112,7 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 97px;
   outline: none;
-  right: 30%;
+  left: 61%;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -124,7 +124,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 80px;
-  left: 57.5%;
+  left: 61.2%;
   font-size: 100%;
 }
 
@@ -180,7 +180,7 @@ body {
   font-family: 'Roboto', sans-serif;
   outline: none;
   top: 280px;
-  right: 30%;
+  left: 61%;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -191,7 +191,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 263px;
-  left: 57.5%;
+  left: 61.2%;
   font-size: 100%;
 }
 
@@ -264,7 +264,7 @@ body {
   outline: none;
   font-family: 'Roboto', sans-serif;
   top: 160px;
-  right: 30%;
+  left: 61%;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -276,7 +276,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 143px;
-  left: 57.5%;
+  left: 61.2%;
   font-size: 100%;
 }
 
@@ -336,7 +336,7 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 390px;
   outline: none;
-  right: 30%;
+  left: 61%;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -348,7 +348,7 @@ body {
   font-family: 'Roboto', sans-serif;
   top: 375px;
   font-size: 15px;
-  left: 57%;
+  left: 61.2%;
 }
 
 
@@ -383,7 +383,7 @@ body {
 
 .finalform {
   position: absolute;
-  width: 700px;
+  width: 70%;
   height: 100px;
   bottom: 10px;
   left: 50%;
