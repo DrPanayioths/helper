@@ -448,3 +448,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
 })
 
+// Accessbility
+function access_menu() {
+  var menu = document.getElementById("access");
+  menu.style.display = "block";
+}
