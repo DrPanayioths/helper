@@ -175,6 +175,7 @@ PC Version
     top: 40px;
     right: 50px;
     width: 110px;
+    height: 30%;
     color: #F5F5F5;
     user-select: none;
     outline: none;
@@ -840,7 +841,7 @@ background-color: #161616;
 
 .accesible {
     position: absolute;
-    height: 40px;
+    height: 35px;
     bottom: 27px;
     left: 9px;
     border-radius: 3px;
@@ -854,8 +855,8 @@ background-color: #161616;
 
 .access_menu {
     position: absolute;
-    height: 45px;
-    width: 500px;
+    height: 40px;
+    width: 20%;
     left: 60px;
     bottom: 25px;
     border-radius: 8px;
@@ -869,4 +870,19 @@ background-color: #161616;
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
-  
+
+.text-increase {
+    position: fixed;
+    height: 30px;
+    bottom: 30px;
+    left: 70px;
+    cursor: pointer;
+}
+
+.text-decrease {
+    position: fixed;
+    height: 30px;
+    bottom: 30px;
+    left: 21%;
+    cursor: pointer;
+}

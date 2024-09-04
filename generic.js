@@ -453,3 +453,40 @@ function access_menu() {
   var menu = document.getElementById("access");
   menu.style.display = "block";
 }
+
+function increase_text() {
+  const displays = [
+    document.getElementById("ipaka"),
+    document.getElementById("resolution"),
+    document.getElementById("cryptoshow"),
+    document.getElementById("countre"),
+    document.getElementById("passwordInput"),
+    document.getElementById("coinprice_displayer")
+];
+
+  displays.forEach(display => {
+    if (display) {
+      var size_before = window.getComputedStyle(display).fontSize;
+      var size_final = parseFloat(size_before) + 1;
+      display.style.fontSize = size_final + "px";
+    }
+})};
+
+function decrease_text() {
+  const displays = [
+    document.getElementById("ipaka"),
+    document.getElementById("resolution"),
+    document.getElementById("cryptoshow"),
+    document.getElementById("countre"),
+    document.getElementById("passwordInput"),
+    document.getElementById("coinprice_displayer")
+];
+
+  displays.forEach(display => {
+    if (display) {
+      var size_before = window.getComputedStyle(display).fontSize;
+      var size_final = parseFloat(size_before) - 1;
+      display.style.fontSize = size_final + "px";
+    }
+})};
+

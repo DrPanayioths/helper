@@ -179,7 +179,7 @@
         <button class="etharomen" onclick="ethelarefile()"></button>
 
 
-        <div class="livecoinwatch-widget-5" lcw-base="EUR" lcw-color-tx="#999999" lcw-marquee-1="coins" lcw-marquee-2="coins" lcw-marquee-items="10" ></div>
+        <div class="livecoinwatch-widget-5" id="coinprice_displayer" lcw-base="EUR" lcw-color-tx="#999999" lcw-marquee-1="coins" lcw-marquee-2="coins" lcw-marquee-items="10" ></div>
         <div class="coverbit"></div>
     </div>
 </div>
@@ -221,8 +221,11 @@
 <div class="copyright_notification" id="copyright_music">This music is owned by the respective owners and is protected by copyright law</div>
 
 <!-- Accessibility -->
-<img src="icons/blueicon.jpg" class="accesible" onclick="access_menu()">
-<div class="access_menu" id="access"></div>
+<img onclick="access_menu()" src="icons/blueicon.jpg" class="accesible">
+<div class="access_menu" id="access">
+    <img onclick="increase_text()" class="text-increase" src="/helper/icons/font_increase.png">
+    <img onclick="decrease_text()" class="text-decrease" src="/helper/icons/font_decrease.png">
+</div>
 
 
 
