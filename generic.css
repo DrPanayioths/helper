@@ -217,12 +217,12 @@ background-color: #161616;
 
 .redirect_QuickDownload {
     width: 100px;
-    height: 44px;
+    height: 42px;
     position: absolute;
     background-color: rgba(112, 128, 144, 0.150);
-    right: 12px;
-    top: 10.5px;
-    border-radius: 50px;
+    right: 10px;
+    top: 12px;
+    border-radius: 20px;
     display: none;
     opacity: 0;
     transition: opacity 1s;
@@ -785,12 +785,12 @@ background-color: #161616;
 }
 
 .cookie_policy {
-    position: fixed;
+    position: absolute;
     bottom: 2.8px;
     color: rgb(255, 255, 255);
     opacity: 0.2;
-    z-index: 2;
-    right: 5px;
+    z-index: 10;
+    right: 1%;
     cursor: pointer;
     font-size: 12px;
     font-family: 'Gabarito', sans-serif;
@@ -850,7 +850,7 @@ background-color: #161616;
 }
 
 .accesible:hover {
-    transform: scale(1.2)
+    transform: scale(1.2);
 }
 
 .access_menu {
