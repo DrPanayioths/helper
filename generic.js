@@ -468,7 +468,9 @@ function increase_text() {
     if (display) {
       var size_before = window.getComputedStyle(display).fontSize;
       var size_final = parseFloat(size_before) + 1;
+    if (size_final <= 25) {
       display.style.fontSize = size_final + "px";
+      }
     }
 })};
 
@@ -486,7 +488,9 @@ function decrease_text() {
     if (display) {
       var size_before = window.getComputedStyle(display).fontSize;
       var size_final = parseFloat(size_before) - 1;
+    if (size_final > 10) {
       display.style.fontSize = size_final + "px";
     }
+  }
 })};
 

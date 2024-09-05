@@ -23,7 +23,7 @@ body {
   user-select: none;
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  top: 50px;
+  top: 8%;
   left: 50%;
   transform: translate(-50%);
   color: rgb(114, 114, 114);
@@ -357,7 +357,7 @@ body {
 /* Submit System And Final Shower */
 
 .subthetext {
-  position: fixed;
+  position: absolute;
   width: 200px;
   height: 50px;
   bottom: 130px;
