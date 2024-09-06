@@ -470,3 +470,44 @@ body {
 .cookie_policy:hover {
     text-decoration: underline;
 }
+
+
+/* Browsers */
+
+.back_browsers {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    width: 340px;
+    height: 120px;
+    background-color: rgba(31, 31, 31, 0.6);
+    top: 850px;
+    left: 13%;
+    border-radius: 10px;
+    animation-name: bbwin;
+    animation-duration: 9s;
+    outline: black solid 2px;
+ 
+}
+
+.chrome_browser {
+    position: absolute;
+    height: 180px;
+    bottom: -35px;
+    left: 10px;
+    cursor: pointer;
+    width: 320px;
+}
+
+.arc_browser {
+    position: absolute;
+    height: 70px;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
