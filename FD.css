@@ -447,17 +447,17 @@ body {
     top: 70px;
     left: 8.2%;
     color: rgb(255, 255, 255);
-    opacity: 0.2;
+    opacity: 0.6;
     cursor: pointer;
     font-family: 'Gabarito', sans-serif;
 }
 
 .cookie_policy {
     position: absolute;
-    top: 85px;
+    top: 87px;
     left: 8.2%;
     color: rgb(255, 255, 255);
-    opacity: 0.2;
+    opacity: 0.6;
     cursor: pointer;
     font-family: 'Gabarito', sans-serif;
 }
@@ -488,13 +488,24 @@ body {
     outline: black solid 2px;
 }
 
+.chrome_name {
+    position: absolute;
+    top: 20px;
+    left: 105px;
+    font-size: 70px;
+    font-family: "Lilita One", sans-serif;
+    background: linear-gradient(to right,#FCC011 0%,#fff786 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .chrome_browser {
     pointer-events: none;
     user-select: none;
     position: absolute;
     height: 90px;
     top: 15px;
-    left: 1px;
+    left: 5px;
     cursor: pointer;
     z-index: 2;
     animation-name: bbwin;
@@ -506,11 +517,10 @@ body {
     user-select: none;
     position: absolute;
     height: 120px;
-    width: 300px;
+    width: 340px;
     background-color: rgba(31, 31, 31, 0.6);
     bottom: 2%;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 17%;
     border-radius: 10px;
     animation-name: bbwin;
     animation-duration: 2s;
@@ -522,9 +532,9 @@ body {
     pointer-events: none;
     user-select: none;
     position: absolute;
-    height: 100px;
+    height: 105px;
     top: 10px;
-    left: 1px;
+    left: 15px;
     border-radius: 10px;
     animation-name: bbwin;
     z-index: 2;
@@ -534,7 +544,7 @@ body {
 .arc_name {
     position: absolute;
     top: 20px;
-    left: 120px;
+    left: 125px;
     font-size: 70px;
     font-family: "Lilita One", sans-serif;
     background: linear-gradient(to right,#FE9395 0%,#FF5067 100%);
