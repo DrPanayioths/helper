@@ -494,3 +494,28 @@ function decrease_text() {
   }
 })};
 
+
+// Select To Speech
+
+function enable_tts() {
+  localStorage.setItem("tts_module", "enabled");
+  operation_tts()
+}
+
+function operation_tts() {
+  if (localStorage.getItem("tts_module") == "enabled") {
+    function speakText(text) {
+      var speech = new SpeechSynthesisUtterance(text);
+      window.speechSynthesis.speak(speech);
+    }
+    document.addEventListener('mouseup', function() {
+      var selectedText = window.getSelection().toString().trim();
+      if (selectedText) {
+          speakText(selectedText);
+      }
+    });
+  }
+}
+
+window.onload = operation_tts();
+

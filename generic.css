@@ -857,6 +857,7 @@ background-color: #161616;
     position: absolute;
     height: 40px;
     width: 20%;
+    min-width: 200px;
     left: 60px;
     bottom: 25px;
     border-radius: 8px;
@@ -883,6 +884,18 @@ background-color: #161616;
     position: fixed;
     height: 30px;
     bottom: 30px;
-    left: 21%;
+    left: 110px;
+    cursor: pointer;
+}
+
+
+/* Text To Speech */
+
+.tts-system {
+    position: absolute;
+    user-select: none;
+    height: 35px;
+    top: 4px;
+    left: 95px;
     cursor: pointer;
 }
