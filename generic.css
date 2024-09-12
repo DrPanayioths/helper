@@ -261,9 +261,7 @@ background-color: #161616;
 
 .backbox3 {
     position: absolute;
-    width: 100px;
     background-color: #3A3A3A ;
-    height: 100px;
     top: 170px;
     border-radius: 10px;
     width: 220px;
@@ -302,9 +300,7 @@ background-color: #161616;
 
 .box5 {
     position: absolute;
-    width: 100px;
     background-color: #3A3A3A;
-    height: 100px;
     top: 170px;
     right: 10px;
     border-radius: 10px;
@@ -775,7 +771,7 @@ background-color: #161616;
 .terms_of_service {
     position: fixed;
     bottom: 2.8px;
-    right: 90px;
+    right: 100px;
     color: rgb(255, 255, 255);
     opacity: 0.2;
     cursor: pointer;

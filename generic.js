@@ -12,13 +12,15 @@ function flager() {
   fetch('https://get.geojs.io/v1/ip/country.json')
 .then(flage => flage.json())
 .then(data => {
-  const countryname = document.getElementById('countre')
+  const countryname = document.getElementById('countre');
   
   countryname.style.fontSize = "18px";
   countryname.style.textAlign = "center";
   countryname.style.outline = "none";
   countryname.value = data.name;
-})}
+});
+}
+
 window.onload = flager();
 
 // QR CODE GENERATOR
@@ -27,12 +29,12 @@ function qrbuilda() {
 	const idz = document.getElementById("datra");
 	const inport = idz.value;
 	const linker = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + inport;
-  const back_qr = document.getElementById("back_bqr")
+  const back_qr = document.getElementById("back_bqr");
   const qr_code = document.getElementById("qrp");
 	const pictu = document.getElementById("qrp");
 
   if (inport === null || inport === "") {
-    alert("Enter URL or Text Before Creating QR")
+    alert("Enter URL or Text Before Creating QR");
   } else {
     pictu.src = linker;
     qr_code.style.animationName = "smooth_qr";
@@ -85,7 +87,7 @@ function hidePassword() {
   } 
   else {
     input_field.type = "password";
-  }};
+  }}
 
 
 // UUID Gen
@@ -109,7 +111,7 @@ function generateUUID() {
 }
 
 // UUID For Each User
-var islocalstored = localStorage.getItem("UUID")
+var islocalstored = localStorage.getItem("UUID");
 function uuidgen()  {
   if (islocalstored) {
   }
@@ -119,7 +121,7 @@ function uuidgen()  {
   }
 
 }
-window.onload = uuidgen()
+window.onload = uuidgen();
 
 
 
@@ -173,13 +175,14 @@ function bitcola() {
   .then(btc => btc.json())
   .then(data => {
     const field = document.getElementById("cryptoshow");
-    const rate = data.bpi.EUR.rate
+    const rate = data.bpi.EUR.rate;
     const sliced = rate.slice(0,6);
-    field.value = "€ " + sliced
+    field.value = "€ " + sliced;
 
 
 
-  })};
+  });
+}
 window.onload = bitcola;
 
 // Etherumoum
@@ -206,8 +209,8 @@ function weathercollection() {
   var cords_provider = "https://nominatim.openstreetmap.org/search?q=" + typecountry + "&format=json" ;
 
   if (typecountry === "" || typecountry === null || typecountry === undefined) {
-    var display_field = document.getElementById("respo")
-    display_field.value = "You Didn't Type Anything"
+    var display_field = document.getElementById("respo");
+    display_field.value = "You Didn't Type Anything";
   } else {
     fetch(cords_provider)
     .then(response => response.json())
@@ -216,17 +219,16 @@ function weathercollection() {
       const latitude = data[0].lat;
       const date = new Date();
       const weather_get = "https://api.brightsky.dev/weather?lat=" + latitude.slice(0,4) + "&lon=" + longitude.slice(0,4) + "&date="+ date.toISOString().slice(0, 10); 
-      const display_field = document.getElementById("respo")
+      const display_field = document.getElementById("respo");
     fetch(weather_get)
      .then(response => response.json())
      .then(data => {
       const windSpeed = data.weather[0].wind_speed;
       const tempature = data.weather[0].temperature;
-      display_field.value = "  " + tempature +  "℃ 🌡️               "  + windSpeed + " m/s 💨"
-     })
-    })
+      display_field.value = "  " + tempature +  "℃ 🌡️               "  + windSpeed + " m/s 💨";
+     });
+    });
   }
-    
   }
 
 
@@ -234,8 +236,8 @@ function weathercollection() {
 // Chill Music Buttton
 
 function chillradio() {
-  const radio = document.getElementById("radiosystems")
-  radio.src = "https://coderadio-admin-v2.freecodecamp.org/listen/coderadio/low.mp3"
+  const radio = document.getElementById("radiosystems");
+  radio.src = "https://coderadio-admin-v2.freecodecamp.org/listen/coderadio/low.mp3";
 }
 
 
@@ -248,37 +250,37 @@ function radiocont() {
     .then(count => count.json())
     .then(data => {
       const countrex = data.name;
-      const radiosystem = document.getElementById("radiosystems")
+      const radiosystem = document.getElementById("radiosystems");
 
       if (countrex === "Greece") {
-        radiosystem.src = "https://centova.gr-net.gr/proxy/love/stream"
+        radiosystem.src = "https://centova.gr-net.gr/proxy/love/stream";
       }
       else if ( countrex === "United States") {
-        radiosystem.src = "https://17573.live.streamtheworld.com/977_HITSAAC_SC?dist=onlineradiobox"
+        radiosystem.src = "https://17573.live.streamtheworld.com/977_HITSAAC_SC?dist=onlineradiobox";
       }
       else if ( countrex === "Netherlands") {
-        radiosystem.src = "https://22323.live.streamtheworld.com/TLPSTR01.mp3?dist=radionet"
+        radiosystem.src = "https://22323.live.streamtheworld.com/TLPSTR01.mp3?dist=radionet";
       }
       else if ( countrex === "Germany") {
-        radiosystem.src = "https://icepool.silvacast.com/GAYFM.mp3"
+        radiosystem.src = "https://icepool.silvacast.com/GAYFM.mp3";
       }
       else if ( countrex === "Cyprus") {
-        radiosystem.src = "https://n0e.radiojar.com/c27wx6pdh8vtv"
+        radiosystem.src = "https://n0e.radiojar.com/c27wx6pdh8vtv";
       }
       else if ( countrex === "United Kingdom") {
-        radiosystem.src = "https://bigrradio.cdnstream1.com/5164_128"
+        radiosystem.src = "https://bigrradio.cdnstream1.com/5164_128";
       }
       else if ( countrex === "Albania")  {
-        radiosystem.src = "https://live.top-media.al/tar"
+        radiosystem.src = "https://live.top-media.al/tar";
       }
       else if ( countrex  === "Romania") {
-        radiosystem.src = "https://astreaming.edi.ro:8443/EuropaFM_aac"
+        radiosystem.src = "https://astreaming.edi.ro:8443/EuropaFM_aac";
       }
       else if ( countrex === "Turkey") {
-        radiosystem.src = "https://25483.live.streamtheworld.com/SUPER2.mp3"
+        radiosystem.src = "https://25483.live.streamtheworld.com/SUPER2.mp3";
       }
       else if ( countrex === "Russia")  {
-        radiosystem.src = "https://rusradio.hostingradio.ru/rusradio96.aacp"
+        radiosystem.src = "https://rusradio.hostingradio.ru/rusradio96.aacp";
 
 
                   // 10 Stations Above
@@ -286,82 +288,82 @@ function radiocont() {
 
       }
       else if ( countrex === "Bulgaria") {
-        radiosystem.src = "https://ssl120.radyotelekom.com.tr:8122/stream"
+        radiosystem.src = "https://ssl120.radyotelekom.com.tr:8122/stream";
       }
       else if ( countrex === "Pakistan") {
-        radiosystem.src = "https://samaakhi107-itelservices.radioca.st/stream/1/"
+        radiosystem.src = "https://samaakhi107-itelservices.radioca.st/stream/1/";
       }
       else if ( countrex === "Armenia") {
-        radiosystem.src = "https://eu.stream4cast.com/proxy/lavradio/stream"
+        radiosystem.src = "https://eu.stream4cast.com/proxy/lavradio/stream";
       }
       else if ( countrex === "Canada") {
-        radiosystem.src = "http://bigrradio.cdnstream1.com/5109_48"
+        radiosystem.src = "http://bigrradio.cdnstream1.com/5109_48";
       }
       else if ( countrex === "Moldova") {
-        radiosystem.src = "http://live.noroc.tv:8000/radionoroc.mp3"
+        radiosystem.src = "http://live.noroc.tv:8000/radionoroc.mp3";
       }
       else if ( countrex === "Serbia") {
-        radiosystem.src = "https://radiobalkan.live/radio/live/narodna.mp3"
+        radiosystem.src = "https://radiobalkan.live/radio/live/narodna.mp3";
       }
       else if ( countrex === "Croatia") {
-        radiosystem.src = "https://www.myipcast.com/radio/split"
+        radiosystem.src = "https://www.myipcast.com/radio/split";
       }
       else if ( countrex === "Spain") {
-        radiosystem.src = "https://cadena100-cope-rrcast.flumotion.com/cope/cadena100.mp3"
+        radiosystem.src = "https://cadena100-cope-rrcast.flumotion.com/cope/cadena100.mp3";
       }
       else if ( countrex === "France") {
-        radiosystem.src = "https://str1.openstream.co/589"
+        radiosystem.src = "https://str1.openstream.co/589";
       }
       else if ( countrex === "Italy") {
-        radiosystem.src = "https://icstream.rds.radio/rds"
+        radiosystem.src = "https://icstream.rds.radio/rds";
       }
       else if ( countrex === "India") {
-        radiosystem.src = "http://peridot.streamguys.com:7150/Mirchi"
+        radiosystem.src = "http://peridot.streamguys.com:7150/Mirchi";
       }
       else if ( countrex === "Mexico") {
-        radiosystem.src = "https://soniceuropa.globalstream.pro/7326/;"
+        radiosystem.src = "https://soniceuropa.globalstream.pro/7326/;";
       }
       else if ( countrex === "Afghanistan") {
-        radiosystem.src = "https://stream.radiosrood.com/"
+        radiosystem.src = "https://stream.radiosrood.com/";
       }
       else if ( countrex === "Austria") {
-        radiosystem.src = "https://live.antenne.at/rf"
+        radiosystem.src = "https://live.antenne.at/rf";
       }
       else if ( countrex === "Belgium") {
-        radiosystem.src = "https://vrt.streamabc.net/vrt-studiobrussel-mp3-128-4409118"
+        radiosystem.src = "https://vrt.streamabc.net/vrt-studiobrussel-mp3-128-4409118";
       }
       else if ( countrex === "Czechia") {
-        radiosystem.src = "http://mp3stream4.abradio.cz/depeche128.mp3"
+        radiosystem.src = "http://mp3stream4.abradio.cz/depeche128.mp3";
       }
       else if ( countrex === "Denmark") {
-        radiosystem.src = "https://streammp3.retro-radio.dk/retro-mp3"
+        radiosystem.src = "https://streammp3.retro-radio.dk/retro-mp3";
       }
       else if ( countrex === "Sweden") {
-        radiosystem.src = "https://live-bauerse-fm.sharp-stream.com/retrofm_aacp"
+        radiosystem.src = "https://live-bauerse-fm.sharp-stream.com/retrofm_aacp";
       }
       else if ( countrex === "Estonia") {
-        radiosystem.src = "https://edge03.cdn.bitflip.ee:8888/relax"
+        radiosystem.src = "https://edge03.cdn.bitflip.ee:8888/relax";
       }
       else if ( countrex === "Finland") {
-        radiosystem.src = "https://c4.radioboss.fm:18123/stream"
+        radiosystem.src = "https://c4.radioboss.fm:18123/stream";
       }
       else if ( countrex === "Hungary") {
-        radiosystem.src = "https://icast.connectmedia.hu/5202/live.mp3"
+        radiosystem.src = "https://icast.connectmedia.hu/5202/live.mp3";
       }
       else if ( countrex === "Iceland") {
-        radiosystem.src = "https://ice-11.spilarinn.is/kissfm"
+        radiosystem.src = "https://ice-11.spilarinn.is/kissfm";
       }
       else if ( countrex === "Ireland") {
-        radiosystem.src = "https://stream.audioxi.com/TD"
+        radiosystem.src = "https://stream.audioxi.com/TD";
       }
       else if ( countrex === "Kazakhstan") {
-        radiosystem.src = "https://icecast.luxfm.kz/luxfm"
+        radiosystem.src = "https://icecast.luxfm.kz/luxfm";
       }
       else if ( countrex === "Kosovo") {
-        radiosystem.src = "http://ca3.rcast.net:8024/stream"
+        radiosystem.src = "http://ca3.rcast.net:8024/stream";
       }
       else if ( countrex === "Latvia") {
-        radiosystem.src = "https://topradio.live.advailo.com/topradio/mp3/icecast.audio"
+        radiosystem.src = "https://topradio.live.advailo.com/topradio/mp3/icecast.audio";
       }
 
 
@@ -379,11 +381,12 @@ function mouser_reveal_ip() {
   .then(data => {
     const ip = document.getElementById("ipaka");
     ip.value = data.ip;
-  })};
+  });
+}
 
 function mouse_hidden_ip() {
   const ip = document.getElementById("ipaka");
-  ip.value = "Hover To Reveal IP"
+  ip.value = "Hover To Reveal IP";
 }
 
 
@@ -437,16 +440,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
   var mcontrols = document.getElementById("radiosystems");
 
   mcontrols.addEventListener("play", function() {
-    var notification = document.getElementById("copyright_music")
+    var notification = document.getElementById("copyright_music");
       notification.style.visibility = "visible";
       notification.style.animationDuration = "6s";
   });
   mcontrols.addEventListener("pause", function() {
-    var notification = document.getElementById("copyright_music")
+    var notification = document.getElementById("copyright_music");
     notification.style.visibility = "hidden";
     notification.style.opacity = "0";
-  })
-})
+  });
+});
 
 // Accessbility
 function access_menu() {
@@ -472,7 +475,7 @@ function increase_text() {
       display.style.fontSize = size_final + "px";
       }
     }
-})};
+});}
 
 function decrease_text() {
   const displays = [
@@ -492,14 +495,15 @@ function decrease_text() {
       display.style.fontSize = size_final + "px";
     }
   }
-})};
+});
+}
 
 
 // Select To Speech
 
 function enable_tts() {
   localStorage.setItem("tts_module", "enabled");
-  operation_tts()
+  operation_tts();
 }
 
 function operation_tts() {
