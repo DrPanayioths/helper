@@ -454,7 +454,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
 // Accessbility
 function access_menu() {
   var menu = document.getElementById("access");
-  menu.style.display = "block";
+  if (localStorage.getItem("access") == "enabled") {
+    menu.style.display = "none";
+    localStorage.setItem("access", "disabled");
+  }
+  else if (localStorage.getItem("access") == "disabled" || localStorage.getItem("access") === null) {
+    menu.style.display = "block";
+    localStorage.setItem("access", "enabled");
+}
 }
 
 function increase_text() {
