@@ -667,6 +667,11 @@ background-color: #161616;
     height: 30px;
     border-radius: 6px;
     border: 1px solid #ffffff48;
+    transition: transform .2s;
+}
+
+.inputcountry:hover {
+    transform: scale(1.05);
 }
 
 .response_weather {
@@ -765,6 +770,11 @@ background-color: #161616;
     border: 1px solid #ffffff4b;
     height: 50px;
     border-radius: 5px;
+    transition: transform .2s;
+}
+
+.redirect_humanProfiler:hover {
+    transform: scale(1.05);
 }
 
 /* Policies Tab */
