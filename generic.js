@@ -454,14 +454,22 @@ document.addEventListener("DOMContentLoaded", (event) => {
 // Accessbility
 function access_menu() {
   var menu = document.getElementById("access");
-  if (localStorage.getItem("access") == "enabled") {
-    menu.style.display = "none";
+
+  if (localStorage.getItem("access") === "enabled") {
+    menu.classList.add("fadeout");
+    menu.classList.remove("fadein");
+    setTimeout(function() {
+      menu.style.display = "none";
+    }, 1000);
     localStorage.setItem("access", "disabled");
-  }
-  else if (localStorage.getItem("access") == "disabled" || localStorage.getItem("access") === null) {
+
+  
+  } else if (localStorage.getItem("access") === "disabled" || localStorage.getItem("access") === null) {
     menu.style.display = "block";
+    menu.classList.add("fadein");
+    menu.classList.remove("fadeout");
     localStorage.setItem("access", "enabled");
-}
+  }
 }
 
 function increase_text() {

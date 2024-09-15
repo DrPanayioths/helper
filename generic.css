@@ -870,15 +870,22 @@ background-color: #161616;
     background-color: #34508D;
     outline: rgb(128, 128, 128) 2px solid;
     display: none;
-    animation: fadeIn 1s;
+}
+
+.fadein {
+    animation: fadeIn 1s forwards;
+}
+
+.fadeout {
+    animation: fadeOut 1s forwards;
 }
 
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
-  }
+}
 
-@keyframes fadeout {
+@keyframes fadeOut {
     0% { opacity: 1; }
     100% { opacity: 0; }
 }
