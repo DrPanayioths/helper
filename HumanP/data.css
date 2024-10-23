@@ -23,7 +23,7 @@ body {
   user-select: none;
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  top: 8%;
+  top: 50px;
   left: 50%;
   transform: translate(-50%);
   color: rgb(114, 114, 114);
@@ -33,7 +33,7 @@ body {
   user-select: none;
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  top: 215px;
+  top: 235px;
   left: 50%;
   transform: translate(-50%);
   color: rgb(114, 114, 114);
@@ -43,7 +43,7 @@ body {
   user-select: none;
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  top: 335px;
+  top: 350px;
   left: 50%;
   transform: translate(-50%);
   color: rgb(114, 114, 114);
@@ -439,25 +439,33 @@ body {
 
 
 /* Legal Notice */
+.legalbox {
+  position: absolute;
+  width: 650px;
+  height: 60px;
+  border-radius: 50px;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .legal_notice {
-  position: fixed;
+  position: absolute;
   color: rgb(68, 68, 68);  
   font-size: small;
   font-family: "Oswald", sans-serif;
   top: 5px;
-  left: 50%;
-  transform: translate(-50%);
+  left: 50px;
   width: 650px;
 }
 
 .legal_notice_contine {
-  position: fixed;
+  position: absolute;
   color: rgb(68, 68, 68);  
   font-size: small;
   font-family: "Oswald", sans-serif;
   top: 30px;
-  left: 63%;
-  transform: translate(-60%);
+  left: 190px;
   width: 650px;
 }
 
