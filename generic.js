@@ -438,16 +438,14 @@ inspector_blocker();
 // Copyright Diclaimer (Music Mode)
 document.addEventListener("DOMContentLoaded", (event) => {
   var mcontrols = document.getElementById("radiosystems");
+  var notification = document.getElementById("copyright_music");
 
   mcontrols.addEventListener("play", function() {
-    var notification = document.getElementById("copyright_music");
-      notification.style.visibility = "visible";
-      notification.style.animationDuration = "6s";
+    notification.classList.add("show");
   });
+
   mcontrols.addEventListener("pause", function() {
-    var notification = document.getElementById("copyright_music");
-    notification.style.visibility = "hidden";
-    notification.style.opacity = "0";
+    notification.classList.remove("show");
   });
 });
 
@@ -537,4 +535,5 @@ function operation_tts() {
 }
 
 window.onload = operation_tts();
+
 
