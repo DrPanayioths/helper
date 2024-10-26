@@ -44,7 +44,7 @@
         <div class="box2">
             <div class="backbox2"></div>
             <div class="titlebox2">Country</div>
-            <input id="countre" readonly class="countrol">      
+            <input id="countre" readonly class="countrol no-select">      
         </div>
 
 
@@ -64,8 +64,8 @@
 
         <div class="nav">
             <div class="backdrp" id="back_drp"></div>
-            <div class="madedrp" id="madedrp">DrPanayioths</div>
-            <a class="gitdrpanayioths" id="git_drpanayioths" href="https://github.com/DrPanayioths/helper" target="_blank"></a>
+            <div class="madedrp no-select" id="madedrp">DrPanayioths</div>
+            <a class="gitdrpanayioths no-select" id="git_drpanayioths" href="https://github.com/DrPanayioths/helper" target="_blank"></a>
             <div class="menu"></div>
         </div>
     
@@ -74,7 +74,7 @@
    
 <!-- FastDownload Redirect -->
 <a href="browse.html"><div class="redirect_QuickDownload" id="fastdown1"></a>
-<a href="FD.html"><div class="browser" id="fastdown_text">FastDown</div></a>
+<a href="FD.html"><div class="browser no-select" id="fastdown_text">FastDown</div></a>
 </div>
 
 
@@ -116,10 +116,11 @@
 
 
 <div class="qr-box">
-    <input id="datra" autocomplete="off" placeholder="Enter URL For QR" class="inpa" onkeypress="checkEnter(event)">
-    <img class="searchico" onclick="qrbuilda()" src="icons/search.png" alt="Generate QR Code">
+    <input id="datra" autocomplete="off" placeholder="Enter URL For QR" class="input_qr no-select" onkeypress="checkEnter(event)">
+    <img class="searchico no-select" onclick="qrbuilda()" src="icons/search.png" alt="Generate QR Code">
+    <div class="searchicon_cover"></div>
 </div>
-<img id="qrp" class="qrclass" src="https://github.com/DrPanayioths/helper/blob/main/icons/white_back.jpg?raw=true">
+<img id="qrp" class="qrclass no-select" src="https://github.com/DrPanayioths/helper/blob/main/icons/white_back.jpg?raw=true">
 <div class="bqr" id="back_bqr">
     <div class="qrupthing"></div>    
 </div>
@@ -132,17 +133,17 @@
 
 <div class="box5">
     <div class="title5">Pass Strength</div>
-    <img class="hide_password_img" onclick="hidePassword()" src="https://i.ibb.co/PwVpLgX/eye-grey.png">
+    <img class="hide_password_img no-select" onclick="hidePassword()" src="https://github.com/DrPanayioths/helper/blob/main/icons/eye-grey.png?raw=true">
 </div>
 
-<input autocomplete="off" class="password_input" type="text" id="passwordInput" placeholder="Type Your Password" oninput="passwordareyouok()">
-<div class="passshow" id="passwordStrength"></div>
+<input autocomplete="off" class="password_input no-select" type="text" id="passwordInput" placeholder="Type Your Password" oninput="passwordareyouok()">
+<div class="passshow no-select" id="passwordStrength"></div>
 
 
 
 
 <!-- AdBlock Warning -->
-<div class="adblocks">If Something Is Not Functional, Disable Adblocker</div>
+<div class="adblocks no-select">If Something Is Not Functional, Disable Adblocker</div>
 
 
 
@@ -172,10 +173,10 @@
     <div class="cryptotitle">Crypto Tracker</div>
     <input id="cryptoshow" class="crypto" readonly>
     <div>
-        <button class="bitcoin" onclick="bitcola()"></button>
-        <img class="bitimg" src="https://github.com/DrPanayioths/helper/blob/main/icons/bitcoin.png?raw=true">
-        <img class="eth" src="https://github.com/DrPanayioths/helper/blob/main/icons/eth.png?raw=true"> 
-        <button class="etharomen" onclick="ethelarefile()"></button>
+        <button class="bitcoin no-select" onclick="bitcola()"></button>
+        <img class="bitimg no-select" src="https://github.com/DrPanayioths/helper/blob/main/icons/bitcoin.png?raw=true">
+        <img class="eth no-select" src="https://github.com/DrPanayioths/helper/blob/main/icons/eth.png?raw=true"> 
+        <button class="etharomen no-select" onclick="ethelarefile()"></button>
 
 
         <div class="livecoinwatch-widget-5" id="coinprice_displayer" lcw-base="EUR" lcw-color-tx="#999999" lcw-marquee-1="coins" lcw-marquee-2="coins" lcw-marquee-items="10" ></div>
@@ -212,19 +213,19 @@
 </div>
 
 <!-- Policies Redirects -->
-<div class="terms_of_service" onclick="window.location.href = 'privacy/terms.html';">Terms Of Service</div>
-<div class="cookie_policy" onclick="window.location.href = 'privacy/cookie.html';" >Cookies Policy</div>
+<div class="terms_of_service no-select" onclick="window.location.href = 'privacy/terms.html';">Terms Of Service</div>
+<div class="cookie_policy no-select" onclick="window.location.href = 'privacy/cookie.html';" >Cookies Policy</div>
 
 
 <!-- Notifications -->
-<div class="copyright_notification" id="copyright_music">This music is owned by the respective owners and is protected by copyright law</div>
+<div class="copyright_notification no-select" id="copyright_music">This music is owned by the respective owners and is protected by copyright law</div>
 
 <!-- Accessibility -->
-<img onclick="access_menu()" src="https://github.com/DrPanayioths/helper/blob/main/icons/blueicon.jpg?raw=true" class="accesible">
+<img onclick="access_menu()" src="https://github.com/DrPanayioths/helper/blob/main/icons/blueicon.jpg?raw=true" class="accesible no-select">
 <div class="access_menu" id="access">
-    <img onclick="increase_text()" class="text-increase" src="https://github.com/DrPanayioths/helper/blob/main/icons/font_increase.png?raw=true">
-    <img onclick="decrease_text()" class="text-decrease" src="https://github.com/DrPanayioths/helper/blob/main/icons/font_decrease.png?raw=true">
-    <img onclick="enable_tts()" class="tts-system" src="https://github.com/DrPanayioths/helper/blob/main/icons/Sound.png?raw=true">
+    <img onclick="increase_text()" class="text-increase no-select" src="https://github.com/DrPanayioths/helper/blob/main/icons/font_increase.png?raw=true">
+    <img onclick="decrease_text()" class="text-decrease no-select" src="https://github.com/DrPanayioths/helper/blob/main/icons/font_decrease.png?raw=true">
+    <img onclick="enable_tts()" class="tts-system no-select" src="https://github.com/DrPanayioths/helper/blob/main/icons/Sound.png?raw=true">
 </div>
 
 

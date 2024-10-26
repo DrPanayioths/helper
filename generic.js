@@ -519,7 +519,7 @@ function enable_tts() {
   operation_tts();
 }
 
-function operation_tts() {
+function operation_tts() { 
   if (localStorage.getItem("tts_module") == "enabled") {
     function speakText(text) {
       var speech = new SpeechSynthesisUtterance(text);
