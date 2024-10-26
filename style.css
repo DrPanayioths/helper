@@ -782,7 +782,7 @@ background-color: #161616;
 .terms_of_service {
     position: fixed;
     bottom: 2.8px;
-    right: 100px;
+    right: 4.2%;
     color: rgb(255, 255, 255);
     opacity: 0.2;
     cursor: pointer;
@@ -796,7 +796,7 @@ background-color: #161616;
     color: rgb(255, 255, 255);
     opacity: 0.2;
     z-index: 10;
-    right: 1%;
+    right: 0.8%;
     cursor: pointer;
     font-size: 12px;
     font-family: 'Gabarito', sans-serif;
