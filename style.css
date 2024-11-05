@@ -90,7 +90,7 @@ PC Version
     }
     
     .nav {
-        background: linear-gradient(to right, rgba(70, 69, 69, 0.315), rgba(70, 69, 69, 0.411));
+        background: linear-gradient(to right, rgba(70, 69, 69, 0.35), rgba(70, 69, 69, 0.35));
         width: 0;
         position: absolute;
         height: 50px;
@@ -223,7 +223,7 @@ background-color: #161616;
     height: 42px;
     position: absolute;
     background-color: rgba(112, 128, 144, 0.150);
-    right: 10px;
+    right: 0.8%;
     top: 12px;
     border-radius: 20px;
     display: none;
@@ -704,27 +704,26 @@ background-color: #161616;
     height: 80px;
 }
 
+#radiosystems::-webkit-media-controls-panel {
+    background-color: #979797;
+}
+
+#radiosystems::-webkit-media-controls-enclosure {
+    border-radius: 0px;
+}
+
 .mp3play {
     position: absolute;
-    top: 423px;
-    left: 12px;
-    width: 220px;
+    top: 420px;
+    left: 11px;
+    width: 221px;
     border-radius: 5px;
     color: #F5F5F5;
     z-index: 2;
     height: 30px;
-}
-
-.Music_foreground_grey {
-    position: absolute;
-    width: 220px;
-    outline: black solid 4px;
-    height: 35px;
-    border-radius: 5px;
-    bottom: 0;
-    left: 2px;
-    z-index: 2;
-    background-color: #F1F3F4;
+    border: none;
+    outline: none;
+    outline: black solid 5px;
 }
 
 .musictitle {
@@ -782,7 +781,7 @@ background-color: #161616;
 .terms_of_service {
     position: fixed;
     bottom: 2.8px;
-    right: 4.2%;
+    right: 95px;
     color: rgb(255, 255, 255);
     opacity: 0.2;
     cursor: pointer;

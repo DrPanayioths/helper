@@ -201,8 +201,6 @@ function ethelarefile() {
   });
 }
 
-
-
 // Weather Display 
 function weathercollection() {
   var typecountry = prompt("Type A City To Check The Temperature And Wind");
@@ -232,19 +230,14 @@ function weathercollection() {
   }
 
 
-
-// Chill Music Buttton
-
-function chillradio() {
+// Radio PreSettings
+document.addEventListener('DOMContentLoaded', function() {
   const radio = document.getElementById("radiosystems");
-  radio.src = "https://coderadio-admin-v2.freecodecamp.org/listen/coderadio/low.mp3";
-}
-
-
+  radio.volume = 0.5;
+});
 
 
 // Radio Per Country
-
 function radiocont() {
   fetch("https://get.geojs.io/v1/ip/country.json")
     .then(count => count.json())

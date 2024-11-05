@@ -199,11 +199,9 @@
 
 <div class="box9">
     <div class="musictitle">Music Based On Country</div>
-    <div class="clickbox_chill" onclick="chillradio()"></div>
-    <div class="Music_foreground_grey"></div>
 </div>
 <audio class="mp3play" id="radiosystems" controls>
-    <source src="https://ec3.yesstreaming.net:3755/stream" type="audio/mp3">
+    <source src="https://ec3.yesstreaming.net:3755/stream" class="radiosource" type="audio/mp3">
 </audio>
 
 <!-- Human Profile Creator -->
@@ -213,8 +211,8 @@
 </div>
 
 <!-- Policies Redirects -->
-<div class="terms_of_service no-select" onclick="window.location.href = 'privacy/terms.html';">Terms Of Service</div>
-<div class="cookie_policy no-select" onclick="window.location.href = 'privacy/cookie.html';" >Cookies Policy</div>
+<div class="terms_of_service no-select" onclick="window.open('privacy/terms.html', '_blank')">Terms Of Service</div>
+<div class="cookie_policy no-select" onclick="window.open('privacy/cookie.html', '_blank')">Cookies Policy</div>
 
 
 <!-- Notifications -->
