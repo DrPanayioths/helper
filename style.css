@@ -839,30 +839,29 @@ background-color: #161616;
 
 /* Accesibility Section */
 
-.accesible {
+.accesibility_menu {
     position: absolute;
-    height: 35px;
+    height: 40px;
     bottom: 27px;
     left: 9px;
-    border-radius: 3px;
+    border-radius: 8px;
     cursor: pointer;
     transition: transform .2s;
 }
 
-.accesible:hover {
+.accesibility_menu:hover {
     transform: scale(1.2);
 }
 
 .access_menu {
     position: absolute;
-    height: 40px;
-    width: 20%;
-    min-width: 200px;
-    left: 60px;
-    bottom: 25px;
+    height: 20%;
+    width: 45px;
+    left: 9px;
+    bottom: 80px;
     border-radius: 8px;
-    background-color: #34508D;
-    outline: rgb(128, 128, 128) 2px solid;
+    background-color: #1a53cf67;
+    outline: rgb(128, 128, 128) 3px solid;
     display: none;
 }
 
@@ -887,16 +886,16 @@ background-color: #161616;
 .text-increase {
     position: fixed;
     height: 30px;
-    bottom: 30px;
-    left: 70px;
+    bottom: 90px;
+    left: 15px;
     cursor: pointer;
 }
 
 .text-decrease {
     position: fixed;
     height: 30px;
-    bottom: 30px;
-    left: 110px;
+    bottom: 130px;
+    left: 15px;
     cursor: pointer;
 }
 
@@ -906,7 +905,7 @@ background-color: #161616;
 .tts-system {
     position: absolute;
     height: 35px;
-    top: 4px;
-    left: 95px;
+    bottom: 90px;
+    left: 8px;
     cursor: pointer;
 } 
