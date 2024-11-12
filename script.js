@@ -12,7 +12,7 @@ function flager() {
   fetch('https://get.geojs.io/v1/ip/country.json')
 .then(flage => flage.json())
 .then(data => {
-  const countryname = document.getElementById('countre');
+  const countryname = document.getElementById('country_display');
   
   countryname.style.fontSize = "18px";
   countryname.style.textAlign = "center";
@@ -242,37 +242,37 @@ function radiocont() {
   fetch("https://get.geojs.io/v1/ip/country.json")
     .then(count => count.json())
     .then(data => {
-      const countrex = data.name;
+      const country = data.name;
       const radiosystem = document.getElementById("radiosystems");
 
-      if (countrex === "Greece") {
+      if (country === "Greece") {
         radiosystem.src = "https://centova.gr-net.gr/proxy/love/stream";
       }
-      else if ( countrex === "United States") {
+      else if ( country === "United States") {
         radiosystem.src = "https://17573.live.streamtheworld.com/977_HITSAAC_SC?dist=onlineradiobox";
       }
-      else if ( countrex === "Netherlands") {
+      else if ( country === "Netherlands") {
         radiosystem.src = "https://22323.live.streamtheworld.com/TLPSTR01.mp3?dist=radionet";
       }
-      else if ( countrex === "Germany") {
+      else if ( country === "Germany") {
         radiosystem.src = "https://icepool.silvacast.com/GAYFM.mp3";
       }
-      else if ( countrex === "Cyprus") {
+      else if ( country === "Cyprus") {
         radiosystem.src = "https://n0e.radiojar.com/c27wx6pdh8vtv";
       }
-      else if ( countrex === "United Kingdom") {
+      else if ( country === "United Kingdom") {
         radiosystem.src = "https://bigrradio.cdnstream1.com/5164_128";
       }
-      else if ( countrex === "Albania")  {
+      else if ( country === "Albania")  {
         radiosystem.src = "https://live.top-media.al/tar";
       }
-      else if ( countrex  === "Romania") {
+      else if ( country  === "Romania") {
         radiosystem.src = "https://astreaming.edi.ro:8443/EuropaFM_aac";
       }
-      else if ( countrex === "Turkey") {
+      else if ( country === "Turkey") {
         radiosystem.src = "https://25483.live.streamtheworld.com/SUPER2.mp3";
       }
-      else if ( countrex === "Russia")  {
+      else if ( country === "Russia")  {
         radiosystem.src = "https://rusradio.hostingradio.ru/rusradio96.aacp";
 
 
@@ -280,82 +280,82 @@ function radiocont() {
 
 
       }
-      else if ( countrex === "Bulgaria") {
+      else if ( country === "Bulgaria") {
         radiosystem.src = "https://ssl120.radyotelekom.com.tr:8122/stream";
       }
-      else if ( countrex === "Pakistan") {
+      else if ( country === "Pakistan") {
         radiosystem.src = "https://samaakhi107-itelservices.radioca.st/stream/1/";
       }
-      else if ( countrex === "Armenia") {
+      else if ( country === "Armenia") {
         radiosystem.src = "https://eu.stream4cast.com/proxy/lavradio/stream";
       }
-      else if ( countrex === "Canada") {
+      else if ( country === "Canada") {
         radiosystem.src = "http://bigrradio.cdnstream1.com/5109_48";
       }
-      else if ( countrex === "Moldova") {
+      else if ( country === "Moldova") {
         radiosystem.src = "http://live.noroc.tv:8000/radionoroc.mp3";
       }
-      else if ( countrex === "Serbia") {
+      else if ( country === "Serbia") {
         radiosystem.src = "https://radiobalkan.live/radio/live/narodna.mp3";
       }
-      else if ( countrex === "Croatia") {
+      else if ( country === "Croatia") {
         radiosystem.src = "https://www.myipcast.com/radio/split";
       }
-      else if ( countrex === "Spain") {
+      else if ( country === "Spain") {
         radiosystem.src = "https://cadena100-cope-rrcast.flumotion.com/cope/cadena100.mp3";
       }
-      else if ( countrex === "France") {
+      else if ( country === "France") {
         radiosystem.src = "https://str1.openstream.co/589";
       }
-      else if ( countrex === "Italy") {
+      else if ( country === "Italy") {
         radiosystem.src = "https://icstream.rds.radio/rds";
       }
-      else if ( countrex === "India") {
+      else if ( country === "India") {
         radiosystem.src = "http://peridot.streamguys.com:7150/Mirchi";
       }
-      else if ( countrex === "Mexico") {
+      else if ( country === "Mexico") {
         radiosystem.src = "https://soniceuropa.globalstream.pro/7326/;";
       }
-      else if ( countrex === "Afghanistan") {
+      else if ( country === "Afghanistan") {
         radiosystem.src = "https://stream.radiosrood.com/";
       }
-      else if ( countrex === "Austria") {
+      else if ( country === "Austria") {
         radiosystem.src = "https://live.antenne.at/rf";
       }
-      else if ( countrex === "Belgium") {
+      else if ( country === "Belgium") {
         radiosystem.src = "https://vrt.streamabc.net/vrt-studiobrussel-mp3-128-4409118";
       }
-      else if ( countrex === "Czechia") {
+      else if ( country === "Czechia") {
         radiosystem.src = "http://mp3stream4.abradio.cz/depeche128.mp3";
       }
-      else if ( countrex === "Denmark") {
+      else if ( country === "Denmark") {
         radiosystem.src = "https://streammp3.retro-radio.dk/retro-mp3";
       }
-      else if ( countrex === "Sweden") {
+      else if ( country === "Sweden") {
         radiosystem.src = "https://live-bauerse-fm.sharp-stream.com/retrofm_aacp";
       }
-      else if ( countrex === "Estonia") {
+      else if ( country === "Estonia") {
         radiosystem.src = "https://edge03.cdn.bitflip.ee:8888/relax";
       }
-      else if ( countrex === "Finland") {
+      else if ( country === "Finland") {
         radiosystem.src = "https://c4.radioboss.fm:18123/stream";
       }
-      else if ( countrex === "Hungary") {
+      else if ( country === "Hungary") {
         radiosystem.src = "https://icast.connectmedia.hu/5202/live.mp3";
       }
-      else if ( countrex === "Iceland") {
+      else if ( country === "Iceland") {
         radiosystem.src = "https://ice-11.spilarinn.is/kissfm";
       }
-      else if ( countrex === "Ireland") {
+      else if ( country === "Ireland") {
         radiosystem.src = "https://stream.audioxi.com/TD";
       }
-      else if ( countrex === "Kazakhstan") {
+      else if ( country === "Kazakhstan") {
         radiosystem.src = "https://icecast.luxfm.kz/luxfm";
       }
-      else if ( countrex === "Kosovo") {
+      else if ( country === "Kosovo") {
         radiosystem.src = "http://ca3.rcast.net:8024/stream";
       }
-      else if ( countrex === "Latvia") {
+      else if ( country === "Latvia") {
         radiosystem.src = "https://topradio.live.advailo.com/topradio/mp3/icecast.audio";
       }
 
@@ -393,20 +393,20 @@ fetch('https://api.ipify.org/?format=json')
 
 // Display After Some Seconds 
 setTimeout(function() {
-  var fastdown1 = document.getElementById("fastdown1");
+  var border_fast = document.getElementById("border_fastdown");
   var fastdownText = document.getElementById("fastdown_text");
   var backdrp = document.getElementById("back_drp");
   var madedrp = document.getElementById("madedrp");
   var git_text = document.getElementById("git_drpanayioths");
 
   backdrp.style.display = "block";
-  fastdown1.style.display = "block";
+  border_fast.style.display = "block";
   fastdownText.style.display = "block";
   madedrp.style.display = "block";
   git_text.style.display = "block";
 
   setTimeout(function() {
-      fastdown1.classList.add("visible");
+      border_fast.classList.add("visible");
       fastdownText.classList.add("visible");
       back_drp.classList.add("visible");
       madedrp.classList.add("visible");
@@ -468,7 +468,7 @@ function increase_text() {
     document.getElementById("ipaka"),
     document.getElementById("resolution"),
     document.getElementById("cryptoshow"),
-    document.getElementById("countre"),
+    document.getElementById("country_display"),
     document.getElementById("passwordInput"),
     document.getElementById("coinprice_displayer")
 ];
@@ -488,7 +488,7 @@ function decrease_text() {
     document.getElementById("ipaka"),
     document.getElementById("resolution"),
     document.getElementById("cryptoshow"),
-    document.getElementById("countre"),
+    document.getElementById("country_display"),
     document.getElementById("passwordInput"),
     document.getElementById("coinprice_displayer")
 ];

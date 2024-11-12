@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Homepage</title>
     <link rel="stylesheet" href="style.css">
@@ -41,11 +41,11 @@
 
 
 
-        <div class="box2">
-            <div class="backbox2"></div>
-            <div class="titlebox2">Country</div>
-            <input id="countre" readonly class="countrol no-select">      
-        </div>
+<div class="box2">
+    <div class="back_box2"></div>
+    <div class="title_country">Country</div>
+    <input id="country_display" readonly class="country_display no-select">      
+</div>
 
 
 
@@ -53,28 +53,28 @@
 
 
 
-        <div class="boxinforer">
-            <div class="backips"></div>
-            <div class="titleip">Your IP</div>
-            <input class="ips" id="ipaka" onmouseover="mouser_reveal_ip()" onmouseout="mouse_hidden_ip()" readonly value="Hover To Reveal IP">
-        </div>
+<div class="personal_ip">
+    <div class="backips"></div>
+    <div class="titleip">Your IP</div>
+    <input class="ips" id="ipaka" onmouseover="mouser_reveal_ip()" onmouseout="mouse_hidden_ip()" readonly value="Hover To Reveal IP">
+</div>
 
 
 <!-- DrPanayioths Button-->
 
-        <div class="nav">
-            <div class="backdrp" id="back_drp"></div>
-            <div class="madedrp no-select" id="madedrp">DrPanayioths</div>
-            <a class="gitdrpanayioths no-select" id="git_drpanayioths" href="https://github.com/DrPanayioths/helper" target="_blank"></a>
-            <div class="menu"></div>
-        </div>
+<div class="nav">
+    <div class="backdrp" id="back_drp"></div>
+    <div class="madedrp no-select" id="madedrp">DrPanayioths</div>
+    <a class="gitdrpanayioths no-select" id="git_drpanayioths" href="https://github.com/DrPanayioths/helper" target="_blank"></a>
+    <div class="menu"></div>
+</div>
     
 
 
    
 <!-- FastDownload Redirect -->
-<a href="browse.html"><div class="redirect_QuickDownload" id="fastdown1"></a>
-<a href="FD.html"><div class="browser no-select" id="fastdown_text">FastDown</div></a>
+<div class="border_fast" id="border_fastdown">
+    <a href="FD.html"><div class="browser no-select" id="fastdown_text">FastDown</div></a>
 </div>
 
 
@@ -90,12 +90,11 @@
     
 
  
-    <div class="boxaki3">
-        <div class="backbox3"></div>
-        <div class="boxin"></div>
-        <div class="titlebox3"></div>
-
-    </div>
+<div>
+    <div class="back_screen"></div>
+    <div class="backbox_screen_final"></div>
+    <div class="title_screen"></div>
+</div>
         
 
 
@@ -179,7 +178,7 @@
         <button class="etharomen no-select" onclick="ethelarefile()"></button>
 
 
-        <div class="livecoinwatch-widget-5 no-select" id="coinprice_displayer" lcw-base="EUR" lcw-color-tx="#999999" lcw-marquee-1="coins" lcw-marquee-2="coins" lcw-marquee-items="10" ></div>
+        <div class="livecoinwatch-widget-5 no-select" id="coinprice_displayer" lcw-base="EUR" lcw-color-tx="#999999" lcw-marquee-1="coins" lcw-marquee-2="coins" lcw-marquee-items="10"></div>
         <div class="coverbit"></div>
     </div>
 </div>
@@ -188,8 +187,8 @@
 
 <!--Weather System-->
 <div class="box8">
-    <div class="titlebox8">Temperature Now</div>
-    <button class="inputcountry" onclick="weathercollection()">Open Type Window</button>
+    <div class="title_tempature">Temperature Now</div>
+    <button class="input_country" onclick="weathercollection()">Open Type Window</button>
     <input id="respo" class="response_weather" readonly>
 </div>
 
@@ -198,7 +197,7 @@
 <!-- Audio Player -->
 
 <div class="box9">
-    <div class="musictitle">Music Based On Country</div>
+    <div class="music_title">Music Based On Country</div>
 </div>
 <audio class="mp3play" id="radiosystems" controls>
     <source src="https://ec3.yesstreaming.net:3755/stream" class="radiosource" type="audio/mp3">
@@ -206,7 +205,7 @@
 
 <!-- Human Profile Creator -->
 <div class="box10">
-    <div class="title_box10">Human Profile</div>
+    <div class="title_profile">Profile Creator</div>
     <button class="redirect_humanProfiler" onclick="window.location.href='/helper/HumanP/form.html'">Create</button>
 </div>
 
@@ -239,6 +238,7 @@
 
 
 </body>
+</html>
 
 
 

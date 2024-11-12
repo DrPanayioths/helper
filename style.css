@@ -5,16 +5,7 @@
 PC Version
 */
 @media only screen and (min-width: 480px) {
-
-.boxinforer {
-    background-color: white;
-    border-radius: 10px;
-    width: 300px;
-    height: 100px;
-    position: absolute;
-    left: 35%;    
-}
-
+body { background-color: #161616; }
 
 .no-select {
     -webkit-touch-callout: none;
@@ -77,7 +68,7 @@ PC Version
     cursor: text;
 }    
 
-.boxinforer {
+.personal_ip {
     
     position: absolute;
     background-color: #3A3A3A;
@@ -87,26 +78,26 @@ PC Version
     left: 10px;
     top: 70px;
     
-    }
+}
     
-    .nav {
-        background: linear-gradient(to right, rgba(70, 69, 69, 0.35), rgba(70, 69, 69, 0.35));
-        width: 0;
-        position: absolute;
-        height: 50px;
-        border-radius: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-        animation-name: nav_open;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
-    }
+.nav {
+    background: linear-gradient(to right, rgba(70, 69, 69, 0.35), rgba(70, 69, 69, 0.35));
+    width: 0;
+    position: absolute;
+    height: 50px;
+    border-radius: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-name: nav_open;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
     
-    @keyframes nav_open {
-        100% {
-            width: 99%;
-        }
-    } 
+@keyframes nav_open {
+    100% {
+        width: 99%;
+    }
+} 
 
 .imageback {
     position: absolute;
@@ -174,7 +165,7 @@ PC Version
 }
 
 
-.countrol {
+.country_display {
     position: absolute;
     top: 40px;
     right: 50px;
@@ -187,7 +178,7 @@ PC Version
     font-family: 'REM', sans-serif;
 }
 
-.backbox2 {
+.back_box2 {
     position: absolute;
     width: 130px;
     right: 43px;
@@ -198,7 +189,7 @@ PC Version
     border-radius: 10px;
 }
 
-.titlebox2 {
+.title_screen {
     position: absolute;
     left: 84px;
     top: 10px;
@@ -206,19 +197,7 @@ PC Version
     font-family: 'REM', sans-serif;
 }
 
-body {
-background-color: #161616;
-}
-
-
-
-
-
-
-
-
-
-.redirect_QuickDownload {
+.border_fast {
     width: 100px;
     height: 42px;
     position: absolute;
@@ -231,7 +210,7 @@ background-color: #161616;
     transition: opacity 1s;
 }
 
-.redirect_QuickDownload.visible {
+.border_fast.visible {
     display: block;
     opacity: 1;
 }
@@ -256,7 +235,7 @@ background-color: #161616;
 }
 
 
-.backbox3 {
+.back_screen {
     position: absolute;
     background-color: #3A3A3A ;
     top: 170px;
@@ -265,7 +244,7 @@ background-color: #161616;
     height: 75px;
 }
 
-.boxin {
+.backbox_screen_final {
     position: absolute;
     background-color: #2A2A2A ;
     width: 150px;
@@ -572,7 +551,6 @@ background-color: #161616;
     text-align: center;
 }
 
-
 /* Bitcoin Tracka */
 
 .bitimg {
@@ -645,7 +623,7 @@ background-color: #161616;
     height: 80px;
 }
 
-.titlebox8 {
+.title_tempature {
     font-family: 'Gabarito', sans-serif;
     color: #F5F5F5;
     text-align: center;
@@ -655,7 +633,7 @@ background-color: #161616;
 
 /* Weather Display */
 
-.inputcountry {
+.input_country {
     position: absolute;
     left: 20px;
     width: 180px;
@@ -671,7 +649,7 @@ background-color: #161616;
     transition: transform .2s;
 }
 
-.inputcountry:hover {
+.input_country:hover {
     transform: scale(1.05);
 }
 
@@ -726,7 +704,7 @@ background-color: #161616;
     outline: black solid 5px;
 }
 
-.musictitle {
+.music_title {
     position: absolute;
     font-family: 'REM', sans-serif;
     font-weight: 500;
@@ -750,7 +728,7 @@ background-color: #161616;
     height: 80px;
 }
 
-.title_box10 {
+.title_profile {
     position: absolute;
     left: 65px;
     top: 0.5px;
