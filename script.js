@@ -530,3 +530,9 @@ function operation_tts() {
 window.onload = operation_tts();
 
 
+
+// Limit Max Width Bug
+document.addEventListener('DOMContentLoaded', function() {
+  const coins = document.getElementById("coinprice_displayer")
+  coins.style.maxWidth = "215px"
+});
