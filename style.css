@@ -11,39 +11,54 @@ body { background-color: #161616; }
   }
   /* End Extra */
   
-  .container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    
-  }
-  
-  /* Navigation Bar */
+  /* Navigation Bar Section */
 
-  .nav {
+  .navigation {
+    display: flex;
     background: linear-gradient(to right, rgba(70, 69, 69, 0.35), rgba(70, 69, 69, 0.35));
     border-radius: 30px;
     width: 100%;
-    align-self: center;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .backdrp {
     margin: 5px;
     height: 40px;
     font-family: 'REM', sans-serif;
-    background: #6657c793;
+    background: #4e4e4ef5;
     width: 140px;
     border-radius: 18px;
-    
+    outline: rgba(0, 0, 0, 0.233) 1px solid;
   }
 
   .creator_name {
     text-align: center;
     font-size: 20px;
-    padding: 5px;
+    padding-top: 7px;
     cursor: pointer;
   }
 
-
+  /* FastDownload Section */
     
-  
+  .fastdownload_box {
+    width: 100px;
+    height: 42px;
+    background: #4e4e4ef5;
+    border-radius: 20px;
+    margin: 5px;
+    outline: rgba(0, 0, 0, 0.233) 1px solid;
+  }
+
+
+  .fastdownload {
+    text-align: center;
+    padding-left: 8px;
+    padding-top: 10px;
+    cursor: pointer;
+    width: 10px;
+    font-size: 18px;
+    z-index: 5;
+    color: black;
+    font-family: 'REM', sans-serif;
+  }
