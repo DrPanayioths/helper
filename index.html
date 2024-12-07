@@ -8,21 +8,6 @@
     <link rel=preconnect href="https://fonts.googleapis.com/css2?family=REM&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=REM&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap">
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap">
-    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap">
-    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Ubuntu:ital">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
-
     <link rel="preconnect" href="https://api.ipify.org">
     <link rel="preconnect" href="https://get.geojs.io">
 
@@ -42,6 +27,23 @@
         <div class="fastdownload_box">
             <div class="fastdownload no-select" onclick="window.location.href='FD.html'">FastDown</div>
         </div>
+    </div>
+
+    <div class="container_box">
+        <div class="boxes">
+            <div class="title">Your IP</div>
+            <div class="background">
+                <input class="display_data" id="ip_reveal" onmouseover="reveal()" onmouseout="hide()" readonly value="Hover To Reveal IP">
+            </div>
+        </div>
+
+        <div class="boxes">
+            <div class="title">Country</div>
+            <div class="background">
+                <input class="display_data" id="country_display" readonly>
+            </div>              
+        </div>
 
     </div>
+
 

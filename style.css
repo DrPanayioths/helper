@@ -9,10 +9,14 @@ body { background-color: #161616; }
     -ms-user-select: none;
     user-select: none;
   }
+
+  ::selection {
+    color: white;
+    background-color: rgba(255, 127, 80, 0.5);
+  }
   /* End Extra */
   
   /* Navigation Bar Section */
-
   .navigation {
     display: flex;
     background: linear-gradient(to right, rgba(70, 69, 69, 0.35), rgba(70, 69, 69, 0.35));
@@ -40,7 +44,6 @@ body { background-color: #161616; }
   }
 
   /* FastDownload Section */
-    
   .fastdownload_box {
     width: 100px;
     height: 42px;
@@ -61,4 +64,55 @@ body { background-color: #161616; }
     z-index: 5;
     color: black;
     font-family: 'REM', sans-serif;
+  }
+
+
+
+  /* Boxes */
+  .container_box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 220px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #3A3A3A;
+  }
+
+  /* Box Essentials */
+  .title {
+    color: #F5F5F5;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-family: 'REM', sans-serif;
+  }
+
+  .background {
+    margin: auto;
+    width: 170px;
+    height: 32px;
+    background-color: #2A2A2A;
+    border-radius: 10px;
+  }
+
+  .display_data {
+    height: 23px;
+    width: 140px;
+    font-family: 'REM', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F5F5F5;
+    background-color: transparent;
+    margin-top: 5px;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: text;
   }
