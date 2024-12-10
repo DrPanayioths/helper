@@ -96,16 +96,17 @@ body { background-color: #161616; }
 
   .background {
     margin: auto;
-    width: 170px;
+    width: 150px;
     height: 32px;
     background-color: #2A2A2A;
     border-radius: 10px;
   }
-
+  
   .display_data {
     height: 23px;
     width: 140px;
-    font-family: 'REM', sans-serif;
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: 500;
     font-size: 18px;
     font-weight: 500;
     color: #F5F5F5;
