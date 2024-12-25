@@ -117,3 +117,13 @@ body { background-color: #161616; }
     outline: none;
     cursor: text;
   }
+
+  /* Special Section */
+
+  #password_display {
+    font-family: "Funnel Sans", sans-serif;
+    color: #969292;
+    cursor: text;
+  }
+
+  
