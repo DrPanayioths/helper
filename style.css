@@ -120,6 +120,10 @@ body { background-color: #161616; }
 
   /* Special Section */
 
+  #ip_reveal {
+    padding: 5px;
+  }
+  
   #password_display {
     font-family: "Funnel Sans", sans-serif;
     color: #969292;

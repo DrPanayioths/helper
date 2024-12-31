@@ -62,7 +62,7 @@ function Password() {
         display.textContent = "Super 🚀";
       }
     } else {
-        display.textContent = "Weak 🔓";
+        display.textContent = "";
     }
 }
 
