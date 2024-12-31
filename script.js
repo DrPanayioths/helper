@@ -15,6 +15,7 @@ function reveal() {
         console.error('Error In Fetching The IP:', error);
     });
 }
+
   
 function hide() {
     const ip = document.getElementById("ip_reveal");
@@ -64,3 +65,21 @@ function Password() {
         display.textContent = "Weak 🔓";
     }
 }
+
+// IP Check 
+fetch('https://api.ipify.org/?format=json')
+.then(response => response.json())
+.then(data => {
+    const letters = /[a-zA-Z]+/;
+    const ip = data.ip;
+    const ip_showcase = document.getElementById("ip_mode");
+
+    if ( !letters.test(ip)) {
+      ip_showcase.value = "Protocol IPV4"
+    } else {
+      ip_showcase.value = "Protocol IPV6"
+    }
+  })
+  .catch(error => {
+    console.error('Error Fetching IP Data:', error);
+  });
