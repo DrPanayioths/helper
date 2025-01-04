@@ -35,12 +35,13 @@ fetch('https://get.geojs.io/v1/ip/country.json')
 
 
 // Screen Resolution
-function screenResolution() {
+document.addEventListener('DOMContentLoaded', (event) => {
     const display = document.getElementById("screen_resolution");
     var data = window.screen.availWidth + " X " + window.screen.availHeight;
     display.value = data;
-}
-window.onload = screenResolution;
+    const platform = navigator.platform;
+});
+
 
 // password_data Strength
 function Password() {
@@ -70,6 +71,7 @@ function Password() {
 fetch('https://api.ipify.org/?format=json')
 .then(response => response.json())
 .then(data => {
+
     const letters = /[a-zA-Z]+/;
     const ip = data.ip;
     const ip_showcase = document.getElementById("ip_mode");
@@ -81,5 +83,20 @@ fetch('https://api.ipify.org/?format=json')
     }
   })
   .catch(error => {
-    console.error('Error Fetching IP Data:', error);
+    console.error('Error Fetching IP Data: ', error);
   });
+
+// Check For VPN
+fetch('https://api.ipapi.is/')
+.then(response => response.json())
+.then(data => {
+  const vpn = document.getElementById('vpn_check');
+  if (data.vpn) {
+    vpn.value = "VPN Detected";
+  } else {
+    vpn.value = "Not Detected";
+  }
+})
+.catch(error => {
+  console.error('Error VPN Detection: ', error);
+});
