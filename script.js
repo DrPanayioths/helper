@@ -91,7 +91,8 @@ fetch('https://api.ipapi.is/')
 .then(response => response.json())
 .then(data => {
   const vpn = document.getElementById('vpn_check');
-  if (data.vpn) {
+  if (data.is_vpn === true) {
+    console.log(data.is_vpn)
     vpn.value = "VPN Detected";
   } else {
     vpn.value = "Not Detected";
