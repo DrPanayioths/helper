@@ -25,13 +25,15 @@ body { background-color: #161616; }
     justify-content: space-between;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    filter: grayscale(0.75);
   }
 
   .backdrp {
     margin: 5px;
     height: 40px;
     font-family: 'REM', sans-serif;
-    background: #4e4e4ef5;
+    background: #363333cc;
+    color: rgb(191, 187, 192);
     width: 140px;
     border-radius: 18px;
     outline: rgba(0, 0, 0, 0.233) 1px solid;
@@ -48,7 +50,7 @@ body { background-color: #161616; }
   .fastdownload_box {
     width: 100px;
     height: 42px;
-    background: #4e4e4ef5;
+    background: #363333cc;
     border-radius: 20px;
     margin: 5px;
     outline: rgba(0, 0, 0, 0.233) 1px solid;
@@ -63,7 +65,7 @@ body { background-color: #161616; }
     width: 10px;
     font-size: 18px;
     z-index: 5;
-    color: black;
+    color: rgb(191, 187, 192);
     font-family: 'REM', sans-serif;
   }
 
@@ -102,6 +104,7 @@ body { background-color: #161616; }
     height: 32px;
     background-color: #2A2A2A;
     border-radius: 10px;
+    outline: rgba(255, 255, 255, 0.088) 3px solid;
   }
   
   .display_data {
