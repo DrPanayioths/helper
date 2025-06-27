@@ -1,6 +1,6 @@
 # Helper
 
-🛠️ **Helper** is a versatile collection of utilities and tools designed to assist you with a wide range of tasks. Whether you need to streamline your workflow, automate repetitive tasks, or simplify complex processes, Helper has you covered. Explore the extensive set of features and boost your productivity today! 🚀
+🛠️ **Helper** is a versatile collection of utilities and tools designed to assist you with a wide range of tasks. Whether you need to streamline your workflow, automate repetitive tasks, or simplify complex processes, Helper has you covered. Explore the extensive set of features ! 🚀
 
 ## Table of Contents
 
@@ -12,12 +12,8 @@
 
 - ✨ **Feature 1**: Network Information.
 - 📋 **Feature 2**: QR Code Generator.
-- 🔧 **Feature 3**: Easy Download Feature.
-- 🌡️ **Feature 4**: Temperature and Wind Speed Checker.
-- 🔐 **Feature 5**: Password Strength Checker.
-- 🖥️ **Feature 6**: Screen Resolution Checker.
-- 💰 **Feature 7**: Cryptocurrency Price Tracker.
-- 🎵 **Feature 8**: Music Radio Based on The Country You Live.
+- 🔐 **Feature 3**: Password Strength Checker.
+- 🖥️ **Feature 4**: Screen Resolution Checker.
 
 ## Contributing
 
