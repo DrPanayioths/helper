@@ -1,82 +1,116 @@
 <html lang="en">
-<head>
+  <head>
     <title>Homepage</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
 
-<!-- Boxes Titles -->    <link href="https://fonts.googleapis.com/css2?family=REM&display=swap" rel="stylesheet">
-<!-- Display Data Font  -->    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <!-- Boxes Titles -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=REM&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Display Data Font  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://api.ipify.org">
-    <link rel="preconnect" href="https://get.geojs.io">
+    <link rel="preconnect" href="https://api.ipify.org" />
+    <link rel="preconnect" href="https://get.geojs.io" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="https://github.com/DrPanayioths/helper/blob/main/icons/index_favicon.png?raw=true" type="image/x-icon">
-
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="icon"
+      href="https://github.com/DrPanayioths/helper/blob/main/icons/index_favicon.png?raw=true"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
     <!-- Navigation Bar -->
     <div class="navigation">
-
-        <div class="backdrp">
-            <div class="creator_name no-select" onclick="window.open('https://github.com/DrPanayioths/helper' , '_blank');" target="_blank">DrPanayioths</div>
+      <div class="backdrp">
+        <div
+          class="creator_name no-select"
+          onclick="window.open('https://github.com/DrPanayioths/helper' , '_blank');"
+          target="_blank"
+        >
+          DrPanayioths
         </div>
+      </div>
 
-        <div class="fastdownload_box">
-            <div class="fastdownload no-select" onclick="window.location.href='FD.html'">FastDown</div>
+      <div class="fastdownload_box">
+        <div
+          class="fastdownload no-select"
+          onclick="window.location.href='DownloadsPage/main.html'"
+        >
+          FastDown
         </div>
+      </div>
     </div>
 
     <div class="container_box">
-        <div class="boxes">
-            <div class="title">Your IP</div>
-            <div class="background">
-                <input class="display_data" id="ip_reveal" onmouseover="reveal()" onmouseout="hide()" readonly value="Hover To Reveal IP">
-            </div>
+      <div class="boxes">
+        <div class="title">Your IP</div>
+        <div class="background">
+          <input
+            class="display_data"
+            id="ip_reveal"
+            onmouseover="reveal()"
+            onmouseout="hide()"
+            readonly
+            value="Hover To Reveal IP"
+          />
         </div>
+      </div>
 
-        <div class="boxes">
-            <div class="title">Country</div>
-            <div class="background">
-                <input class="display_data" id="country_display" readonly>
-            </div>              
+      <div class="boxes">
+        <div class="title">Country</div>
+        <div class="background">
+          <input class="display_data" id="country_display" readonly />
         </div>
+      </div>
     </div>
 
     <!-- Row 2 -->
     <div class="container_box">
-        <div class="boxes">
-            <div class="title">Screen Resolution</div>
-            <div class="background">
-                <input class="display_data" id="screen_resolution" readonly>
-            </div>
+      <div class="boxes">
+        <div class="title">Screen Resolution</div>
+        <div class="background">
+          <input class="display_data" id="screen_resolution" readonly />
         </div>
-        
-        <div class="boxes">
-            <div class="title">Password Strength</div>
-            <div id="password_display"></div>
-            <div class="background">
-                <input class="display_data" id="password_strength" autocomplete="off" oninput="Password()" title="Type Your Password">
-            </div>
+      </div>
+
+      <div class="boxes">
+        <div class="title">Password Strength</div>
+        <div id="password_display"></div>
+        <div class="background">
+          <input
+            class="display_data"
+            id="password_strength"
+            autocomplete="off"
+            oninput="Password()"
+            title="Type Your Password"
+          />
         </div>
+      </div>
     </div>
 
     <!-- Row 3 -->
     <div class="container_box">
-        <div class="boxes">
-            <div class="title">IP Mode</div>
-            <div class="background">
-                <input class="display_data" id="ip_mode" readonly>
-            </div>
+      <div class="boxes">
+        <div class="title">IP Mode</div>
+        <div class="background">
+          <input class="display_data" id="ip_mode" readonly />
         </div>
+      </div>
 
-        <div class="boxes">
-            <div class="title">Check For VPN</div>
-            <div class="background">
-                <input class="display_data" id="vpn_check" readonly>
-            </div>
+      <div class="boxes">
+        <div class="title">Check For VPN</div>
+        <div class="background">
+          <input class="display_data" id="vpn_check" readonly />
         </div>
+      </div>
     </div>
-</body>
-
+  </body>
+</html>

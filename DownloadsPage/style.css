@@ -1,0 +1,43 @@
+:root {
+  --page-background: #161822;
+  --items-background: ;
+}
+
+html,
+body {
+  background-color: var(--page-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#container {
+  margin: 0;
+  height: 80vh;
+  width: 90vw;
+
+  display: flex;
+  flex-direction: row;
+  gap: 20vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.categorys {
+  flex-direction: row;
+  height: 80vh;
+  width: 100vw;
+  background-color: rgba(128, 128, 128, 0.26);
+}
+
+.item {
+  background-color: white;
+  border-radius: 25px;
+  padding: 3.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.text {
+}
