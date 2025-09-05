@@ -1,6 +1,12 @@
 :root {
   --page-background: #161822;
-  --items-background: ;
+  --items-background: #111;
+
+  --orange: rgba(255, 68, 0, 0.7);
+  --purple: rgba(162, 0, 255, 0.7);
+  --blue: rgba(0, 162, 255, 0.7);
+  --yellow: rgba(255, 251, 0, 0.747);
+  --light-purple: rgb(146, 48, 175); 
 }
 
 html,
@@ -28,15 +34,21 @@ body {
   flex-direction: row;
   height: 80vh;
   width: 100vw;
-  background-color: rgba(128, 128, 128, 0.26);
 }
 
 .item {
-  background-color: white;
+  background: var(--items-background);
   border-radius: 25px;
   padding: 3.5rem;
   text-align: center;
   margin-top: 3rem;
+
+  box-shadow: 0 0 10px var(--ubuntu);
+  transition: 0.3s ease;
+}
+
+.item:hover {
+  box-shadow: 0 0 20px var(--ubuntu);
 }
 
 .text {
