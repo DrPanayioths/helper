@@ -4,9 +4,12 @@
 
   --orange: rgba(255, 68, 0, 0.7);
   --purple: rgba(162, 0, 255, 0.7);
-  --blue: rgba(0, 162, 255, 0.7);
-  --yellow: rgba(255, 251, 0, 0.747);
-  --light-purple: rgb(146, 48, 175); 
+  --blue: rgba(0, 89, 255, 0.7);
+  --light-blue: rgba(0, 135, 209, 0.7);
+  --yellow: rgba(255, 251, 0, 0.747, 0.7);
+  --dark_purple: rgba(244, 0, 252, 0.7);
+  --light-purple: rgba(146, 48, 175, 0.7);
+  --white: rgba(170, 170, 170, 0.7);
 }
 
 html,
@@ -25,31 +28,49 @@ body {
 
   display: flex;
   flex-direction: row;
-  gap: 20vw;
+  gap: 20%;
   justify-content: center;
   align-items: center;
 }
 
 .categorys {
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   height: 80vh;
   width: 100vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .item {
   background: var(--items-background);
   border-radius: 25px;
-  padding: 3.5rem;
+  padding: 2rem;
   text-align: center;
   margin-top: 3rem;
-
-  box-shadow: 0 0 10px var(--ubuntu);
+  width: 15vw;
   transition: 0.3s ease;
+  cursor: pointer;
 }
 
 .item:hover {
   box-shadow: 0 0 20px var(--ubuntu);
 }
 
-.text {
+.imgs {
+  user-select: none;
+  width: 100%;
+}
+
+#creator_text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-align: center;
 }

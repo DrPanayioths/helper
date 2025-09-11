@@ -15,8 +15,21 @@ document.addEventListener("DOMContentLoaded", () => {
     if (color == "yellow") {
       element.style.boxShadow = "0 0 10px var(--yellow)";
     }
+    if (color == "dark_purple") {
+      element.style.boxShadow = "0 0 10px var(--dark_purple)";
+    }
     if (color == "light_purple") {
       element.style.boxShadow = "0 0 10px var(--light-purple)";
     }
+    if (color == "white") {
+      element.style.boxShadow = "0 0 10px var(--white)";
+    }
+    if (color == "light_blue") {
+      element.style.boxShadow = "0 0 10px var(--light-blue)";
+    }
   });
 });
+
+function goto(url) {
+  window.open(url, "_blank").focus();
+}
