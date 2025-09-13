@@ -5,6 +5,10 @@
 
     <!-- Links -->
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://as0z8rxolza6xfam.public.blob.vercel-storage.com/human_favicon.ico"
+    />
     <script src="script.js"></script>
 
     <!-- Fonts -->
@@ -13,16 +17,21 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
+    <!-- Back Button Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="container">
       <div class="categorys">
         <div
           class="item orange"
-          onclick="goto('https://ubuntu.com/download/desktop/thank-you?version=24.04.3&architecture=amd64&lts=true')"
+          onclick="goto('https://ubuntu.com/download/desktop/thank-you?version=24.04.3&architecture=amd64&lts=true',0)"
         >
           <img
-            src="/helper/icons/DownloadAssets/ubuntu.png"
+            src="https://as0z8rxolza6xfam.public.blob.vercel-storage.com/ApplicationIcons/ubuntu.png"
             class="imgs"
             draggable="false"
           />
@@ -30,10 +39,10 @@
 
         <div
           class="item purple"
-          onclick="goto('https://drive.massgrave.dev/en-us_windows_11_consumer_editions_version_24h2_updated_aug_2025_x64_dvd_9236d79b.iso')"
+          onclick="goto('https://drive.massgrave.dev/en-us_windows_11_consumer_editions_version_24h2_updated_aug_2025_x64_dvd_9236d79b.iso',0)"
         >
           <img
-            src="/helper/icons/DownloadAssets/windows11.png"
+            src="https://as0z8rxolza6xfam.public.blob.vercel-storage.com/ApplicationIcons/windows11.png"
             class="imgs"
             draggable="false"
           />
@@ -41,10 +50,10 @@
 
         <div
           class="item blue"
-          onclick="goto('https://ftpmirror.infania.net/mirror/archlinux/iso/2025.09.01/archlinux-x86_64.iso')"
+          onclick="goto('https://ftpmirror.infania.net/mirror/archlinux/iso/2025.09.01/archlinux-x86_64.iso',0)"
         >
           <img
-            src="/helper/icons/DownloadAssets/arch.png"
+            src="https://as0z8rxolza6xfam.public.blob.vercel-storage.com/ApplicationIcons/arch.png"
             class="imgs"
             draggable="false"
           />
@@ -55,6 +64,15 @@
 
       <div class="categorys">
         <p id="creator_text">Provided By DrPanayioths</p>
+        <button
+          id="back_button"
+          onclick="goto('https://behelped.vercel.app/',1)"
+        >
+          <img
+            id="back_icon"
+            src="https://as0z8rxolza6xfam.public.blob.vercel-storage.com/Left.png"
+          /><span>Back</span>
+        </button>
       </div>
 
       <div class="categorys">
@@ -63,7 +81,7 @@
           onclick="goto('https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user')"
         >
           <img
-            src="/helper/icons/DownloadAssets/vscode.png"
+            src="https://as0z8rxolza6xfam.public.blob.vercel-storage.com/ApplicationIcons/vscode.png"
             class="imgs"
             draggable="false"
           />
@@ -74,7 +92,7 @@
           onclick="goto('https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030:356a9e9dcf4843cdb5986e58f2b8c259')"
         >
           <img
-            src="/helper/icons/DownloadAssets/Visual-Studio.png"
+            src="https://as0z8rxolza6xfam.public.blob.vercel-storage.com/ApplicationIcons/Visual-Studio.png"
             class="imgs"
             draggable="false"
           />
@@ -85,7 +103,7 @@
           onclick="goto('https://central.github.com/deployments/desktop/desktop/latest/win32')"
         >
           <img
-            src="/helper/icons/DownloadAssets/github-white.png"
+            src="https://as0z8rxolza6xfam.public.blob.vercel-storage.com/ApplicationIcons/github-white.png"
             class="imgs"
             draggable="false"
           />

@@ -30,6 +30,10 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-function goto(url) {
-  window.open(url, "_blank").focus();
+function goto(url, status) {
+  if (status === 0) {
+    window.open(url, "_blank").focus();
+  } else if (status === 1) {
+    document.location.href = url;
+  }
 }

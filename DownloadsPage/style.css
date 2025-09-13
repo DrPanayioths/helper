@@ -63,14 +63,37 @@ body {
 }
 
 #creator_text {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
   color: white;
   font-family: "Ubuntu", sans-serif;
   font-weight: 800;
   font-size: 1.5rem;
   text-align: center;
+}
+
+#back_button {
+  display: flex;
+  height: 5vh;
+  width: 5vw;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: transparent;
+  cursor: pointer;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  border: #333439 3px solid;
+  transition: 0.5s box-shadow;
+}
+
+#back_button:hover {
+  box-shadow: rgba(0, 0, 0, 0.719) 0px 5px 15px;
+}
+
+#back_icon {
+  height: 30px;
+  margin: 2px;
 }
